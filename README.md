@@ -84,3803 +84,4398 @@ In ModuleData/foo.xml could look like
 Prefabs/bar.xml could look like:
 ```
 <prefabs>
-	<game_entity name="town_M1" old_prefab_name="">
-		<transform position="392.018, 410.64.313, 11.838" rotation_euler="0.000, 0.000, 0.463"/>
-      <physics mass="1.000" />
-      <children>
-        <game_entity name="town_M1_main" old_prefab_name="">
-          <physics mass="1.000" />
-          <children>
-            <game_entity name="map_icons_market_tent_a" old_prefab_name="">
-              <transform position="2.508, 1.125, -0.047" rotation_euler="-0.245, 0.276, 1.176" scale="0.785, 0.785, 0.785" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_market_tent_a">
-                  <mesh name="mi_market_tent_a.0" factor="4287932504" />
-                  <mesh name="mi_market_tent_a.1" factor="4287932504" />
-                </meta_mesh_component>
-              </components>
-              <additional_features>
-                <feature name="apply_factor_color_to_all_components" value="true">
-                  <factor value="0.580, 0.659, 0.344, 1.000" />
-                </feature>
-              </additional_features>
-            </game_entity>
-            <game_entity name="map_icons_empire_tavern" old_prefab_name="">
-              <transform position="-0.940, 1.120, -0.049" rotation_euler="0.000, 0.000, 0.611" scale="0.680, 0.680, 0.680" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_tavern" />
-              </components>
-            </game_entity>
-            <game_entity name="map_icons_empire_tavern" old_prefab_name="">
-              <transform position="-1.784, 0.487, -0.009" rotation_euler="0.000, 0.000, 0.000" scale="0.505, 0.505, 0.505" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_tavern" />
-              </components>
-            </game_entity>
-            <game_entity name="map_icons_empire_house_a" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <transform position="-0.202, 0.858, -0.168" rotation_euler="0.000, 0.000, 2.182" scale="0.556, 0.556, 0.556" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_house_a" />
-              </components>
-            </game_entity>
-            <game_entity name="map_icons_empire_house_c" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <transform position="-0.402, 0.656, -0.190" rotation_euler="0.000, 0.000, 0.611" scale="0.604, 0.604, 0.604" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_house_c" />
-              </components>
-            </game_entity>
-            <game_entity name="map_icons_empire_house_c" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <transform position="0.139, -0.164, -0.178" rotation_euler="0.000, 0.000, 1.571" scale="0.604, 0.604, 0.604" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_house_c" />
-              </components>
-            </game_entity>
-            <game_entity name="map_icons_empire_house_c" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <transform position="0.139, -0.529, -0.199" rotation_euler="0.000, 0.000, 1.571" scale="0.604, 0.604, 0.604" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_house_c" />
-              </components>
-            </game_entity>
-            <game_entity name="map_icons_empire_house_c" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <transform position="0.139, -0.774, -0.165" rotation_euler="0.000, 0.000, 1.571" scale="0.604, 0.604, 0.604" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_house_c" />
-              </components>
-            </game_entity>
-            <game_entity name="map_icons_empire_house_c" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <transform position="-0.283, -0.504, -0.249" rotation_euler="0.000, 0.000, 1.571" scale="0.604, 0.604, 0.604" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_house_c" />
-              </components>
-            </game_entity>
-            <game_entity name="map_icons_empire_house_c" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <transform position="-0.244, -0.125, -0.203" rotation_euler="0.000, 0.000, 1.571" scale="0.604, 0.604, 0.604" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_house_c" />
-              </components>
-            </game_entity>
-            <game_entity name="map_icons_empire_house_c" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <transform position="-0.283, -0.765, -0.216" rotation_euler="0.000, 0.000, 1.571" scale="0.604, 0.604, 0.604" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_house_c" />
-              </components>
-            </game_entity>
-            <game_entity name="map_icons_empire_house_c" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <transform position="-0.330, -1.053, -0.205" rotation_euler="0.000, 0.000, -3.141" scale="0.604, 0.604, 0.604" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_house_c" />
-              </components>
-            </game_entity>
-            <game_entity name="map_icons_empire_house_c" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <transform position="-0.614, -1.008, -0.285" rotation_euler="0.000, 0.000, -3.141" scale="0.604, 0.604, 0.604" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_house_c" />
-              </components>
-            </game_entity>
-            <game_entity name="map_icons_empire_house_c" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <transform position="-0.628, -0.719, -0.298" rotation_euler="0.000, 0.000, -3.141" scale="0.604, 0.604, 0.604" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_house_c" />
-              </components>
-            </game_entity>
-            <game_entity name="map_icons_empire_house_c" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <transform position="-0.628, -0.560, -0.282" rotation_euler="0.000, 0.000, -3.141" scale="0.604, 0.604, 0.604" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_house_c" />
-              </components>
-            </game_entity>
-            <game_entity name="map_icons_empire_house_c" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <transform position="-0.871, -0.586, -0.310" rotation_euler="0.000, 0.000, -3.141" scale="0.604, 0.604, 0.604" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_house_c" />
-              </components>
-            </game_entity>
-            <game_entity name="map_icons_empire_house_c" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <transform position="-0.863, -1.053, -0.289" rotation_euler="0.000, 0.000, -3.141" scale="0.604, 0.604, 0.604" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_house_c" />
-              </components>
-            </game_entity>
-            <game_entity name="map_icons_empire_house_c" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <transform position="-0.871, -0.745, -0.298" rotation_euler="0.000, 0.000, -3.141" scale="0.604, 0.604, 0.604" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_house_c" />
-              </components>
-            </game_entity>
-            <game_entity name="map_icons_empire_house_c" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <transform position="-1.152, -1.053, -0.328" rotation_euler="0.000, 0.000, -3.141" scale="0.604, 0.604, 0.604" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_house_c" />
-              </components>
-            </game_entity>
-            <game_entity name="map_icons_empire_house_c" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <transform position="-1.152, -0.492, -0.349" rotation_euler="0.000, 0.000, -3.141" scale="0.604, 0.604, 0.604" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_house_c" />
-              </components>
-            </game_entity>
-            <game_entity name="map_icons_empire_house_c" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <transform position="-1.152, -0.651, -0.356" rotation_euler="0.000, 0.000, -3.141" scale="0.604, 0.604, 0.604" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_house_c" />
-              </components>
-            </game_entity>
-            <game_entity name="map_icons_empire_house_c" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <transform position="-1.152, -0.108, -0.287" rotation_euler="0.000, 0.000, -3.141" scale="0.604, 0.604, 0.604" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_house_c" />
-              </components>
-            </game_entity>
-            <game_entity name="map_icons_empire_house_c" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <transform position="-0.855, -0.038, -0.264" rotation_euler="0.000, 0.000, -3.141" scale="0.604, 0.604, 0.604" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_house_c" />
-              </components>
-            </game_entity>
-            <game_entity name="map_icons_empire_house_c" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <transform position="-0.578, -0.024, -0.218" rotation_euler="0.000, 0.000, -3.141" scale="0.604, 0.604, 0.604" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_house_c" />
-              </components>
-            </game_entity>
-            <game_entity name="map_icons_empire_house_b" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <transform position="-1.401, 0.018, -0.268" rotation_euler="0.000, 0.000, 0.000" scale="0.554, 0.554, 0.554" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_house_b" />
-              </components>
-            </game_entity>
-            <game_entity name="map_icons_empire_house_c" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <transform position="-1.893, 0.176, -0.298" rotation_euler="0.000, 0.000, 1.571" scale="0.850, 0.850, 0.850" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_house_c" />
-              </components>
-            </game_entity>
-            <game_entity name="map_icons_empire_house_c" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <transform position="-1.893, -0.155, -0.358" rotation_euler="0.000, 0.000, 1.571" scale="0.850, 0.850, 0.850" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_house_c" />
-              </components>
-            </game_entity>
-            <game_entity name="map_icons_empire_house_a" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <transform position="-1.972, -0.704, -0.441" rotation_euler="0.000, 0.000, -0.175" scale="0.660, 0.660, 0.660" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_house_a" />
-              </components>
-            </game_entity>
-            <game_entity name="map_icons_empire_house_d" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <transform position="-1.484, -0.400, -0.340" rotation_euler="0.000, 0.000, 0.000" scale="0.543, 0.543, 0.543" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_house_d" />
-              </components>
-            </game_entity>
-            <game_entity name="map_icons_empire_house_b" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <transform position="-1.505, -0.925, -0.388" rotation_euler="0.000, 0.000, 0.524" scale="0.544, 0.544, 0.544" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_house_b" />
-              </components>
-            </game_entity>
-            <game_entity name="map_icons_empire_house_c" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <transform position="-0.194, 0.346, -0.177" rotation_euler="0.000, 0.000, -1.601" scale="0.608, 0.608, 0.608" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_house_c" />
-              </components>
-            </game_entity>
-            <game_entity name="map_icons_empire_house_c" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <transform position="-0.167, 0.073, -0.187" rotation_euler="0.000, 0.000, -1.567" scale="0.608, 0.608, 0.608" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_house_c" />
-              </components>
-            </game_entity>
-            <game_entity name="map_icons_empire_house_d" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <transform position="-0.669, 0.345, -0.215" rotation_euler="0.000, 0.000, 0.000" scale="0.587, 0.587, 0.587" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_house_d" />
-              </components>
-            </game_entity>
-            <game_entity name="map_icons_empire_house_d" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <transform position="-1.147, 0.362, -0.238" rotation_euler="0.000, 0.000, 1.554" scale="0.587, 0.587, 0.587" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_house_d" />
-              </components>
-            </game_entity>
-            <game_entity name="map_icons_empire_house_d" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <transform position="0.354, 1.244, -0.063" rotation_euler="0.000, 0.000, 0.611" scale="0.688, 0.688, 0.688" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_house_d" />
-              </components>
-            </game_entity>
-            <game_entity name="map_icons_empire_house_d" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <transform position="0.087, 1.645, -0.094" rotation_euler="0.000, 0.000, -2.531" scale="0.688, 0.688, 0.688" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_house_d" />
-              </components>
-            </game_entity>
-            <game_entity name="map_icons_empire_monument_1" old_prefab_name="">
-              <transform position="2.023, -0.227, -0.089" rotation_euler="0.000, 0.000, -0.175" scale="1.068, 1.068, 1.068" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_3_monument_1" />
-              </components>
-            </game_entity>
-            <game_entity name="map_icons_empire_house_c" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <transform position="2.316, -0.447, 0.101" rotation_euler="0.000, 0.000, 2.356" scale="0.562, 0.562, 0.562" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_house_c" />
-              </components>
-            </game_entity>
-            <game_entity name="map_icons_empire_house_c" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <transform position="2.493, -0.625, 0.081" rotation_euler="0.000, 0.000, 2.356" scale="0.562, 0.562, 0.562" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_house_c" />
-              </components>
-            </game_entity>
-            <game_entity name="map_icons_empire_house_c" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <transform position="2.672, -0.803, 0.122" rotation_euler="0.000, 0.000, 2.356" scale="0.562, 0.562, 0.562" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_house_c" />
-              </components>
-            </game_entity>
-            <game_entity name="map_icons_empire_house_c" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <transform position="1.726, -0.492, 0.043" rotation_euler="0.000, 0.000, 0.785" scale="0.562, 0.562, 0.562" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_house_c" />
-              </components>
-            </game_entity>
-            <game_entity name="map_icons_empire_house_c" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <transform position="1.529, -0.689, -0.012" rotation_euler="0.000, 0.000, 0.785" scale="0.562, 0.562, 0.562" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_house_c" />
-              </components>
-            </game_entity>
-            <game_entity name="map_icons_empire_house_c" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <transform position="1.331, -0.887, -0.047" rotation_euler="0.000, 0.000, 0.785" scale="0.562, 0.562, 0.562" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_house_c" />
-              </components>
-            </game_entity>
-            <game_entity name="map_icons_empire_house_a" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <transform position="2.166, -1.031, 0.053" rotation_euler="0.000, 0.000, 0.000" scale="0.845, 0.845, 0.845" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_house_a" />
-              </components>
-            </game_entity>
-            <game_entity name="map_icons_empire_house_a" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <transform position="1.728, -0.992, 0.024" rotation_euler="0.000, 0.000, -1.585" scale="0.681, 0.681, 0.681" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_house_a" />
-              </components>
-            </game_entity>
-            <game_entity name="map_icons_empire_house_a" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <transform position="2.013, -0.699, 0.062" rotation_euler="0.000, 0.000, 0.009" scale="0.541, 0.541, 0.541" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_house_a" />
-              </components>
-            </game_entity>
-            <game_entity name="map_icons_empire_house_c" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <transform position="2.708, -0.269, 0.132" rotation_euler="0.000, 0.000, 0.873" scale="0.678, 0.678, 0.678" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_house_c" />
-              </components>
-            </game_entity>
-            <game_entity name="map_icons_empire_house_c" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <transform position="2.397, -0.008, 0.158" rotation_euler="0.000, 0.000, 0.873" scale="0.678, 0.678, 0.678" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_house_c" />
-              </components>
-            </game_entity>
-            <game_entity name="map_icons_empire_house_c" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <transform position="2.610, 0.327, 0.210" rotation_euler="0.000, 0.000, 2.443" scale="0.678, 0.678, 0.678" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_house_c" />
-              </components>
-            </game_entity>
-            <game_entity name="map_icons_empire_house_d" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <transform position="2.885, 0.780, 0.294" rotation_euler="0.000, 0.000, -0.611" scale="0.736, 0.736, 0.736" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_house_d" />
-              </components>
-            </game_entity>
-            <game_entity name="map_icons_empire_house_d" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <transform position="3.180, 1.162, 0.332" rotation_euler="0.000, 0.000, 0.960" scale="0.736, 0.736, 0.736" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_house_d" />
-              </components>
-            </game_entity>
-            <game_entity name="empty_object" old_prefab_name="">
-              <transform position="1.296, -0.485, -0.059" rotation_euler="0.000, 0.000, -0.785" scale="0.352, 0.352, 0.352" />
-              <physics mass="1.000" />
-              <components>
-                <decal_component material="decal_battania_path_a" argument="0.530, 0.530, 0.480, 0.010" />
-              </components>
-            </game_entity>
-            <game_entity name="empty_object" old_prefab_name="">
-              <transform position="1.710, -0.094, -0.059" rotation_euler="0.000, 0.000, -0.785" scale="0.352, 0.352, 0.352" />
-              <physics mass="1.000" />
-              <components>
-                <decal_component material="decal_battania_path_a" argument="0.530, 0.530, 0.480, 0.010" />
-              </components>
-            </game_entity>
-            <game_entity name="empty_object" old_prefab_name="">
-              <transform position="2.125, 0.329, -0.059" rotation_euler="0.000, 0.000, -0.698" scale="0.352, 0.352, 0.352" />
-              <physics mass="1.000" />
-              <components>
-                <decal_component material="decal_battania_path_a" argument="0.530, 0.530, 0.480, 0.010" />
-              </components>
-            </game_entity>
-            <game_entity name="empty_object" old_prefab_name="">
-              <transform position="2.388, 0.695, -0.059" rotation_euler="0.000, 0.000, 2.705" scale="0.352, 0.352, 0.352" />
-              <physics mass="1.000" />
-              <components>
-                <decal_component material="decal_battania_path_b" argument="0.530, 0.530, -0.010, 0.010" />
-              </components>
-            </game_entity>
-            <game_entity name="empty_object" old_prefab_name="">
-              <transform position="2.412, 1.154, -0.059" rotation_euler="0.000, 0.000, -2.793" scale="0.352, 0.352, 0.352" />
-              <physics mass="1.000" />
-              <components>
-                <decal_component material="decal_battania_path_b" argument="0.530, 0.530, -0.010, 0.010" />
-              </components>
-            </game_entity>
-            <game_entity name="empty_object" old_prefab_name="">
-              <transform position="2.310, 1.418, -0.059" rotation_euler="0.000, 0.000, -2.356" scale="0.352, 0.193, 0.352" />
-              <physics mass="1.000" />
-              <components>
-                <decal_component material="decal_battania_path_a" argument="0.530, 0.530, 0.480, 0.010" />
-              </components>
-            </game_entity>
-            <game_entity name="empty_object" old_prefab_name="">
-              <transform position="0.961, -0.709, -0.059" rotation_euler="0.000, 0.000, 2.007" scale="0.352, 0.352, 0.352" />
-              <physics mass="1.000" />
-              <components>
-                <decal_component material="decal_battania_path_b" argument="0.530, 0.530, -0.010, 0.010" />
-              </components>
-            </game_entity>
-            <game_entity name="empty_object" old_prefab_name="">
-              <transform position="0.732, -0.787, -0.059" rotation_euler="0.000, 0.000, -1.571" scale="0.274, 0.195, 0.352" />
-              <physics mass="1.000" />
-              <components>
-                <decal_component material="decal_battania_path_a" argument="0.530, 0.530, 0.480, 0.010" />
-              </components>
-            </game_entity>
-            <game_entity name="empty_object" old_prefab_name="">
-              <transform position="0.175, -0.351, -0.059" rotation_euler="0.000, 0.000, -1.571" scale="0.230, 0.230, 0.230" />
-              <physics mass="1.000" />
-              <components>
-                <decal_component material="decal_battania_path_a" argument="0.530, 0.530, 0.480, 0.010" />
-              </components>
-            </game_entity>
-            <game_entity name="empty_object" old_prefab_name="">
-              <transform position="-0.232, -0.351, -0.059" rotation_euler="0.000, 0.000, -1.571" scale="0.230, 0.230, 0.230" />
-              <physics mass="1.000" />
-              <components>
-                <decal_component material="decal_battania_path_a" argument="0.530, 0.530, 0.480, 0.010" />
-              </components>
-            </game_entity>
-            <game_entity name="empty_object" old_prefab_name="">
-              <transform position="-0.362, -0.338, -0.059" rotation_euler="0.000, 0.000, 1.309" scale="0.232, 0.232, 0.232" />
-              <physics mass="1.000" />
-              <components>
-                <decal_component material="decal_battania_path_b" argument="0.530, 0.530, -0.010, 0.010" />
-              </components>
-            </game_entity>
-            <game_entity name="empty_object" old_prefab_name="">
-              <transform position="-0.584, -0.305, -0.059" rotation_euler="0.000, 0.000, -1.745" scale="0.232, 0.232, 0.232" />
-              <physics mass="1.000" />
-              <components>
-                <decal_component material="decal_battania_path_b" argument="0.530, 0.530, -0.010, 0.010" />
-              </components>
-            </game_entity>
-            <game_entity name="empty_object" old_prefab_name="">
-              <transform position="-0.852, -0.284, -0.059" rotation_euler="0.000, 0.000, -1.484" scale="0.187, 0.187, 0.187" />
-              <physics mass="1.000" />
-              <components>
-                <decal_component material="decal_battania_path_a" argument="0.530, 0.530, 0.480, 0.010" />
-              </components>
-            </game_entity>
-            <game_entity name="map_icons_empire_house_b" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <transform position="0.719, -0.250, -0.112" rotation_euler="0.000, 0.000, 0.000" scale="0.586, 0.586, 0.586" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_house_b" />
-              </components>
-            </game_entity>
-            <game_entity name="map_icons_empire_house_b" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <transform position="0.775, -0.574, -0.123" rotation_euler="0.000, 0.000, -1.585" scale="0.494, 0.494, 0.494" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_house_b" />
-              </components>
-            </game_entity>
-            <game_entity name="map_icons_empire_house_c" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <transform position="1.003, -0.239, -0.073" rotation_euler="0.000, 0.000, -0.016" scale="0.810, 0.810, 0.810" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_house_c" />
-              </components>
-            </game_entity>
-            <game_entity name="map_icons_empire_house_c" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <transform position="1.358, -0.068, -0.016" rotation_euler="0.000, 0.000, 2.358" scale="0.743, 0.743, 0.743" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_house_c" />
-              </components>
-            </game_entity>
-            <game_entity name="map_icons_empire_house_d" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <transform position="1.198, 0.296, -0.012" rotation_euler="0.000, 0.000, 0.105" scale="0.542, 0.542, 0.542" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_house_d" />
-              </components>
-            </game_entity>
-            <game_entity name="map_icons_empire_house_d" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <transform position="1.121, 0.610, -0.015" rotation_euler="0.000, 0.000, 2.137" scale="0.474, 0.474, 0.474" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_house_d" />
-              </components>
-            </game_entity>
-            <game_entity name="map_icons_empire_house_a" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <transform position="1.463, 0.807, 0.063" rotation_euler="0.000, 0.000, -0.934" scale="0.745, 0.745, 0.745" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_house_a" />
-              </components>
-            </game_entity>
-            <game_entity name="map_icons_empire_house_a" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <transform position="1.693, 0.332, 0.071" rotation_euler="0.000, 0.000, -2.485" scale="0.745, 0.745, 0.745" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_house_a" />
-              </components>
-            </game_entity>
-            <game_entity name="map_icons_empire_house_d" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <transform position="1.892, 1.049, 0.112" rotation_euler="0.000, 0.000, 0.599" scale="0.710, 0.710, 0.710" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_house_d" />
-              </components>
-            </game_entity>
-            <game_entity name="map_icons_empire_house_c" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <transform position="2.123, 1.132, 0.147" rotation_euler="0.000, 0.000, -0.983" scale="0.735, 0.735, 0.735" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_house_c" />
-              </components>
-            </game_entity>
-            <game_entity name="map_icons_empire_house_c" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <transform position="2.050, 0.612, 0.142" rotation_euler="0.000, 0.000, -0.863" scale="0.697, 0.697, 0.697" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_house_c" />
-              </components>
-            </game_entity>
-            <game_entity name="map_icons_empire_house_c" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <transform position="2.862, 1.364, 0.290" rotation_euler="0.000, 0.000, -0.890" scale="0.697, 0.697, 0.697" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_house_c" />
-              </components>
-            </game_entity>
-            <game_entity name="map_icons_empire_house_c" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <transform position="2.701, 1.611, 0.253" rotation_euler="0.000, 0.000, 0.611" scale="0.625, 0.625, 0.625" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_house_c" />
-              </components>
-            </game_entity>
-            <game_entity name="map_icons_empire_house_c" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <transform position="2.323, 2.064, 0.191" rotation_euler="0.000, 0.000, -0.971" scale="0.651, 0.651, 0.651" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_house_c" />
-              </components>
-            </game_entity>
-            <game_entity name="map_icons_empire_house_d" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <transform position="2.341, 2.536, 0.196" rotation_euler="0.000, 0.000, 0.068" scale="0.701, 0.701, 0.701" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_house_d" />
-              </components>
-            </game_entity>
-            <game_entity name="map_icons_empire_house_d" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <transform position="2.308, 2.946, 0.232" rotation_euler="0.000, 0.000, 1.656" scale="0.701, 0.701, 0.701" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_house_d" />
-              </components>
-            </game_entity>
-            <game_entity name="map_icons_empire_house_a" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <transform position="2.821, 3.508, 0.302" rotation_euler="0.000, 0.000, -1.027" scale="0.826, 0.826, 0.826" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_house_a" />
-              </components>
-            </game_entity>
-            <game_entity name="map_icons_empire_house_c" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <transform position="1.478, 3.155, 0.160" rotation_euler="0.000, 0.000, 0.586" scale="0.927, 0.927, 0.927" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_house_c" />
-              </components>
-            </game_entity>
-            <game_entity name="map_icons_empire_house_b" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <transform position="1.908, 3.407, 0.241" rotation_euler="0.000, 0.000, -0.980" scale="0.829, 0.829, 0.829" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_house_b" />
-              </components>
-            </game_entity>
-            <game_entity name="map_icons_empire_house_b" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <transform position="1.887, 2.794, 0.186" rotation_euler="0.000, 0.000, -0.043" scale="0.752, 0.752, 0.752" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_house_b" />
-              </components>
-            </game_entity>
-            <game_entity name="map_icons_empire_house_a" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <transform position="1.758, 3.946, 0.297" rotation_euler="0.000, 0.000, 0.468" scale="0.848, 0.848, 0.848" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_house_a" />
-              </components>
-            </game_entity>
-            <game_entity name="map_icons_empire_house_b" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <transform position="-1.492, 4.171, -0.164" rotation_euler="0.000, 0.000, -2.537" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_house_b" />
-              </components>
-            </game_entity>
-            <game_entity name="map_icons_empire_house_b" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <transform position="-1.822, 3.937, -0.211" rotation_euler="0.000, 0.000, -2.537" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_house_b" />
-              </components>
-            </game_entity>
-            <game_entity name="map_icons_empire_house_d" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <transform position="-1.585, 1.832, -0.263" rotation_euler="0.000, 0.000, 2.181" scale="1.240, 1.240, 1.240" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_house_d" />
-              </components>
-            </game_entity>
-            <game_entity name="map_icons_empire_house_d" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <transform position="-1.942, 2.734, -0.267" rotation_euler="0.000, 0.000, 0.012" scale="1.026, 1.026, 1.026" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_house_d" />
-              </components>
-            </game_entity>
-            <game_entity name="map_icons_empire_house_c" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <transform position="-0.950, 3.438, -0.151" rotation_euler="0.000, 0.000, -0.974" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_house_c" />
-              </components>
-            </game_entity>
-            <game_entity name="map_icons_empire_house_c" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <transform position="-0.738, 3.120, -0.096" rotation_euler="0.000, 0.000, -0.974" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_house_c" />
-              </components>
-            </game_entity>
-            <game_entity name="map_icons_empire_house_c" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <transform position="-0.440, 2.736, -0.087" rotation_euler="0.000, 0.000, 0.589" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_house_c" />
-              </components>
-            </game_entity>
-            <game_entity name="map_icons_empire_well" old_prefab_name="">
-              <transform position="1.066, 2.055, 0.047" rotation_euler="0.000, 0.000, -0.960" scale="0.346, 0.346, 0.346" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_well" />
-              </components>
-            </game_entity>
-            <game_entity name="map_icons_market_stall" old_prefab_name="">
-              <transform position="1.752, 2.054, 0.079" rotation_euler="0.000, 0.000, -0.791" scale="1.915, 1.915, 1.915" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_market_stall" />
-              </components>
-            </game_entity>
-            <game_entity name="map_icons_market_stall" old_prefab_name="">
-              <transform position="1.528, 1.806, 0.079" rotation_euler="0.000, 0.000, -1.750" scale="1.915, 1.915, 1.915" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_market_stall" />
-              </components>
-            </game_entity>
-            <game_entity name="map_icons_market_tent_a" old_prefab_name="">
-              <transform position="1.074, 2.793, 0.078" rotation_euler="-0.034, 0.130, 2.327" scale="0.702, 0.702, 0.702" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_market_tent_a">
-                  <mesh name="mi_market_tent_a.0" factor="4294916935" />
-                  <mesh name="mi_market_tent_a.1" factor="4294916935" />
-                </meta_mesh_component>
-              </components>
-              <additional_features>
-                <feature name="apply_factor_color_to_all_components" value="true">
-                  <factor value="1.000, 0.231, 0.280, 1.000" />
-                </feature>
-              </additional_features>
-            </game_entity>
-            <game_entity name="map_icons_market_tent_a" old_prefab_name="">
-              <transform position="0.385, 2.279, 0.079" rotation_euler="0.000, 0.145, 1.901" scale="0.702, 0.702, 0.702" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_market_tent_a">
-                  <mesh name="mi_market_tent_a.0" factor="4287932504" />
-                  <mesh name="mi_market_tent_a.1" factor="4287932504" />
-                </meta_mesh_component>
-              </components>
-              <additional_features>
-                <feature name="apply_factor_color_to_all_components" value="true">
-                  <factor value="0.580, 0.659, 0.344, 1.000" />
-                </feature>
-              </additional_features>
-            </game_entity>
-            <game_entity name="map_icons_production_spice_c" old_prefab_name="">
-              <transform position="0.441, 2.134, 0.080" rotation_euler="0.000, 0.000, 0.276" scale="0.875, 0.875, 0.875" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_spice_pile" />
-              </components>
-            </game_entity>
-            <game_entity name="map_icons_props_salt" old_prefab_name="">
-              <transform position="1.241, 1.660, 0.078" rotation_euler="0.000, 0.000, 0.779" scale="0.511, 0.511, 0.511" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_tuz_prop">
-                  <mesh name="mi_tuz_prop.0" argument="40.000, 0.100, 0.000, 0.000" argument2="4.520, 2.000, 0.100, 0.500" />
-                </meta_mesh_component>
-              </components>
-            </game_entity>
-            <game_entity name="map_icons_props_cart_a" old_prefab_name="">
-              <transform position="0.758, 1.286, 0.078" rotation_euler="0.000, 0.000, -0.534" scale="0.830, 0.830, 0.830" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_cart_a" />
-              </components>
-            </game_entity>
-            <game_entity name="map_icons_props_cart_b_full" old_prefab_name="">
-              <transform position="0.656, 1.527, 0.078" rotation_euler="0.000, 0.000, -1.120" scale="0.785, 0.785, 0.785" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_cart_b_full" />
-              </components>
-            </game_entity>
-            <game_entity name="map_icons_sack_a" old_prefab_name="">
-              <transform position="0.869, 1.433, 0.078" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_sack_a" />
-              </components>
-            </game_entity>
-            <game_entity name="map_icons_sack_c" old_prefab_name="">
-              <transform position="0.845, 1.180, 0.020" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_sack_c" />
-              </components>
-            </game_entity>
-            <game_entity name="map_icons_market_tent_a" old_prefab_name="">
-              <transform position="-1.102, -0.815, 0.020" rotation_euler="-0.031, -0.066, 1.241" scale="0.689, 0.689, 0.689" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_market_tent_a">
-                  <mesh name="mi_market_tent_a.0" factor="4282721803" />
-                  <mesh name="mi_market_tent_a.1" factor="4282721803" />
-                </meta_mesh_component>
-              </components>
-              <additional_features>
-                <feature name="apply_factor_color_to_all_components" value="true">
-                  <factor value="0.272, 0.151, 0.043, 1.000" />
-                </feature>
-              </additional_features>
-            </game_entity>
-            <game_entity name="decal_path_a" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <transform position="0.492, 0.404, -0.133" rotation_euler="0.000, 0.000, -3.141" scale="0.340, 0.340, 0.340" />
-              <physics mass="1.000" />
-              <components>
-                <decal_component material="decal_empire_path_a" argument="0.530, 0.530, 0.480, 0.010" />
-              </components>
-            </game_entity>
-            <game_entity name="map_icons_empire_arc" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <transform position="0.489, 0.415, -0.081" rotation_euler="0.000, 0.000, -1.591" scale="1.733, 1.626, 2.125" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_arc" />
-              </components>
-            </game_entity>
-            <game_entity name="empire_road_plaza_a" old_prefab_name="">
-              <transform position="1.069, 2.053, 0.064" rotation_euler="0.000, 0.000, 0.611" scale="0.074, 0.074, 0.074" />
-              <physics shape="bo_empire_road_plaza_a" override_material="stone" mass="1.000" />
-              <components>
-                <meta_mesh_component name="empire_road_plaza_a" />
-              </components>
-            </game_entity>
-            <game_entity name="map_icon_docks_d" old_prefab_name="">
-              <transform position="0.244, 3.948, -0.211" rotation_euler="0.000, 0.000, -2.531" scale="1.572, 1.642, 1.642" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_docks_d" />
-              </components>
-            </game_entity>
-            <game_entity name="decal_path_a" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <transform position="2.436, 1.817, 0.216" rotation_euler="0.000, 0.000, -0.960" scale="0.340, 0.340, 0.340" />
-              <physics mass="1.000" />
-              <components>
-                <decal_component material="decal_empire_path_a" argument="0.530, 0.530, 0.480, 0.010" />
-              </components>
-            </game_entity>
-            <game_entity name="map_icons_empire_wall_small_l1" old_prefab_name="">
-              <transform position="4.041, 1.844, -0.164" rotation_euler="0.000, 0.000, 2.531" scale="0.800, 0.800, 0.800" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_wall_1s" />
-              </components>
-              <levels>
-                <level name="level_1" />
-                <level name="civilian" />
-                <level name="siege" />
-                <level name="looted" />
-              </levels>
-            </game_entity>
-            <game_entity name="decal_path_a" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <transform position="1.958, 1.469, 0.126" rotation_euler="0.000, 0.000, 2.182" scale="0.340, 0.340, 0.340" />
-              <physics mass="1.000" />
-              <components>
-                <decal_component material="decal_empire_path_a" argument="0.530, 0.530, 0.480, 0.010" />
-              </components>
-            </game_entity>
-            <game_entity name="map_icons_empire_arena" old_prefab_name="">
-              <transform position="3.222, 2.320, 0.183" rotation_euler="0.000, 0.000, -0.972" scale="0.541, 0.541, 0.541" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_arena" />
-              </components>
-            </game_entity>
-            <game_entity name="decal_path_a" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <transform position="1.424, 1.130, 0.028" rotation_euler="0.000, 0.000, -0.960" scale="0.340, 0.340, 0.340" />
-              <physics mass="1.000" />
-              <components>
-                <decal_component material="decal_empire_path_a" argument="0.530, 0.530, 0.480, 0.010" />
-              </components>
-            </game_entity>
-            <game_entity name="decal_path_a" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <transform position="1.048, 0.868, -0.012" rotation_euler="0.000, 0.000, -0.960" scale="0.340, 0.340, 0.340" />
-              <physics mass="1.000" />
-              <components>
-                <decal_component material="decal_empire_path_a" argument="0.530, 0.530, 0.480, 0.010" />
-              </components>
-            </game_entity>
-            <game_entity name="decal_path_a" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <transform position="0.479, -1.664, -0.102" rotation_euler="0.000, 0.000, 0.000" scale="0.340, 0.340, 0.340" />
-              <physics mass="1.000" />
-              <components>
-                <decal_component material="decal_empire_path_a" argument="0.530, 0.530, 0.480, 0.010" />
-              </components>
-            </game_entity>
-            <game_entity name="decal_path_b" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <transform position="0.434, 0.051, -0.136" rotation_euler="0.000, 0.000, 1.484" scale="0.320, 0.320, 0.320" />
-              <physics mass="1.000" />
-              <components>
-                <decal_component material="decal_empire_path_b" argument="0.530, 0.530, 0.000, 0.010" />
-              </components>
-            </game_entity>
-            <game_entity name="decal_path_a" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <transform position="0.434, -1.285, -0.082" rotation_euler="0.000, 0.000, 0.000" scale="0.340, 0.340, 0.340" />
-              <physics mass="1.000" />
-              <components>
-                <decal_component material="decal_empire_path_a" argument="0.530, 0.530, 0.480, 0.010" />
-              </components>
-            </game_entity>
-            <game_entity name="decal_path_a" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <transform position="0.448, -0.749, -0.146" rotation_euler="0.000, 0.000, 0.000" scale="0.340, 0.340, 0.340" />
-              <physics mass="1.000" />
-              <components>
-                <decal_component material="decal_empire_path_a" argument="0.530, 0.530, 0.480, 0.010" />
-              </components>
-            </game_entity>
-            <game_entity name="decal_path_a" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <transform position="0.474, -0.255, -0.146" rotation_euler="0.000, 0.000, -3.141" scale="0.340, 0.340, 0.340" />
-              <physics mass="1.000" />
-              <components>
-                <decal_component material="decal_empire_path_a" argument="0.530, 0.530, 0.480, 0.010" />
-              </components>
-            </game_entity>
-            <game_entity name="decal_path_b" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <transform position="0.151, 0.331, -0.170" rotation_euler="0.000, 0.000, 0.175" scale="0.320, 0.320, 0.320" />
-              <physics mass="1.000" />
-              <components>
-                <decal_component material="decal_empire_path_b" argument="0.530, 0.530, 0.000, 0.010" />
-              </components>
-            </game_entity>
-            <game_entity name="decal_path_b" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <transform position="0.261, 0.664, -0.129" rotation_euler="0.000, 0.000, -0.873" scale="0.320, 0.320, 0.320" />
-              <physics mass="1.000" />
-              <components>
-                <decal_component material="decal_empire_path_b" argument="0.530, 0.530, 0.000, 0.010" />
-              </components>
-            </game_entity>
-            <game_entity name="decal_path_b" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <transform position="0.661, 0.677, -0.074" rotation_euler="0.000, 0.000, -2.094" scale="0.320, 0.320, 0.320" />
-              <physics mass="1.000" />
-              <components>
-                <decal_component material="decal_empire_path_b" argument="0.530, 0.530, 0.000, 0.010" />
-              </components>
-            </game_entity>
-            <game_entity name="decal_path_b" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <transform position="0.779, 0.168, -0.083" rotation_euler="0.000, 0.000, 2.443" scale="0.320, 0.320, 0.320" />
-              <physics mass="1.000" />
-              <components>
-                <decal_component material="decal_empire_path_b" argument="0.530, 0.530, 0.000, 0.010" />
-              </components>
-            </game_entity>
-            <game_entity name="decal_path_b" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <transform position="0.812, 0.564, -0.059" rotation_euler="0.000, 0.000, -2.531" scale="0.320, 0.320, 0.320" />
-              <physics mass="1.000" />
-              <components>
-                <decal_component material="decal_empire_path_b" argument="0.530, 0.530, 0.000, 0.010" />
-              </components>
-            </game_entity>
-            <game_entity name="decal_path_a" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <transform position="0.074, 0.994, -0.111" rotation_euler="0.000, 0.000, -2.531" scale="0.340, 0.340, 0.340" />
-              <physics mass="1.000" />
-              <components>
-                <decal_component material="decal_empire_path_a" argument="0.530, 0.530, 0.480, 0.010" />
-              </components>
-            </game_entity>
-            <game_entity name="decal_path_a" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <transform position="-0.266, 1.479, -0.155" rotation_euler="0.000, 0.000, 0.611" scale="0.340, 0.340, 0.340" />
-              <physics mass="1.000" />
-              <components>
-                <decal_component material="decal_empire_path_a" argument="0.530, 0.530, 0.480, 0.010" />
-              </components>
-            </game_entity>
-            <game_entity name="decal_path_a" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <transform position="-0.626, 1.994, -0.154" rotation_euler="0.000, 0.000, 0.611" scale="0.340, 0.340, 0.340" />
-              <physics mass="1.000" />
-              <components>
-                <decal_component material="decal_empire_path_a" argument="0.530, 0.530, 0.480, 0.010" />
-              </components>
-            </game_entity>
-            <game_entity name="decal_path_a" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <transform position="-0.934, 2.484, -0.172" rotation_euler="0.000, 0.000, 0.611" scale="0.340, 0.340, 0.340" />
-              <physics mass="1.000" />
-              <components>
-                <decal_component material="decal_empire_path_a" argument="0.530, 0.530, 0.480, 0.010" />
-              </components>
-            </game_entity>
-            <game_entity name="decal_path_a" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <transform position="-1.222, 2.964, -0.187" rotation_euler="0.000, 0.000, -2.531" scale="0.340, 0.340, 0.340" />
-              <physics mass="1.000" />
-              <components>
-                <decal_component material="decal_empire_path_a" argument="0.530, 0.530, 0.480, 0.010" />
-              </components>
-            </game_entity>
-            <game_entity name="decal_path_a" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <transform position="-1.463, 3.332, -0.195" rotation_euler="0.000, 0.000, -2.531" scale="0.340, 0.340, 0.340" />
-              <physics mass="1.000" />
-              <components>
-                <decal_component material="decal_empire_path_a" argument="0.530, 0.530, 0.480, 0.010" />
-              </components>
-            </game_entity>
-            <game_entity name="decal_path_a" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <transform position="-1.341, 3.681, -0.179" rotation_euler="0.000, 0.000, -0.960" scale="0.340, 0.340, 0.340" />
-              <physics mass="1.000" />
-              <components>
-                <decal_component material="decal_empire_path_a" argument="0.530, 0.530, 0.480, 0.010" />
-              </components>
-            </game_entity>
-            <game_entity name="decal_path_a" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <transform position="-1.122, 3.811, -0.162" rotation_euler="0.000, 0.000, -0.960" scale="0.340, 0.340, 0.340" />
-              <physics mass="1.000" />
-              <components>
-                <decal_component material="decal_empire_path_a" argument="0.530, 0.530, 0.480, 0.010" />
-              </components>
-            </game_entity>
-            <game_entity name="map_icon_docks_d" old_prefab_name="">
-              <transform position="-0.111, 4.455, -0.211" rotation_euler="0.000, 0.000, -2.531" scale="1.572, 1.642, 1.642" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_docks_d" />
-              </components>
-            </game_entity>
-            <game_entity name="decal_ground" old_prefab_name="">
-              <transform position="-0.867, 3.864, -0.119" rotation_euler="0.000, 0.000, -0.960" />
-              <physics mass="1.000" />
-              <components>
-                <decal_component material="decal_city_ground" argument="1.000, 1.000, 0.000, 0.000" />
-              </components>
-            </game_entity>
-            <game_entity name="decal_ground" old_prefab_name="">
-              <transform position="-1.090, -0.327, -0.119" />
-              <physics mass="1.000" />
-              <components>
-                <decal_component material="decal_city_ground" argument="1.000, 1.000, 0.000, 0.000" />
-              </components>
-            </game_entity>
-            <game_entity name="decal_ground" old_prefab_name="">
-              <transform position="0.803, -0.327, -0.119" />
-              <physics mass="1.000" />
-              <components>
-                <decal_component material="decal_city_ground" argument="1.000, 1.000, 0.000, 0.000" />
-              </components>
-            </game_entity>
-            <game_entity name="decal_ground" old_prefab_name="">
-              <transform position="1.675, -0.327, -0.119" />
-              <physics mass="1.000" />
-              <components>
-                <decal_component material="decal_city_ground" argument="1.000, 1.000, 0.000, 0.000" />
-              </components>
-            </game_entity>
-            <game_entity name="decal_ground" old_prefab_name="">
-              <transform position="-1.120, 1.496, -0.119" />
-              <physics mass="1.000" />
-              <components>
-                <decal_component material="decal_city_ground" argument="1.000, 1.000, 0.000, 0.000" />
-              </components>
-            </game_entity>
-            <game_entity name="decal_ground" old_prefab_name="">
-              <transform position="0.720, 1.496, -0.119" />
-              <physics mass="1.000" />
-              <components>
-                <decal_component material="decal_city_ground" argument="1.000, 1.000, 0.000, 0.000" />
-              </components>
-            </game_entity>
-            <game_entity name="decal_ground" old_prefab_name="">
-              <transform position="2.585, 1.368, -0.119" rotation_euler="0.000, 0.000, -0.524" />
-              <physics mass="1.000" />
-              <components>
-                <decal_component material="decal_city_ground" argument="1.000, 1.000, 0.000, 0.000" />
-              </components>
-            </game_entity>
-            <game_entity name="decal_ground" old_prefab_name="">
-              <transform position="2.122, 3.184, -0.119" rotation_euler="0.000, 0.000, -1.047" />
-              <physics mass="1.000" />
-              <components>
-                <decal_component material="decal_city_ground" argument="1.000, 1.000, 0.000, 0.000" />
-              </components>
-            </game_entity>
-            <game_entity name="decal_ground" old_prefab_name="">
-              <transform position="0.421, 2.598, -0.119" rotation_euler="0.000, 0.000, -1.047" />
-              <physics mass="1.000" />
-              <components>
-                <decal_component material="decal_city_ground" argument="1.000, 1.000, 0.000, 0.000" />
-              </components>
-            </game_entity>
-            <game_entity name="decal_ground" old_prefab_name="">
-              <transform position="-1.114, 2.825, -0.119" rotation_euler="0.000, 0.000, -1.571" />
-              <physics mass="1.000" />
-              <components>
-                <decal_component material="decal_city_ground" argument="1.000, 1.000, 0.000, 0.000" />
-              </components>
-            </game_entity>
-          </children>
-        </game_entity>
-        <game_entity name="town_M1_l1" old_prefab_name="">
-          <physics mass="1.000" />
-          <children>
-            <game_entity name="map_icons_empire_wall_l1" old_prefab_name="">
-              <transform position="-2.251, -0.586, -0.161" rotation_euler="0.000, 0.000, 0.000" scale="0.800, 0.800, 0.800" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_wall_1" />
-              </components>
-              <levels>
-                <level name="level_1" />
-                <level name="civilian" />
-                <level name="siege" />
-                <level name="looted" />
-              </levels>
-            </game_entity>
-            <game_entity name="map_icons_empire_wall_l1" old_prefab_name="">
-              <transform position="-2.251, 0.581, -0.161" rotation_euler="0.000, 0.000, 0.000" scale="0.800, 0.800, 0.800" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_wall_1" />
-              </components>
-              <levels>
-                <level name="level_1" />
-                <level name="civilian" />
-                <level name="siege" />
-                <level name="looted" />
-              </levels>
-            </game_entity>
-            <game_entity name="map_icons_empire_wall_l1" old_prefab_name="">
-              <transform position="-1.538, -1.303, -0.161" rotation_euler="0.000, 0.000, 1.571" scale="0.800, 0.800, 0.800" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_wall_1" />
-              </components>
-              <levels>
-                <level name="level_1" />
-                <level name="civilian" />
-                <level name="siege" />
-                <level name="looted" />
-              </levels>
-            </game_entity>
-            <game_entity name="map_icons_empire_wall_l1" old_prefab_name="">
-              <transform position="2.430, -1.311, -0.161" rotation_euler="0.000, 0.000, 1.571" scale="0.800, 0.800, 0.800" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_wall_1" />
-              </components>
-              <levels>
-                <level name="level_1" />
-                <level name="civilian" />
-                <level name="siege" />
-                <level name="looted" />
-              </levels>
-            </game_entity>
-            <game_entity name="map_icons_empire_wall_small_breach_l1" old_prefab_name="">
-              <tags>
-                <tag name="map_breachable_wall" />
-              </tags>
-              <transform position="1.479, -1.324, -0.090" rotation_euler="0.000, 0.000, 1.550" scale="1.025, 0.980, 1.105" />
-              <physics mass="1.000" />
-              <children>
-                <game_entity name="bo_siege_wall" old_prefab_name="">
-                  <transform rotation_euler="0.000, 0.000, 1.590" scale="0.368, 0.368, 0.367" />
-                  <physics shape="bo_sphere_collider" mass="1.000" />
-                </game_entity>
-                <game_entity name="map_icons_empire_wall_small_breach_l1" old_prefab_name="">
-                  <tags>
-                    <tag name="map_broken_wall" />
-                  </tags>
-                  <transform position="0.010, 0.012, -0.209" rotation_euler="0.000, 0.000, 0.000" scale="0.910, 0.899, 0.910" />
-                  <physics mass="1.000" />
-                  <components>
-                    <meta_mesh_component name="mi_emp_wall_1s_collapsed" />
-                  </components>
-                </game_entity>
-                <game_entity name="map_icons_empire_wall_small_l1" old_prefab_name="">
-                  <tags>
-                    <tag name="map_solid_wall" />
-                  </tags>
-                  <transform position="0.028, 0.018, -0.085" rotation_euler="0.000, 0.000, -0.019" scale="0.800, 0.866, 0.800" />
-                  <physics mass="1.000" />
-                  <components>
-                    <meta_mesh_component name="mi_emp_wall_1s" />
-                  </components>
-                </game_entity>
-              </children>
-              <levels>
-                <level name="level_1" />
-                <level name="civilian" />
-                <level name="siege" />
-                <level name="looted" />
-              </levels>
-            </game_entity>
-            <game_entity name="map_icons_empire_wall_small_l1" old_prefab_name="">
-              <transform position="2.951, -1.094, -0.164" rotation_euler="0.000, 0.000, -3.141" scale="0.800, 0.800, 0.800" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_wall_1s" />
-              </components>
-              <levels>
-                <level name="level_1" />
-                <level name="civilian" />
-                <level name="siege" />
-                <level name="looted" />
-              </levels>
-            </game_entity>
-            <game_entity name="map_icons_empire_wall_small_l1" old_prefab_name="">
-              <transform position="2.951, -0.574, -0.164" rotation_euler="0.000, 0.000, -3.141" scale="0.800, 0.800, 0.800" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_wall_1s" />
-              </components>
-              <levels>
-                <level name="level_1" />
-                <level name="civilian" />
-                <level name="siege" />
-                <level name="looted" />
-              </levels>
-            </game_entity>
-            <game_entity name="map_icons_empire_wall_small_l1" old_prefab_name="">
-              <transform position="2.951, 0.029, -0.164" rotation_euler="0.000, 0.000, -3.141" scale="0.800, 0.800, 0.800" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_wall_1s" />
-              </components>
-              <levels>
-                <level name="level_1" />
-                <level name="civilian" />
-                <level name="siege" />
-                <level name="looted" />
-              </levels>
-            </game_entity>
-            <game_entity name="map_icons_empire_wall_l1" old_prefab_name="">
-              <transform position="3.679, 1.309, -0.161" rotation_euler="0.000, 0.000, 2.531" scale="0.800, 0.800, 0.800" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_wall_1" />
-              </components>
-              <levels>
-                <level name="level_1" />
-                <level name="civilian" />
-                <level name="siege" />
-                <level name="looted" />
-              </levels>
-            </game_entity>
-            <game_entity name="map_icons_empire_wall_l1" old_prefab_name="">
-              <transform position="3.382, 0.888, -0.161" rotation_euler="0.000, 0.000, 2.531" scale="0.800, 0.800, 0.800" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_wall_1" />
-              </components>
-              <levels>
-                <level name="level_1" />
-                <level name="civilian" />
-                <level name="siege" />
-                <level name="looted" />
-              </levels>
-            </game_entity>
-            <game_entity name="map_icons_empire_wall_l1" old_prefab_name="">
-              <transform position="3.846, 2.694, -0.161" rotation_euler="0.000, 0.000, -2.618" scale="0.800, 0.800, 0.800" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_wall_1" />
-              </components>
-              <levels>
-                <level name="level_1" />
-                <level name="civilian" />
-                <level name="siege" />
-                <level name="looted" />
-              </levels>
-            </game_entity>
-            <game_entity name="map_icons_empire_wall_l1" old_prefab_name="">
-              <transform position="3.285, 3.639, -0.161" rotation_euler="0.000, 0.000, -2.618" scale="0.800, 0.800, 0.800" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_wall_1" />
-              </components>
-              <levels>
-                <level name="level_1" />
-                <level name="civilian" />
-                <level name="siege" />
-                <level name="looted" />
-              </levels>
-            </game_entity>
-            <game_entity name="map_icons_empire_wall_l1" old_prefab_name="">
-              <transform position="1.646, 4.332, -0.161" rotation_euler="0.000, 0.000, -1.222" scale="0.800, 0.800, 0.800" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_wall_1" />
-              </components>
-              <levels>
-                <level name="level_1" />
-                <level name="civilian" />
-                <level name="siege" />
-                <level name="looted" />
-              </levels>
-            </game_entity>
-            <game_entity name="map_icons_empire_wall_l1" old_prefab_name="">
-              <transform position="-2.233, 2.023, -0.065" rotation_euler="0.000, 0.000, 0.000" scale="0.800, 0.800, 0.800" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_wall_1" />
-              </components>
-              <levels>
-                <level name="level_1" />
-                <level name="civilian" />
-                <level name="siege" />
-                <level name="looted" />
-              </levels>
-            </game_entity>
-            <game_entity name="map_icons_empire_wall_l1" old_prefab_name="">
-              <transform position="-2.229, 3.461, -0.065" rotation_euler="0.000, 0.000, 0.000" scale="0.800, 0.800, 0.800" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_wall_1" />
-              </components>
-              <levels>
-                <level name="level_1" />
-                <level name="civilian" />
-                <level name="siege" />
-                <level name="looted" />
-              </levels>
-            </game_entity>
-            <game_entity name="map_icons_empire_wall_l1" old_prefab_name="">
-              <transform position="-1.623, 4.612, -0.065" rotation_euler="0.000, 0.000, -0.960" scale="0.800, 0.800, 0.800" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_wall_1" />
-              </components>
-              <levels>
-                <level name="level_1" />
-                <level name="civilian" />
-                <level name="siege" />
-                <level name="looted" />
-              </levels>
-            </game_entity>
-            <game_entity name="map_icons_empire_wall_l1" old_prefab_name="">
-              <transform position="-0.428, 5.428, -0.065" rotation_euler="0.000, 0.000, -0.960" scale="0.800, 0.800, 0.800" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_wall_1" />
-              </components>
-              <levels>
-                <level name="level_1" />
-                <level name="civilian" />
-                <level name="siege" />
-                <level name="looted" />
-              </levels>
-            </game_entity>
-            <game_entity name="map_icons_empire_wall_l1" old_prefab_name="">
-              <transform position="0.560, 5.258, -0.065" rotation_euler="0.000, 0.000, -2.531" scale="0.800, 0.800, 0.800" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_wall_1" />
-              </components>
-              <levels>
-                <level name="level_1" />
-                <level name="civilian" />
-                <level name="siege" />
-                <level name="looted" />
-              </levels>
-            </game_entity>
-            <game_entity name="map_icons_empire_wall_l1" old_prefab_name="">
-              <transform position="1.250, 4.246, -0.065" rotation_euler="0.000, 0.000, -2.531" scale="0.800, 0.800, 0.800" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_wall_1" />
-              </components>
-              <levels>
-                <level name="level_1" />
-                <level name="civilian" />
-                <level name="siege" />
-                <level name="looted" />
-              </levels>
-            </game_entity>
-            <game_entity name="map_icons_empire_wall_l1" old_prefab_name="">
-              <transform position="1.052, 3.244, -0.065" rotation_euler="0.000, 0.000, 2.182" scale="0.800, 0.800, 0.800" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_wall_1" />
-              </components>
-              <levels>
-                <level name="level_1" />
-                <level name="civilian" />
-                <level name="siege" />
-                <level name="looted" />
-              </levels>
-            </game_entity>
-            <game_entity name="map_icons_empire_wall_l1" old_prefab_name="">
-              <transform position="-0.078, 2.452, -0.065" rotation_euler="0.000, 0.000, 2.182" scale="0.800, 0.800, 0.800" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_wall_1" />
-              </components>
-              <levels>
-                <level name="level_1" />
-                <level name="civilian" />
-                <level name="siege" />
-                <level name="looted" />
-              </levels>
-            </game_entity>
-            <game_entity name="map_icons_empire_wall_l1" old_prefab_name="">
-              <transform position="-1.264, 1.641, -0.065" rotation_euler="0.000, 0.000, 2.182" scale="0.800, 0.800, 0.800" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_wall_1" />
-              </components>
-              <levels>
-                <level name="level_1" />
-                <level name="civilian" />
-                <level name="siege" />
-                <level name="looted" />
-              </levels>
-            </game_entity>
-            <game_entity name="map_icons_empire_wall_small_l1" old_prefab_name="">
-              <transform position="-2.042, 1.109, -0.069" rotation_euler="0.000, 0.000, 2.182" scale="0.800, 0.800, 0.800" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_wall_1s" />
-              </components>
-              <levels>
-                <level name="level_1" />
-                <level name="civilian" />
-                <level name="siege" />
-                <level name="looted" />
-              </levels>
-            </game_entity>
-            <game_entity name="map_icons_empire_gatehouse_l1" old_prefab_name="">
-              <transform position="0.491, -1.352, -0.029" rotation_euler="0.000, 0.000, 1.571" scale="0.880, 0.880, 0.880" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_1_gatehouse" />
-              </components>
-              <levels>
-                <level name="level_1" />
-                <level name="civilian" />
-                <level name="siege" />
-                <level name="looted" />
-              </levels>
-            </game_entity>
-            <game_entity name="banner_pos" old_prefab_name="">
-              <visibility_masks>
-                <visibility_mask name="visible_only_when_editing" value="true" />
-              </visibility_masks>
-              <tags>
-                <tag name="map_banner_placeholder" />
-              </tags>
-              <transform position="1.331, -1.279, 0.025" rotation_euler="0.000, 0.000, -1.583" scale="0.071, 0.869, 0.049" />
-              <physics mass="1.000" />
-              <children>
-                <game_entity name="volume_box" old_prefab_name="">
-                  <flags>
-                    <flag name="record_to_scene_replay" value="true" />
-                  </flags>
-                  <visibility_masks>
-                    <visibility_mask name="visible_only_when_editing" value="true" />
-                  </visibility_masks>
-                  <physics mass="1.000" />
-                  <components>
-                    <meta_mesh_component name="volume_box" />
-                  </components>
-                  <scripts>
-                    <script name="VolumeBox">
-                      <variables>
-                        <variable name="NavMeshPrefabName" value="" />
-                      </variables>
-                    </script>
-                  </scripts>
-                </game_entity>
-              </children>
-            </game_entity>
-            <game_entity name="map_icons_empire_keep_l1" old_prefab_name="">
-              <transform position="-0.120, 4.549, 0.140" rotation_euler="0.000, 0.000, 0.620" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_keep_1" />
-              </components>
-              <levels>
-                <level name="level_1" />
-                <level name="civilian" />
-                <level name="siege" />
-                <level name="looted" />
-              </levels>
-            </game_entity>
-            <game_entity name="map_icons_empire_small_gatehouse_l1" old_prefab_name="">
-              <transform position="-0.737, 2.087, -0.059" rotation_euler="0.000, 0.000, -0.977" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_1_mini_gatehouse" />
-              </components>
-              <levels>
-                <level name="level_1" />
-                <level name="civilian" />
-                <level name="siege" />
-                <level name="looted" />
-              </levels>
-            </game_entity>
-            <game_entity name="map_icons_empire_square_tower_l1" old_prefab_name="">
-              <transform position="2.810, -1.267, -0.380" rotation_euler="0.000, 0.000, 0.022" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_square_tower_1" />
-              </components>
-              <levels>
-                <level name="level_1" />
-                <level name="civilian" />
-                <level name="siege" />
-                <level name="looted" />
-              </levels>
-            </game_entity>
-            <game_entity name="map_icons_empire_tower_l1" old_prefab_name="">
-              <transform position="-2.004, -1.117, -0.059" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_tower_1" />
-              </components>
-              <levels>
-                <level name="level_1" />
-                <level name="civilian" />
-                <level name="siege" />
-                <level name="looted" />
-              </levels>
-            </game_entity>
-            <game_entity name="map_icons_empire_square_tower_l1" old_prefab_name="">
-              <transform position="-2.242, 1.091, -0.195" rotation_euler="0.000, 0.000, 0.000" scale="0.757, 0.757, 0.757" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_square_tower_1" />
-              </components>
-              <levels>
-                <level name="level_1" />
-                <level name="civilian" />
-                <level name="siege" />
-                <level name="looted" />
-              </levels>
-            </game_entity>
-            <game_entity name="map_icons_empire_tower_l1" old_prefab_name="">
-              <transform position="1.033, 4.354, -0.300" rotation_euler="0.000, 0.000, 0.000" scale="1.323, 1.323, 1.323" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_tower_1" />
-              </components>
-              <levels>
-                <level name="level_1" />
-                <level name="civilian" />
-                <level name="siege" />
-                <level name="looted" />
-              </levels>
-            </game_entity>
-            <game_entity name="map_icons_empire_tower_l1" old_prefab_name="">
-              <transform position="2.485, 4.153, -0.743" rotation_euler="0.000, 0.000, 0.000" scale="1.323, 1.323, 1.323" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_tower_1" />
-              </components>
-              <levels>
-                <level name="level_1" />
-                <level name="civilian" />
-                <level name="siege" />
-                <level name="looted" />
-              </levels>
-            </game_entity>
-            <game_entity name="map_icons_empire_wall_small_breach_l1" old_prefab_name="">
-              <tags>
-                <tag name="map_breachable_wall" />
-              </tags>
-              <transform position="-0.503, -1.335, -0.259" rotation_euler="0.000, 0.000, 1.583" scale="0.959, 0.959, 0.959" />
-              <physics mass="1.000" />
-              <children>
-                <game_entity name="bo_siege_wall" old_prefab_name="">
-                  <transform rotation_euler="0.000, 0.000, 1.590" scale="0.368, 0.368, 0.367" />
-                  <physics shape="bo_sphere_collider" mass="1.000" />
-                </game_entity>
-                <game_entity name="map_icons_empire_wall_small_breach_l1" old_prefab_name="">
-                  <tags>
-                    <tag name="map_broken_wall" />
-                  </tags>
-                  <transform position="0.010, 0.012, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="0.847, 0.837, 0.847" />
-                  <physics mass="1.000" />
-                  <components>
-                    <meta_mesh_component name="mi_emp_wall_1s_collapsed" />
-                  </components>
-                </game_entity>
-                <game_entity name="map_icons_empire_wall_small_l1" old_prefab_name="">
-                  <tags>
-                    <tag name="map_solid_wall" />
-                  </tags>
-                  <transform position="0.028, 0.018, 0.118" rotation_euler="0.000, 0.000, 0.000" scale="0.800, 0.800, 0.800" />
-                  <physics mass="1.000" />
-                  <components>
-                    <meta_mesh_component name="mi_emp_wall_1s" />
-                  </components>
-                </game_entity>
-              </children>
-              <levels>
-                <level name="level_1" />
-                <level name="civilian" />
-                <level name="siege" />
-                <level name="looted" />
-              </levels>
-            </game_entity>
-            <game_entity name="banner_pos" old_prefab_name="">
-              <visibility_masks>
-                <visibility_mask name="visible_only_when_editing" value="true" />
-              </visibility_masks>
-              <tags>
-                <tag name="map_banner_placeholder" />
-              </tags>
-              <transform position="0.502, -1.323, 0.471" rotation_euler="0.000, 0.000, -1.563" scale="0.602, 0.322, 0.049" />
-              <physics mass="1.000" />
-              <children>
-                <game_entity name="volume_box" old_prefab_name="">
-                  <flags>
-                    <flag name="record_to_scene_replay" value="true" />
-                  </flags>
-                  <visibility_masks>
-                    <visibility_mask name="visible_only_when_editing" value="true" />
-                  </visibility_masks>
-                  <physics mass="1.000" />
-                  <components>
-                    <meta_mesh_component name="volume_box" />
-                  </components>
-                  <scripts>
-                    <script name="VolumeBox">
-                      <variables>
-                        <variable name="NavMeshPrefabName" value="" />
-                      </variables>
-                    </script>
-                  </scripts>
-                </game_entity>
-              </children>
-            </game_entity>
-          </children>
-        </game_entity>
-        <game_entity name="town_M1_l2" old_prefab_name="">
-          <physics mass="1.000" />
-          <children>
-            <game_entity name="map_icons_empire_wall_l2" old_prefab_name="">
-              <transform position="-2.251, -0.586, -0.161" rotation_euler="0.000, 0.000, 0.000" scale="0.800, 0.800, 0.800" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_wall_2" />
-              </components>
-              <levels>
-                <level name="level_2" />
-                <level name="civilian" />
-                <level name="siege" />
-                <level name="looted" />
-              </levels>
-            </game_entity>
-            <game_entity name="map_icons_empire_wall_l2" old_prefab_name="">
-              <transform position="-2.251, 0.581, -0.161" rotation_euler="0.000, 0.000, 0.000" scale="0.800, 0.800, 0.800" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_wall_2" />
-              </components>
-              <levels>
-                <level name="level_2" />
-                <level name="civilian" />
-                <level name="siege" />
-                <level name="looted" />
-              </levels>
-            </game_entity>
-            <game_entity name="map_icons_empire_wall_small_breach_l2" old_prefab_name="">
-              <tags>
-                <tag name="map_breachable_wall" />
-              </tags>
-              <transform position="-0.945, -1.275, -0.201" rotation_euler="0.000, 0.000, 1.578" scale="0.757, 0.757, 0.757" />
-              <physics mass="1.000" />
-              <children>
-                <game_entity name="map_icons_empire_wall_small_l2" old_prefab_name="">
-                  <tags>
-                    <tag name="map_solid_wall" />
-                  </tags>
-                  <transform position="-0.041, 0.026, 0.100" />
-                  <physics mass="1.000" />
-                  <components>
-                    <meta_mesh_component name="mi_emp_wall_2s" />
-                  </components>
-                </game_entity>
-                <game_entity name="bo_siege_wall" old_prefab_name="">
-                  <transform position="-0.014, 0.036, 0.000" rotation_euler="0.000, 0.000, 1.590" scale="0.368, 0.368, 0.367" />
-                  <physics shape="bo_sphere_collider" mass="1.000" />
-                </game_entity>
-                <game_entity name="map_icons_empire_wall_small_breach_l2" old_prefab_name="">
-                  <tags>
-                    <tag name="map_broken_wall" />
-                  </tags>
-                  <transform position="-0.006, 0.029, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="0.925, 0.963, 1.000" />
-                  <physics mass="1.000" />
-                  <components>
-                    <meta_mesh_component name="mi_emp_wall_2s_collapsed" />
-                  </components>
-                </game_entity>
-              </children>
-              <levels>
-                <level name="level_2" />
-                <level name="civilian" />
-                <level name="siege" />
-                <level name="looted" />
-              </levels>
-            </game_entity>
-            <game_entity name="map_icons_empire_wall_small_l2" old_prefab_name="">
-              <transform position="1.356, -1.307, -0.168" rotation_euler="0.000, 0.000, 1.571" scale="0.800, 0.800, 0.800" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_wall_2s" />
-              </components>
-              <levels>
-                <level name="level_2" />
-                <level name="civilian" />
-                <level name="siege" />
-                <level name="looted" />
-              </levels>
-            </game_entity>
-            <game_entity name="map_icons_empire_wall_small_l2" old_prefab_name="">
-              <transform position="2.951, -1.094, -0.164" rotation_euler="0.000, 0.000, -3.141" scale="0.800, 0.800, 0.800" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_wall_2s" />
-              </components>
-              <levels>
-                <level name="level_2" />
-                <level name="civilian" />
-                <level name="siege" />
-                <level name="looted" />
-              </levels>
-            </game_entity>
-            <game_entity name="map_icons_empire_wall_small_l2" old_prefab_name="">
-              <transform position="2.951, -0.574, -0.164" rotation_euler="0.000, 0.000, -3.141" scale="0.800, 0.800, 0.800" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_wall_2s" />
-              </components>
-              <levels>
-                <level name="level_2" />
-                <level name="civilian" />
-                <level name="siege" />
-                <level name="looted" />
-              </levels>
-            </game_entity>
-            <game_entity name="map_icons_empire_wall_small_l2" old_prefab_name="">
-              <transform position="2.951, 0.029, -0.164" rotation_euler="0.000, 0.000, -3.141" scale="0.800, 0.800, 0.800" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_wall_2s" />
-              </components>
-              <levels>
-                <level name="level_2" />
-                <level name="civilian" />
-                <level name="siege" />
-                <level name="looted" />
-              </levels>
-            </game_entity>
-            <game_entity name="map_icons_empire_wall_l2" old_prefab_name="">
-              <transform position="3.679, 1.309, -0.161" rotation_euler="0.000, 0.000, 2.531" scale="0.800, 0.800, 0.800" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_wall_2" />
-              </components>
-              <levels>
-                <level name="level_2" />
-                <level name="civilian" />
-                <level name="siege" />
-                <level name="looted" />
-              </levels>
-            </game_entity>
-            <game_entity name="map_icons_empire_wall_l2" old_prefab_name="">
-              <transform position="3.382, 0.888, -0.161" rotation_euler="0.000, 0.000, 2.531" scale="0.800, 0.800, 0.800" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_wall_2" />
-              </components>
-              <levels>
-                <level name="level_2" />
-                <level name="civilian" />
-                <level name="siege" />
-                <level name="looted" />
-              </levels>
-            </game_entity>
-            <game_entity name="map_icons_empire_wall_l2" old_prefab_name="">
-              <transform position="3.846, 2.694, -0.161" rotation_euler="0.000, 0.000, -2.618" scale="0.800, 0.800, 0.800" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_wall_2" />
-              </components>
-              <levels>
-                <level name="level_2" />
-                <level name="civilian" />
-                <level name="siege" />
-                <level name="looted" />
-              </levels>
-            </game_entity>
-            <game_entity name="map_icons_empire_wall_l2" old_prefab_name="">
-              <transform position="3.285, 3.639, -0.161" rotation_euler="0.000, 0.000, -2.618" scale="0.800, 0.800, 0.800" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_wall_2" />
-              </components>
-              <levels>
-                <level name="level_2" />
-                <level name="civilian" />
-                <level name="siege" />
-                <level name="looted" />
-              </levels>
-            </game_entity>
-            <game_entity name="map_icons_empire_wall_l2" old_prefab_name="">
-              <transform position="1.646, 4.332, -0.161" rotation_euler="0.000, 0.000, -1.222" scale="0.800, 0.800, 0.800" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_wall_2" />
-              </components>
-              <levels>
-                <level name="level_2" />
-                <level name="civilian" />
-                <level name="siege" />
-                <level name="looted" />
-              </levels>
-            </game_entity>
-            <game_entity name="map_icons_empire_wall_l2" old_prefab_name="">
-              <transform position="-2.233, 2.023, -0.065" rotation_euler="0.000, 0.000, 0.000" scale="0.800, 0.800, 0.800" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_wall_2" />
-              </components>
-              <levels>
-                <level name="level_2" />
-                <level name="civilian" />
-                <level name="siege" />
-                <level name="looted" />
-              </levels>
-            </game_entity>
-            <game_entity name="map_icons_empire_wall_l2" old_prefab_name="">
-              <transform position="-2.229, 3.461, -0.065" rotation_euler="0.000, 0.000, 0.000" scale="0.800, 0.800, 0.800" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_wall_2" />
-              </components>
-              <levels>
-                <level name="level_2" />
-                <level name="civilian" />
-                <level name="siege" />
-                <level name="looted" />
-              </levels>
-            </game_entity>
-            <game_entity name="map_icons_empire_wall_l2" old_prefab_name="">
-              <transform position="-1.639, 4.585, -0.065" rotation_euler="0.000, 0.000, -0.942" scale="0.800, 0.800, 0.800" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_wall_2" />
-              </components>
-              <levels>
-                <level name="level_2" />
-                <level name="civilian" />
-                <level name="siege" />
-                <level name="looted" />
-              </levels>
-            </game_entity>
-            <game_entity name="map_icons_empire_wall_l2" old_prefab_name="">
-              <transform position="-0.428, 5.428, -0.065" rotation_euler="0.000, 0.000, -0.960" scale="0.800, 0.800, 0.800" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_wall_2" />
-              </components>
-              <levels>
-                <level name="level_2" />
-                <level name="civilian" />
-                <level name="siege" />
-                <level name="looted" />
-              </levels>
-            </game_entity>
-            <game_entity name="map_icons_empire_wall_l2" old_prefab_name="">
-              <transform position="0.543, 5.281, -0.065" rotation_euler="0.000, 0.000, -2.513" scale="0.800, 0.800, 0.800" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_wall_2" />
-              </components>
-              <levels>
-                <level name="level_2" />
-                <level name="civilian" />
-                <level name="siege" />
-                <level name="looted" />
-              </levels>
-            </game_entity>
-            <game_entity name="map_icons_empire_wall_l2" old_prefab_name="">
-              <transform position="1.250, 4.246, -0.065" rotation_euler="0.000, 0.000, -2.531" scale="0.800, 0.800, 0.800" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_wall_2" />
-              </components>
-              <levels>
-                <level name="level_2" />
-                <level name="civilian" />
-                <level name="siege" />
-                <level name="looted" />
-              </levels>
-            </game_entity>
-            <game_entity name="map_icons_empire_wall_l2" old_prefab_name="">
-              <transform position="1.052, 3.244, -0.065" rotation_euler="0.000, 0.000, 2.182" scale="0.800, 0.800, 0.800" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_wall_2" />
-              </components>
-              <levels>
-                <level name="level_2" />
-                <level name="civilian" />
-                <level name="siege" />
-                <level name="looted" />
-              </levels>
-            </game_entity>
-            <game_entity name="map_icons_empire_wall_l2" old_prefab_name="">
-              <transform position="0.101, 2.578, -0.065" rotation_euler="0.000, 0.000, 2.182" scale="0.800, 0.800, 0.800" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_wall_2" />
-              </components>
-              <levels>
-                <level name="level_2" />
-                <level name="civilian" />
-                <level name="siege" />
-                <level name="looted" />
-              </levels>
-            </game_entity>
-            <game_entity name="map_icons_empire_wall_l2" old_prefab_name="">
-              <transform position="-1.564, 1.431, -0.065" rotation_euler="0.000, 0.000, 2.182" scale="0.800, 0.800, 0.800" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_wall_2" />
-              </components>
-              <levels>
-                <level name="level_2" />
-                <level name="civilian" />
-                <level name="siege" />
-                <level name="looted" />
-              </levels>
-            </game_entity>
-            <game_entity name="map_icons_empire_gatehouse_l2" old_prefab_name="">
-              <transform position="0.491, -1.352, -0.029" rotation_euler="0.000, 0.000, 1.571" scale="0.880, 0.880, 0.880" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_2_gatehouse" />
-              </components>
-              <levels>
-                <level name="level_2" />
-                <level name="civilian" />
-                <level name="siege" />
-                <level name="looted" />
-              </levels>
-            </game_entity>
-            <game_entity name="map_icons_empire_wall_small_l2" old_prefab_name="">
-              <transform position="-0.412, -1.312, -0.164" rotation_euler="0.000, 0.000, 1.571" scale="0.800, 0.800, 0.800" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_wall_2s" />
-              </components>
-              <levels>
-                <level name="level_2" />
-                <level name="civilian" />
-                <level name="siege" />
-                <level name="looted" />
-              </levels>
-            </game_entity>
-            <game_entity name="map_icons_empire_keep_l2" old_prefab_name="">
-              <transform position="-0.120, 4.549, 0.140" rotation_euler="0.000, 0.000, 0.620" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_keep_2" />
-              </components>
-              <levels>
-                <level name="level_2" />
-                <level name="civilian" />
-                <level name="siege" />
-                <level name="looted" />
-              </levels>
-            </game_entity>
-            <game_entity name="map_icons_empire_small_gatehouse_l2" old_prefab_name="">
-              <transform position="-0.737, 2.087, -0.059" rotation_euler="0.000, 0.000, -0.977" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_2_mini_gatehouse" />
-              </components>
-              <levels>
-                <level name="level_2" />
-                <level name="civilian" />
-                <level name="siege" />
-                <level name="looted" />
-              </levels>
-            </game_entity>
-            <game_entity name="map_icons_empire_square_tower_l2" old_prefab_name="">
-              <transform position="2.810, -1.267, -0.540" rotation_euler="0.000, 0.000, 0.022" scale="0.970, 0.970, 0.868" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_square_tower_2" />
-              </components>
-              <levels>
-                <level name="level_2" />
-                <level name="civilian" />
-                <level name="siege" />
-                <level name="looted" />
-              </levels>
-            </game_entity>
-            <game_entity name="map_icons_empire_tower_l2" old_prefab_name="">
-              <transform position="-2.004, -1.117, -0.429" rotation_euler="0.000, 0.000, 0.000" scale="0.784, 0.784, 0.784" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_tower_2" />
-              </components>
-              <levels>
-                <level name="level_2" />
-                <level name="civilian" />
-                <level name="siege" />
-                <level name="looted" />
-              </levels>
-            </game_entity>
-            <game_entity name="map_icons_empire_square_tower_l2" old_prefab_name="">
-              <transform position="-2.242, 1.091, -0.059" rotation_euler="0.000, 0.000, 0.000" scale="0.757, 0.757, 0.757" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_square_tower_2" />
-              </components>
-              <levels>
-                <level name="level_2" />
-                <level name="civilian" />
-                <level name="siege" />
-                <level name="looted" />
-              </levels>
-            </game_entity>
-            <game_entity name="map_icons_empire_tower_l2" old_prefab_name="">
-              <transform position="1.033, 4.354, -0.560" rotation_euler="0.000, 0.000, 0.000" scale="1.141, 1.141, 1.141" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_tower_2" />
-              </components>
-              <levels>
-                <level name="level_2" />
-                <level name="civilian" />
-                <level name="siege" />
-                <level name="looted" />
-              </levels>
-            </game_entity>
-            <game_entity name="map_icons_empire_tower_l2" old_prefab_name="">
-              <transform position="2.485, 4.153, -0.743" rotation_euler="0.000, 0.000, 0.000" scale="0.918, 0.918, 0.918" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_tower_2" />
-              </components>
-              <levels>
-                <level name="level_2" />
-                <level name="civilian" />
-                <level name="siege" />
-                <level name="looted" />
-              </levels>
-            </game_entity>
-            <game_entity name="map_icons_empire_wall_small_l2" old_prefab_name="">
-              <transform position="-1.530, -1.312, -0.164" rotation_euler="0.000, 0.000, 1.571" scale="0.800, 0.800, 0.800" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_wall_2s" />
-              </components>
-              <levels>
-                <level name="level_2" />
-                <level name="civilian" />
-                <level name="siege" />
-                <level name="looted" />
-              </levels>
-            </game_entity>
-            <game_entity name="map_icons_empire_wall_small_breach_l2" old_prefab_name="">
-              <tags>
-                <tag name="map_breachable_wall" />
-              </tags>
-              <transform position="1.993, -1.293, -0.234" rotation_euler="0.000, 0.000, 1.566" scale="0.802, 0.802, 0.802" />
-              <physics mass="1.000" />
-              <children>
-                <game_entity name="map_icons_empire_wall_small_l2" old_prefab_name="">
-                  <tags>
-                    <tag name="map_solid_wall" />
-                  </tags>
-                  <transform position="-0.041, 0.026, 0.100" />
-                  <physics mass="1.000" />
-                  <components>
-                    <meta_mesh_component name="mi_emp_wall_2s" />
-                  </components>
-                </game_entity>
-                <game_entity name="bo_siege_wall" old_prefab_name="">
-                  <transform position="-0.014, 0.036, 0.000" rotation_euler="0.000, 0.000, 1.590" scale="0.368, 0.368, 0.367" />
-                  <physics shape="bo_sphere_collider" mass="1.000" />
-                </game_entity>
-                <game_entity name="map_icons_empire_wall_small_breach_l2" old_prefab_name="">
-                  <tags>
-                    <tag name="map_broken_wall" />
-                  </tags>
-                  <transform position="-0.006, 0.029, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="0.925, 0.963, 1.000" />
-                  <physics mass="1.000" />
-                  <components>
-                    <meta_mesh_component name="mi_emp_wall_2s_collapsed" />
-                  </components>
-                </game_entity>
-              </children>
-              <levels>
-                <level name="level_2" />
-                <level name="civilian" />
-                <level name="siege" />
-                <level name="looted" />
-              </levels>
-            </game_entity>
-            <game_entity name="map_icons_empire_square_tower_l2" old_prefab_name="">
-              <transform position="1.272, -1.615, -0.930" rotation_euler="0.000, 0.000, 0.022" scale="0.970, 0.970, 0.868" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_square_tower_2" />
-              </components>
-              <levels>
-                <level name="level_2" />
-                <level name="civilian" />
-                <level name="siege" />
-                <level name="looted" />
-              </levels>
-            </game_entity>
-            <game_entity name="banner_pos" old_prefab_name="">
-              <visibility_masks>
-                <visibility_mask name="visible_only_when_editing" value="true" />
-              </visibility_masks>
-              <tags>
-                <tag name="map_banner_placeholder" />
-              </tags>
-              <transform position="-0.173, -1.020, 0.738" rotation_euler="0.000, 0.000, -1.571" scale="0.673, 0.369, 0.049" />
-              <physics mass="1.000" />
-              <children>
-                <game_entity name="volume_box" old_prefab_name="">
-                  <flags>
-                    <flag name="record_to_scene_replay" value="true" />
-                  </flags>
-                  <visibility_masks>
-                    <visibility_mask name="visible_only_when_editing" value="true" />
-                  </visibility_masks>
-                  <transform position="0.459, 0.416, 0.000" />
-                  <physics mass="1.000" />
-                  <components>
-                    <meta_mesh_component name="volume_box" />
-                  </components>
-                  <scripts>
-                    <script name="VolumeBox">
-                      <variables>
-                        <variable name="NavMeshPrefabName" value="" />
-                      </variables>
-                    </script>
-                  </scripts>
-                </game_entity>
-              </children>
-            </game_entity>
-            <game_entity name="map_icons_empire_wall_small_l2" old_prefab_name="">
-              <transform position="2.552, -1.322, -0.164" rotation_euler="0.000, 0.000, 1.571" scale="0.800, 0.800, 0.800" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_wall_2s" />
-              </components>
-              <levels>
-                <level name="level_2" />
-                <level name="civilian" />
-                <level name="siege" />
-                <level name="looted" />
-              </levels>
-            </game_entity>
-            <game_entity name="banner_pos" old_prefab_name="">
-              <visibility_masks>
-                <visibility_mask name="visible_only_when_editing" value="true" />
-              </visibility_masks>
-              <tags>
-                <tag name="map_banner_placeholder" />
-              </tags>
-              <transform position="0.794, -1.020, 0.738" rotation_euler="0.000, 0.000, -1.571" scale="0.673, 0.369, 0.049" />
-              <physics mass="1.000" />
-              <children>
-                <game_entity name="volume_box" old_prefab_name="">
-                  <flags>
-                    <flag name="record_to_scene_replay" value="true" />
-                  </flags>
-                  <visibility_masks>
-                    <visibility_mask name="visible_only_when_editing" value="true" />
-                  </visibility_masks>
-                  <transform position="0.459, 0.416, 0.000" />
-                  <physics mass="1.000" />
-                  <components>
-                    <meta_mesh_component name="volume_box" />
-                  </components>
-                  <scripts>
-                    <script name="VolumeBox">
-                      <variables>
-                        <variable name="NavMeshPrefabName" value="" />
-                      </variables>
-                    </script>
-                  </scripts>
-                </game_entity>
-              </children>
-            </game_entity>
-          </children>
-        </game_entity>
-        <game_entity name="town_M1_l3" old_prefab_name="">
-          <physics mass="1.000" />
-          <children>
-            <game_entity name="map_icons_empire_wall_l3" old_prefab_name="">
-              <transform position="-2.251, -0.586, -0.492" rotation_euler="0.000, 0.000, 0.000" scale="0.800, 0.800, 0.800" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_wall_3" />
-              </components>
-              <levels>
-                <level name="level_3" />
-                <level name="civilian" />
-                <level name="siege" />
-                <level name="looted" />
-              </levels>
-            </game_entity>
-            <game_entity name="map_icons_empire_wall_l3" old_prefab_name="">
-              <transform position="-2.251, 0.581, -0.492" rotation_euler="0.000, 0.000, 0.000" scale="0.800, 0.800, 0.800" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_wall_3" />
-              </components>
-              <levels>
-                <level name="level_3" />
-                <level name="civilian" />
-                <level name="siege" />
-                <level name="looted" />
-              </levels>
-            </game_entity>
-            <game_entity name="banner_pos" old_prefab_name="">
-              <visibility_masks>
-                <visibility_mask name="visible_only_when_editing" value="true" />
-              </visibility_masks>
-              <tags>
-                <tag name="map_banner_placeholder" />
-              </tags>
-              <transform position="-0.151, -1.048, 1.194" rotation_euler="0.000, 0.000, -1.564" scale="0.642, 0.329, 0.049" />
-              <physics mass="1.000" />
-              <children>
-                <game_entity name="volume_box" old_prefab_name="">
-                  <flags>
-                    <flag name="record_to_scene_replay" value="true" />
-                  </flags>
-                  <visibility_masks>
-                    <visibility_mask name="visible_only_when_editing" value="true" />
-                  </visibility_masks>
-                  <transform position="0.500, 0.500, -0.500" />
-                  <physics mass="1.000" />
-                  <components>
-                    <meta_mesh_component name="volume_box" />
-                  </components>
-                  <scripts>
-                    <script name="VolumeBox">
-                      <variables>
-                        <variable name="NavMeshPrefabName" value="" />
-                      </variables>
-                    </script>
-                  </scripts>
-                </game_entity>
-              </children>
-            </game_entity>
-            <game_entity name="map_icons_empire_wall_small_l3" old_prefab_name="">
-              <transform position="1.356, -1.285, -0.299" rotation_euler="0.000, 0.000, 1.571" scale="0.800, 0.800, 0.800" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_wall_3s" />
-              </components>
-              <levels>
-                <level name="level_3" />
-                <level name="civilian" />
-                <level name="siege" />
-                <level name="looted" />
-              </levels>
-            </game_entity>
-            <game_entity name="map_icons_empire_wall_small_l3" old_prefab_name="">
-              <transform position="2.951, -1.094, -0.504" rotation_euler="0.000, 0.000, -3.141" scale="0.800, 0.800, 0.800" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_wall_3s" />
-              </components>
-              <levels>
-                <level name="level_3" />
-                <level name="civilian" />
-                <level name="siege" />
-                <level name="looted" />
-              </levels>
-            </game_entity>
-            <game_entity name="map_icons_empire_wall_small_l3" old_prefab_name="">
-              <transform position="2.951, -0.574, -0.524" rotation_euler="0.000, 0.000, -3.141" scale="0.800, 0.800, 0.800" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_wall_3s" />
-              </components>
-              <levels>
-                <level name="level_3" />
-                <level name="civilian" />
-                <level name="siege" />
-                <level name="looted" />
-              </levels>
-            </game_entity>
-            <game_entity name="map_icons_empire_wall_small_l3" old_prefab_name="">
-              <transform position="2.951, 0.029, -0.524" rotation_euler="0.000, 0.000, -3.141" scale="0.800, 0.800, 0.800" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_wall_3s" />
-              </components>
-              <levels>
-                <level name="level_3" />
-                <level name="civilian" />
-                <level name="siege" />
-                <level name="looted" />
-              </levels>
-            </game_entity>
-            <game_entity name="map_icons_empire_wall_l3" old_prefab_name="">
-              <transform position="3.813, 1.499, -0.521" rotation_euler="0.000, 0.000, 2.531" scale="0.800, 0.800, 0.800" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_wall_3" />
-              </components>
-              <levels>
-                <level name="level_3" />
-                <level name="civilian" />
-                <level name="siege" />
-                <level name="looted" />
-              </levels>
-            </game_entity>
-            <game_entity name="map_icons_empire_wall_l3" old_prefab_name="">
-              <transform position="3.382, 0.888, -0.521" rotation_euler="0.000, 0.000, 2.531" scale="0.800, 0.800, 0.800" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_wall_3" />
-              </components>
-              <levels>
-                <level name="level_3" />
-                <level name="civilian" />
-                <level name="siege" />
-                <level name="looted" />
-              </levels>
-            </game_entity>
-            <game_entity name="map_icons_empire_wall_l3" old_prefab_name="">
-              <transform position="3.846, 2.694, -0.521" rotation_euler="0.000, 0.000, -2.618" scale="0.800, 0.800, 0.800" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_wall_3" />
-              </components>
-              <levels>
-                <level name="level_3" />
-                <level name="civilian" />
-                <level name="siege" />
-                <level name="looted" />
-              </levels>
-            </game_entity>
-            <game_entity name="map_icons_empire_wall_l3" old_prefab_name="">
-              <transform position="3.285, 3.639, -0.521" rotation_euler="0.000, 0.000, -2.618" scale="0.800, 0.800, 0.800" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_wall_3" />
-              </components>
-              <levels>
-                <level name="level_3" />
-                <level name="civilian" />
-                <level name="siege" />
-                <level name="looted" />
-              </levels>
-            </game_entity>
-            <game_entity name="map_icons_empire_wall_l3" old_prefab_name="">
-              <transform position="1.646, 4.332, -0.161" rotation_euler="0.000, 0.000, -1.222" scale="0.800, 0.800, 0.800" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_wall_3" />
-              </components>
-              <levels>
-                <level name="level_3" />
-                <level name="civilian" />
-                <level name="siege" />
-                <level name="looted" />
-              </levels>
-            </game_entity>
-            <game_entity name="map_icons_empire_wall_l3" old_prefab_name="">
-              <transform position="-2.233, 2.023, -0.316" rotation_euler="0.000, 0.000, 0.000" scale="0.800, 0.800, 0.800" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_wall_3" />
-              </components>
-              <levels>
-                <level name="level_3" />
-                <level name="civilian" />
-                <level name="siege" />
-                <level name="looted" />
-              </levels>
-            </game_entity>
-            <game_entity name="map_icons_empire_wall_l3" old_prefab_name="">
-              <transform position="-2.229, 3.461, -0.316" rotation_euler="0.000, 0.000, 0.000" scale="0.800, 0.800, 0.800" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_wall_3" />
-              </components>
-              <levels>
-                <level name="level_3" />
-                <level name="civilian" />
-                <level name="siege" />
-                <level name="looted" />
-              </levels>
-            </game_entity>
-            <game_entity name="map_icons_empire_wall_l3" old_prefab_name="">
-              <transform position="-1.639, 4.585, -0.325" rotation_euler="0.000, 0.000, -0.942" scale="0.800, 0.800, 0.800" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_wall_3" />
-              </components>
-              <levels>
-                <level name="level_3" />
-                <level name="civilian" />
-                <level name="siege" />
-                <level name="looted" />
-              </levels>
-            </game_entity>
-            <game_entity name="map_icons_empire_wall_l3" old_prefab_name="">
-              <transform position="-0.428, 5.428, -0.325" rotation_euler="0.000, 0.000, -0.960" scale="0.800, 0.800, 0.800" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_wall_3" />
-              </components>
-              <levels>
-                <level name="level_3" />
-                <level name="civilian" />
-                <level name="siege" />
-                <level name="looted" />
-              </levels>
-            </game_entity>
-            <game_entity name="map_icons_empire_wall_l3" old_prefab_name="">
-              <transform position="0.543, 5.281, -0.325" rotation_euler="0.000, 0.000, -2.513" scale="0.800, 0.800, 0.800" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_wall_3" />
-              </components>
-              <levels>
-                <level name="level_3" />
-                <level name="civilian" />
-                <level name="siege" />
-                <level name="looted" />
-              </levels>
-            </game_entity>
-            <game_entity name="map_icons_empire_wall_l3" old_prefab_name="">
-              <transform position="1.238, 4.206, -0.353" rotation_euler="0.000, 0.000, -2.531" scale="0.800, 0.800, 0.800" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_wall_3" />
-              </components>
-              <levels>
-                <level name="level_3" />
-                <level name="civilian" />
-                <level name="siege" />
-                <level name="looted" />
-              </levels>
-            </game_entity>
-            <game_entity name="map_icons_empire_wall_l3" old_prefab_name="">
-              <transform position="1.052, 3.244, -0.353" rotation_euler="0.000, 0.000, 2.182" scale="0.800, 0.800, 0.800" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_wall_3" />
-              </components>
-              <levels>
-                <level name="level_3" />
-                <level name="civilian" />
-                <level name="siege" />
-                <level name="looted" />
-              </levels>
-            </game_entity>
-            <game_entity name="map_icons_empire_wall_l3" old_prefab_name="">
-              <transform position="0.101, 2.578, -0.353" rotation_euler="0.000, 0.000, 2.182" scale="0.800, 0.800, 0.800" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_wall_3" />
-              </components>
-              <levels>
-                <level name="level_3" />
-                <level name="civilian" />
-                <level name="siege" />
-                <level name="looted" />
-              </levels>
-            </game_entity>
-            <game_entity name="map_icons_empire_wall_l3" old_prefab_name="">
-              <transform position="-1.564, 1.431, -0.353" rotation_euler="0.000, 0.000, 2.182" scale="0.800, 0.800, 0.800" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_wall_3" />
-              </components>
-              <levels>
-                <level name="level_3" />
-                <level name="civilian" />
-                <level name="siege" />
-                <level name="looted" />
-              </levels>
-            </game_entity>
-            <game_entity name="map_icons_empire_gatehouse_l3" old_prefab_name="">
-              <transform position="0.491, -1.352, -0.069" rotation_euler="0.000, 0.000, 1.571" scale="0.880, 0.880, 0.880" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_3_gatehouse" />
-              </components>
-              <levels>
-                <level name="level_3" />
-                <level name="civilian" />
-                <level name="siege" />
-                <level name="looted" />
-              </levels>
-            </game_entity>
-            <game_entity name="map_icons_empire_wall_small_l3" old_prefab_name="">
-              <transform position="-0.500, -1.312, -0.299" rotation_euler="0.000, 0.000, 1.571" scale="0.800, 0.800, 0.800" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_wall_3s" />
-              </components>
-              <levels>
-                <level name="level_3" />
-                <level name="civilian" />
-                <level name="siege" />
-                <level name="looted" />
-              </levels>
-            </game_entity>
-            <game_entity name="map_icons_empire_keep_l3" old_prefab_name="">
-              <transform position="0.105, 4.182, 0.140" rotation_euler="0.000, 0.000, 0.620" scale="0.661, 0.661, 0.661" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_keep_3" />
-              </components>
-              <levels>
-                <level name="level_3" />
-                <level name="civilian" />
-                <level name="siege" />
-                <level name="looted" />
-              </levels>
-            </game_entity>
-            <game_entity name="map_icons_empire_small_gatehouse_l3" old_prefab_name="">
-              <transform position="-0.737, 2.087, -0.059" rotation_euler="0.000, 0.000, -0.977" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_3_mini_gatehouse" />
-              </components>
-              <levels>
-                <level name="level_3" />
-                <level name="civilian" />
-                <level name="siege" />
-                <level name="looted" />
-              </levels>
-            </game_entity>
-            <game_entity name="map_icons_empire_square_tower_l3" old_prefab_name="">
-              <transform position="2.810, -1.267, -0.200" rotation_euler="0.000, 0.000, 0.022" scale="0.970, 0.970, 0.868" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_square_tower_3" />
-              </components>
-              <levels>
-                <level name="level_3" />
-                <level name="civilian" />
-                <level name="siege" />
-                <level name="looted" />
-              </levels>
-            </game_entity>
-            <game_entity name="map_icons_empire_tower_l3" old_prefab_name="">
-              <transform position="-2.004, -1.117, -0.429" rotation_euler="0.000, 0.000, 0.000" scale="0.784, 0.784, 0.784" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_tower_3" />
-              </components>
-              <levels>
-                <level name="level_3" />
-                <level name="civilian" />
-                <level name="siege" />
-                <level name="looted" />
-              </levels>
-            </game_entity>
-            <game_entity name="map_icons_empire_square_tower_l3" old_prefab_name="">
-              <transform position="-2.242, 1.091, -0.059" rotation_euler="0.000, 0.000, 0.000" scale="0.757, 0.757, 0.757" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_square_tower_3" />
-              </components>
-              <levels>
-                <level name="level_3" />
-                <level name="civilian" />
-                <level name="siege" />
-                <level name="looted" />
-              </levels>
-            </game_entity>
-            <game_entity name="map_icons_empire_tower_l3" old_prefab_name="">
-              <transform position="1.033, 4.354, -0.680" rotation_euler="0.000, 0.000, 0.000" scale="0.969, 0.969, 0.969" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_tower_3" />
-              </components>
-              <levels>
-                <level name="level_3" />
-                <level name="civilian" />
-                <level name="siege" />
-                <level name="looted" />
-              </levels>
-            </game_entity>
-            <game_entity name="map_icons_empire_tower_l3" old_prefab_name="">
-              <transform position="2.485, 4.153, -0.783" rotation_euler="0.000, 0.000, 0.000" scale="0.918, 0.918, 0.918" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_tower_3" />
-              </components>
-              <levels>
-                <level name="level_3" />
-                <level name="civilian" />
-                <level name="siege" />
-                <level name="looted" />
-              </levels>
-            </game_entity>
-            <game_entity name="map_icons_empire_tower_l3" old_prefab_name="">
-              <transform position="-0.348, -1.749, -1.109" rotation_euler="0.000, 0.000, 0.000" scale="0.784, 0.784, 0.784" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_tower_3" />
-              </components>
-              <levels>
-                <level name="level_3" />
-                <level name="civilian" />
-                <level name="siege" />
-                <level name="looted" />
-              </levels>
-            </game_entity>
-            <game_entity name="map_icons_empire_wall_small_breach_l3" old_prefab_name="">
-              <tags>
-                <tag name="map_breachable_wall" />
-              </tags>
-              <transform position="2.014, -1.300, -0.239" rotation_euler="0.000, 0.000, 1.563" scale="0.757, 0.900, 0.757" />
-              <physics mass="1.000" />
-              <children>
-                <game_entity name="map_icons_empire_wall_small_breach_l3" old_prefab_name="">
-                  <tags>
-                    <tag name="map_broken_wall" />
-                  </tags>
-                  <transform position="0.057, 0.010, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="1.000, 0.960, 1.000" />
-                  <physics mass="1.000" />
-                  <components>
-                    <meta_mesh_component name="mi_emp_wall_3s_collapsed" />
-                  </components>
-                </game_entity>
-                <game_entity name="map_icons_empire_wall_small_l3" old_prefab_name="">
-                  <tags>
-                    <tag name="map_solid_wall" />
-                  </tags>
-                  <transform position="0.035, 0.010, -0.017" />
-                  <physics mass="1.000" />
-                  <components>
-                    <meta_mesh_component name="mi_emp_wall_3s" />
-                  </components>
-                </game_entity>
-                <game_entity name="bo_siege_wall" old_prefab_name="">
-                  <transform rotation_euler="0.000, 0.000, 1.590" scale="0.368, 0.368, 0.367" />
-                  <physics shape="bo_sphere_collider" mass="1.000" />
-                </game_entity>
-              </children>
-              <levels>
-                <level name="level_3" />
-                <level name="civilian" />
-                <level name="siege" />
-                <level name="looted" />
-              </levels>
-            </game_entity>
-            <game_entity name="map_icons_empire_wall_small_l3" old_prefab_name="">
-              <transform position="-1.590, -1.312, -0.299" rotation_euler="0.000, 0.000, 1.571" scale="0.800, 0.800, 0.800" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_wall_3s" />
-              </components>
-              <levels>
-                <level name="level_3" />
-                <level name="civilian" />
-                <level name="siege" />
-                <level name="looted" />
-              </levels>
-            </game_entity>
-            <game_entity name="map_icons_empire_tower_l3" old_prefab_name="">
-              <transform position="1.242, -1.749, -1.109" rotation_euler="0.000, 0.000, 0.000" scale="0.784, 0.784, 0.784" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_tower_3" />
-              </components>
-              <levels>
-                <level name="level_3" />
-                <level name="civilian" />
-                <level name="siege" />
-                <level name="looted" />
-              </levels>
-            </game_entity>
-            <game_entity name="map_icons_empire_wall_small_breach_l3" old_prefab_name="">
-              <tags>
-                <tag name="map_breachable_wall" />
-              </tags>
-              <transform position="-1.048, -1.337, -0.196" rotation_euler="0.000, 0.000, 1.601" scale="0.757, 0.852, 0.757" />
-              <physics mass="1.000" />
-              <children>
-                <game_entity name="map_icons_empire_wall_small_breach_l3" old_prefab_name="">
-                  <tags>
-                    <tag name="map_broken_wall" />
-                  </tags>
-                  <transform position="0.057, 0.010, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="1.000, 0.960, 1.000" />
-                  <physics mass="1.000" />
-                  <components>
-                    <meta_mesh_component name="mi_emp_wall_3s_collapsed" />
-                  </components>
-                </game_entity>
-                <game_entity name="map_icons_empire_wall_small_l3" old_prefab_name="">
-                  <tags>
-                    <tag name="map_solid_wall" />
-                  </tags>
-                  <transform position="0.035, 0.010, -0.017" />
-                  <physics mass="1.000" />
-                  <components>
-                    <meta_mesh_component name="mi_emp_wall_3s" />
-                  </components>
-                </game_entity>
-                <game_entity name="bo_siege_wall" old_prefab_name="">
-                  <transform rotation_euler="0.000, 0.000, 1.590" scale="0.368, 0.368, 0.367" />
-                  <physics shape="bo_sphere_collider" mass="1.000" />
-                </game_entity>
-              </children>
-              <levels>
-                <level name="level_3" />
-                <level name="civilian" />
-                <level name="siege" />
-                <level name="looted" />
-              </levels>
-            </game_entity>
-            <game_entity name="map_icons_empire_wall_small_l3" old_prefab_name="">
-              <transform position="2.651, -1.285, -0.299" rotation_euler="0.000, 0.000, 1.571" scale="0.800, 0.800, 0.800" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_emp_wall_3s" />
-              </components>
-              <levels>
-                <level name="level_3" />
-                <level name="civilian" />
-                <level name="siege" />
-                <level name="looted" />
-              </levels>
-            </game_entity>
-            <game_entity name="banner_pos" old_prefab_name="">
-              <visibility_masks>
-                <visibility_mask name="visible_only_when_editing" value="true" />
-              </visibility_masks>
-              <tags>
-                <tag name="map_banner_placeholder" />
-              </tags>
-              <transform position="0.824, -1.041, 1.194" rotation_euler="0.000, 0.000, -1.564" scale="0.642, 0.329, 0.049" />
-              <physics mass="1.000" />
-              <children>
-                <game_entity name="volume_box" old_prefab_name="">
-                  <flags>
-                    <flag name="record_to_scene_replay" value="true" />
-                  </flags>
-                  <visibility_masks>
-                    <visibility_mask name="visible_only_when_editing" value="true" />
-                  </visibility_masks>
-                  <transform position="0.500, 0.500, -0.500" />
-                  <physics mass="1.000" />
-                  <components>
-                    <meta_mesh_component name="volume_box" />
-                  </components>
-                  <scripts>
-                    <script name="VolumeBox">
-                      <variables>
-                        <variable name="NavMeshPrefabName" value="" />
-                      </variables>
-                    </script>
-                  </scripts>
-                </game_entity>
-              </children>
-            </game_entity>
-          </children>
-        </game_entity>
-        <game_entity name="town_gate" old_prefab_name="">
-          <flags>
-            <flag name="align_to_terrain" value="true" />
-          </flags>
-          <tags>
-            <tag name="main_map_city_gate" />
-          </tags>
-          <transform position="0.456, -2.213, -0.028" rotation_euler="0.000, 0.000, -1.010" />
-          <physics mass="1.000" />
-        </game_entity>
-        <game_entity name="town_circle_decal" old_prefab_name="">
-          <tags>
-            <tag name="map_settlement_circle" />
-          </tags>
-          <transform position="0.468, 1.463, -0.029" rotation_euler="0.000, 0.000, 3.132" scale="6.181, 6.181, 1.343" />
-          <physics mass="1.000" />
-          <components>
-            <decal_component material="decal_city_circle_a" argument="1.000, 1.000, 0.000, 0.000" />
-          </components>
-        </game_entity>
-        <game_entity name="bo_town" old_prefab_name="">
-          <tags>
-            <tag name="bo_town" />
-          </tags>
-          <transform position="0.532, 1.526, -0.647" rotation_euler="0.000, 0.000, -1.980" scale="3.694, 3.694, 3.694" />
-          <physics shape="bo_sphere_collider" mass="1.000">
-            <body_flags>
-              <body_flag name="only_collide_with_raycast" />
-            </body_flags>
-          </physics>
-        </game_entity>
-        <game_entity name="map_icon_siege" old_prefab_name="">
-          <transform position="0.029, -4.803, -0.136" rotation_euler="0.000, 0.000, 1.797" />
-          <physics mass="1.000" />
-          <children>
-            <game_entity name="map_icon_siege_camp_1" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-                <flag name="align_rotation_to_terrain" value="true" />
-              </flags>
-              <tags>
-                <tag name="siege_preparation" />
-              </tags>
-              <transform position="2.010, 2.012, -0.217" rotation_euler="0.230, -0.165, -2.387" scale="1.188, 1.188, 1.188" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="map_icon_siege_camp_1" />
-              </components>
-            </game_entity>
-            <game_entity name="map_barrel_c" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-                <flag name="align_rotation_to_terrain" value="true" />
-              </flags>
-              <transform position="-0.611, 1.168, 0.184" rotation_euler="-0.131, 0.154, 1.780" scale="1.618, 1.618, 1.618" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_barrels_c" />
-              </components>
-            </game_entity>
-            <game_entity name="map_icon_siege_camp_5" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-                <flag name="align_rotation_to_terrain" value="true" />
-              </flags>
-              <tags>
-                <tag name="siege_preparation" />
-              </tags>
-              <transform position="0.663, -4.919, 0.061" rotation_euler="0.070, -0.126, -0.385" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="map_icon_siege_camp_5" />
-              </components>
-            </game_entity>
-            <game_entity name="map_icon_siege_camp_1" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-                <flag name="align_rotation_to_terrain" value="true" />
-              </flags>
-              <tags>
-                <tag name="siege_preparation" />
-              </tags>
-              <transform position="0.996, -4.063, 0.141" rotation_euler="0.196, 0.205, -2.266" scale="1.188, 1.188, 1.188" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="map_icon_siege_camp_1" />
-              </components>
-            </game_entity>
-            <game_entity name="defender_ranged_l1" old_prefab_name="">
-              <visibility_masks>
-                <visibility_mask name="visible_only_when_editing" value="true" />
-              </visibility_masks>
-              <tags>
-                <tag name="map_defensive_engine_3" />
-              </tags>
-              <transform position="3.273, -1.691, 0.463" rotation_euler="0.000, 0.000, 1.346" scale="0.350, 0.350, 0.350" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="arrow_new_icon" />
-              </components>
-              <children>
-                <game_entity name="bo_siege_engine" old_prefab_name="">
-                  <transform rotation_euler="0.000, 0.000, -3.076" scale="1.050, 1.050, 1.050" />
-                  <physics shape="bo_sphere_collider" mass="1.000" />
-                </game_entity>
-              </children>
-              <levels>
-                <level name="level_1" />
-                <level name="civilian" />
-                <level name="siege" />
-              </levels>
-            </game_entity>
-            <game_entity name="volume_box_corner" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <visibility_masks>
-                <visibility_mask name="visible_only_when_editing" value="true" />
-              </visibility_masks>
-              <tags>
-                <tag name="map_camp_area_2" />
-              </tags>
-              <transform position="1.432, 3.195, -0.366" rotation_euler="0.000, 0.000, 2.741" scale="2.000, 2.000, 1.000" />
-              <physics mass="1.000" />
-              <children>
-                <game_entity name="volume_box" old_prefab_name="">
-                  <flags>
-                    <flag name="record_to_scene_replay" value="true" />
-                  </flags>
-                  <visibility_masks>
-                    <visibility_mask name="visible_only_when_editing" value="true" />
-                  </visibility_masks>
-                  <transform position="0.500, 0.500, -0.500" />
-                  <physics mass="1.000" />
-                  <components>
-                    <meta_mesh_component name="volume_box" />
-                  </components>
-                  <scripts>
-                    <script name="VolumeBox">
-                      <variables>
-                        <variable name="NavMeshPrefabName" value="" />
-                      </variables>
-                    </script>
-                  </scripts>
-                  <levels>
-                    <level name="base" />
-                  </levels>
-                </game_entity>
-              </children>
-              <levels>
-                <level name="base" />
-              </levels>
-            </game_entity>
-            <game_entity name="map_icons_market_tent_a" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <transform position="0.002, 0.770, 0.258" rotation_euler="0.031, -0.312, -1.036" scale="0.779, 0.779, 0.779" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_market_tent_a" />
-              </components>
-            </game_entity>
-            <game_entity name="map_icon_siege_camp_5" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-                <flag name="align_rotation_to_terrain" value="true" />
-              </flags>
-              <tags>
-                <tag name="siege_preparation" />
-              </tags>
-              <transform position="0.621, -3.044, 0.108" rotation_euler="0.000, 0.000, -0.452" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="map_icon_siege_camp_5" />
-              </components>
-            </game_entity>
-            <game_entity name="map_icon_siege_camp_1" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-                <flag name="align_rotation_to_terrain" value="true" />
-              </flags>
-              <tags>
-                <tag name="siege_preparation" />
-              </tags>
-              <transform position="1.044, -2.301, 0.248" rotation_euler="-0.122, 0.255, 2.828" scale="1.188, 1.188, 1.188" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="map_icon_siege_camp_1" />
-              </components>
-            </game_entity>
-            <game_entity name="map_icon_siege_camp_4" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-                <flag name="align_rotation_to_terrain" value="true" />
-              </flags>
-              <tags>
-                <tag name="siege_preparation" />
-              </tags>
-              <transform position="1.237, -1.474, 0.281" rotation_euler="-0.018, 0.143, 0.000" scale="1.014, 1.014, 1.014" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="map_icon_siege_camp_4" />
-              </components>
-            </game_entity>
-            <game_entity name="map_icon_siege_camp_1" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-                <flag name="align_rotation_to_terrain" value="true" />
-              </flags>
-              <tags>
-                <tag name="siege_preparation" />
-              </tags>
-              <transform position="1.503, -1.032, 0.235" rotation_euler="-0.048, -0.136, -2.684" scale="1.188, 1.188, 1.188" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="map_icon_siege_camp_1" />
-              </components>
-            </game_entity>
-            <game_entity name="map_icon_siege_camp_4" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-                <flag name="align_rotation_to_terrain" value="true" />
-              </flags>
-              <tags>
-                <tag name="siege_preparation" />
-              </tags>
-              <transform position="1.331, -0.023, 0.225" rotation_euler="-0.187, 0.077, -0.269" scale="1.014, 1.014, 1.014" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="map_icon_siege_camp_4" />
-              </components>
-            </game_entity>
-            <game_entity name="map_icons_market_tent_a" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <transform position="-0.103, 0.000, 0.225" rotation_euler="0.000, 0.000, 1.287" scale="0.779, 0.779, 0.779" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_market_tent_a" />
-              </components>
-            </game_entity>
-            <game_entity name="volume_box_corner" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <visibility_masks>
-                <visibility_mask name="visible_only_when_editing" value="true" />
-              </visibility_masks>
-              <tags>
-                <tag name="map_camp_area_2" />
-              </tags>
-              <transform position="-0.648, -3.567, 0.048" rotation_euler="0.026, 0.142, -2.933" scale="1.446, 3.069, 1.631" />
-              <physics mass="1.000" />
-              <children>
-                <game_entity name="volume_box" old_prefab_name="">
-                  <flags>
-                    <flag name="record_to_scene_replay" value="true" />
-                  </flags>
-                  <visibility_masks>
-                    <visibility_mask name="visible_only_when_editing" value="true" />
-                  </visibility_masks>
-                  <transform position="0.500, 0.500, -0.500" />
-                  <physics mass="1.000" />
-                  <components>
-                    <meta_mesh_component name="volume_box" />
-                  </components>
-                  <scripts>
-                    <script name="VolumeBox">
-                      <variables>
-                        <variable name="NavMeshPrefabName" value="" />
-                      </variables>
-                    </script>
-                  </scripts>
-                  <levels>
-                    <level name="base" />
-                  </levels>
-                </game_entity>
-              </children>
-              <levels>
-                <level name="base" />
-              </levels>
-            </game_entity>
-            <game_entity name="volume_box_corner" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <visibility_masks>
-                <visibility_mask name="visible_only_when_editing" value="true" />
-              </visibility_masks>
-              <tags>
-                <tag name="map_camp_area_1" />
-              </tags>
-              <transform position="-1.103, 0.145, 0.078" rotation_euler="0.087, 0.182, 2.965" scale="1.518, 2.499, 1.631" />
-              <physics mass="1.000" />
-              <children>
-                <game_entity name="volume_box" old_prefab_name="">
-                  <flags>
-                    <flag name="record_to_scene_replay" value="true" />
-                  </flags>
-                  <visibility_masks>
-                    <visibility_mask name="visible_only_when_editing" value="true" />
-                  </visibility_masks>
-                  <transform position="0.500, 0.500, -0.500" />
-                  <physics mass="1.000" />
-                  <components>
-                    <meta_mesh_component name="volume_box" />
-                  </components>
-                  <scripts>
-                    <script name="VolumeBox">
-                      <variables>
-                        <variable name="NavMeshPrefabName" value="" />
-                      </variables>
-                    </script>
-                  </scripts>
-                  <levels>
-                    <level name="base" />
-                  </levels>
-                </game_entity>
-              </children>
-              <levels>
-                <level name="base" />
-              </levels>
-            </game_entity>
-            <game_entity name="map_icon_siege_camp_4" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-                <flag name="align_rotation_to_terrain" value="true" />
-              </flags>
-              <tags>
-                <tag name="siege_preparation" />
-              </tags>
-              <transform position="1.664, 1.089, 0.033" rotation_euler="-0.200, 0.027, -0.526" scale="0.973, 0.973, 0.973" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="map_icon_siege_camp_4" />
-              </components>
-            </game_entity>
-            <game_entity name="map_icons_market_tent_a" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <transform position="-0.805, -2.741, 0.066" rotation_euler="-0.212, 0.233, 0.549" scale="0.779, 0.779, 0.779" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="mi_market_tent_a" />
-              </components>
-            </game_entity>
-            <game_entity name="attacker_ranged_engine" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <visibility_masks>
-                <visibility_mask name="visible_only_when_editing" value="true" />
-              </visibility_masks>
-              <tags>
-                <tag name="map_siege_engine_3" />
-              </tags>
-              <transform position="0.751, 0.934, 0.138" rotation_euler="0.000, 0.000, -1.970" scale="0.350, 0.350, 0.350" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="arrow_new_icon" />
-              </components>
-              <children>
-                <game_entity name="bo_siege_engine" old_prefab_name="">
-                  <transform position="0.048, 0.021, -0.013" rotation_euler="0.000, 0.000, 2.438" scale="1.050, 1.050, 1.050" />
-                  <physics shape="bo_sphere_collider" mass="1.000" />
-                </game_entity>
-              </children>
-            </game_entity>
-            <game_entity name="attacker_ranged_engine" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <visibility_masks>
-                <visibility_mask name="visible_only_when_editing" value="true" />
-              </visibility_masks>
-              <tags>
-                <tag name="map_siege_engine_2" />
-              </tags>
-              <transform position="0.530, 0.167, 0.258" rotation_euler="0.000, 0.000, -1.769" scale="0.350, 0.350, 0.350" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="arrow_new_icon" />
-              </components>
-              <children>
-                <game_entity name="bo_siege_engine" old_prefab_name="">
-                  <transform position="0.006, -0.038, -0.017" rotation_euler="0.000, 0.000, -0.236" scale="1.050, 1.050, 1.050" />
-                  <physics shape="bo_sphere_collider" mass="1.000" />
-                </game_entity>
-              </children>
-            </game_entity>
-            <game_entity name="attacker_ranged_engine" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <visibility_masks>
-                <visibility_mask name="visible_only_when_editing" value="true" />
-              </visibility_masks>
-              <tags>
-                <tag name="map_siege_engine_1" />
-              </tags>
-              <transform position="0.452, -1.481, 0.242" rotation_euler="0.000, 0.000, -1.686" scale="0.350, 0.350, 0.350" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="arrow_new_icon" />
-              </components>
-              <children>
-                <game_entity name="bo_siege_engine" old_prefab_name="">
-                  <transform position="0.051, -0.014, 0.009" rotation_euler="0.000, 0.000, 2.889" scale="1.050, 1.050, 1.050" />
-                  <physics shape="bo_sphere_collider" mass="1.000" />
-                </game_entity>
-              </children>
-            </game_entity>
-            <game_entity name="attacker_ranged_engine" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <visibility_masks>
-                <visibility_mask name="visible_only_when_editing" value="true" />
-              </visibility_masks>
-              <tags>
-                <tag name="map_siege_engine_0" />
-              </tags>
-              <transform position="0.072, -3.066, 0.048" rotation_euler="0.000, 0.000, -1.542" scale="0.350, 0.350, 0.350" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="arrow_new_icon" />
-              </components>
-              <children>
-                <game_entity name="bo_siege_engine" old_prefab_name="">
-                  <transform position="0.024, -0.093, -0.028" rotation_euler="0.000, 0.000, 2.879" scale="1.050, 1.050, 1.050" />
-                  <physics shape="bo_sphere_collider" mass="1.000" />
-                </game_entity>
-              </children>
-            </game_entity>
-            <game_entity name="attacker_siege_ram" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <visibility_masks>
-                <visibility_mask name="visible_only_when_editing" value="true" />
-              </visibility_masks>
-              <tags>
-                <tag name="map_siege_ram" />
-              </tags>
-              <transform position="-2.913, 1.548, 0.570" rotation_euler="0.000, 0.000, -1.703" scale="0.350, 0.350, 0.350" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="arrow_new_icon" />
-              </components>
-              <children>
-                <game_entity name="bo_siege_engine" old_prefab_name="">
-                  <transform position="0.079, 0.058, -0.020" rotation_euler="0.000, 0.000, 1.922" scale="1.050, 1.050, 1.050" />
-                  <physics shape="bo_sphere_collider" mass="1.000" />
-                </game_entity>
-              </children>
-            </game_entity>
-            <game_entity name="attacker_siege_tower" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <visibility_masks>
-                <visibility_mask name="visible_only_when_editing" value="true" />
-              </visibility_masks>
-              <tags>
-                <tag name="map_siege_tower" />
-              </tags>
-              <transform position="-3.492, 0.328, 0.569" rotation_euler="0.000, 0.000, -1.831" scale="0.350, 0.350, 0.350" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="arrow_new_icon" />
-              </components>
-              <children>
-                <game_entity name="bo_siege_engine" old_prefab_name="">
-                  <transform position="-0.023, 0.025, -0.024" rotation_euler="0.000, 0.000, -0.555" scale="1.050, 1.050, 1.050" />
-                  <physics shape="bo_sphere_collider" mass="1.000" />
-                </game_entity>
-              </children>
-            </game_entity>
-            <game_entity name="attacker_siege_tower" old_prefab_name="">
-              <flags>
-                <flag name="align_to_terrain" value="true" />
-              </flags>
-              <visibility_masks>
-                <visibility_mask name="visible_only_when_editing" value="true" />
-              </visibility_masks>
-              <tags>
-                <tag name="map_siege_tower" />
-              </tags>
-              <transform position="-3.459, -1.402, 0.648" rotation_euler="0.000, 0.000, -1.711" scale="0.350, 0.350, 0.350" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="arrow_new_icon" />
-              </components>
-              <children>
-                <game_entity name="bo_siege_engine" old_prefab_name="">
-                  <transform position="0.024, 0.028, -0.022" rotation_euler="0.000, 0.000, -2.195" scale="1.050, 1.050, 1.050" />
-                  <physics shape="bo_sphere_collider" mass="1.000" />
-                </game_entity>
-              </children>
-            </game_entity>
-            <game_entity name="defender_ranged_l2" old_prefab_name="">
-              <visibility_masks>
-                <visibility_mask name="visible_only_when_editing" value="true" />
-              </visibility_masks>
-              <tags>
-                <tag name="map_defensive_engine_0" />
-              </tags>
-              <transform position="2.845, -3.512, 0.768" rotation_euler="0.000, 0.000, 1.392" scale="0.350, 0.350, 0.350" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="arrow_new_icon" />
-              </components>
-              <children>
-                <game_entity name="bo_siege_engine" old_prefab_name="">
-                  <transform rotation_euler="0.000, 0.000, -3.076" scale="1.050, 1.050, 1.050" />
-                  <physics shape="bo_sphere_collider" mass="1.000" />
-                </game_entity>
-              </children>
-              <levels>
-                <level name="level_2" />
-                <level name="civilian" />
-                <level name="siege" />
-              </levels>
-            </game_entity>
-            <game_entity name="defender_ranged_l2" old_prefab_name="">
-              <visibility_masks>
-                <visibility_mask name="visible_only_when_editing" value="true" />
-              </visibility_masks>
-              <tags>
-                <tag name="map_defensive_engine_1" />
-              </tags>
-              <transform position="4.076, 1.205, 0.837" rotation_euler="0.000, 0.000, 1.581" scale="0.350, 0.350, 0.350" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="arrow_new_icon" />
-              </components>
-              <children>
-                <game_entity name="bo_siege_engine" old_prefab_name="">
-                  <transform rotation_euler="0.000, 0.000, -3.102" scale="1.050, 1.050, 1.050" />
-                  <physics shape="bo_sphere_collider" mass="1.000" />
-                </game_entity>
-              </children>
-              <levels>
-                <level name="level_2" />
-                <level name="civilian" />
-                <level name="siege" />
-              </levels>
-            </game_entity>
-            <game_entity name="defender_ranged_l2" old_prefab_name="">
-              <visibility_masks>
-                <visibility_mask name="visible_only_when_editing" value="true" />
-              </visibility_masks>
-              <tags>
-                <tag name="map_defensive_engine_2" />
-              </tags>
-              <transform position="3.409, -0.779, 1.028" rotation_euler="0.000, 0.000, 1.361" scale="0.350, 0.350, 0.350" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="arrow_new_icon" />
-              </components>
-              <children>
-                <game_entity name="bo_siege_engine" old_prefab_name="">
-                  <transform rotation_euler="0.000, 0.000, -3.088" scale="1.050, 1.050, 1.050" />
-                  <physics shape="bo_sphere_collider" mass="1.000" />
-                </game_entity>
-              </children>
-              <levels>
-                <level name="level_2" />
-                <level name="civilian" />
-                <level name="siege" />
-              </levels>
-            </game_entity>
-            <game_entity name="defender_ranged_l2" old_prefab_name="">
-              <visibility_masks>
-                <visibility_mask name="visible_only_when_editing" value="true" />
-              </visibility_masks>
-              <tags>
-                <tag name="map_defensive_engine_3" />
-              </tags>
-              <transform position="3.127, -1.684, 1.001" rotation_euler="0.005, 0.003, 1.354" scale="0.350, 0.350, 0.350" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="arrow_new_icon" />
-              </components>
-              <children>
-                <game_entity name="bo_siege_engine" old_prefab_name="">
-                  <transform rotation_euler="0.000, 0.000, -3.076" scale="1.050, 1.050, 1.050" />
-                  <physics shape="bo_sphere_collider" mass="1.000" />
-                </game_entity>
-              </children>
-              <levels>
-                <level name="level_2" />
-                <level name="civilian" />
-                <level name="siege" />
-              </levels>
-            </game_entity>
-            <game_entity name="defender_ranged_l3" old_prefab_name="">
-              <visibility_masks>
-                <visibility_mask name="visible_only_when_editing" value="true" />
-              </visibility_masks>
-              <tags>
-                <tag name="map_defensive_engine_3" />
-              </tags>
-              <transform position="3.221, -1.713, 1.352" rotation_euler="0.004, 0.003, 1.356" scale="0.350, 0.350, 0.350" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="arrow_new_icon" />
-              </components>
-              <children>
-                <game_entity name="bo_siege_engine" old_prefab_name="">
-                  <transform rotation_euler="0.000, 0.000, -3.076" scale="1.050, 1.050, 1.050" />
-                  <physics shape="bo_sphere_collider" mass="1.000" />
-                </game_entity>
-              </children>
-              <levels>
-                <level name="level_3" />
-                <level name="civilian" />
-                <level name="siege" />
-              </levels>
-            </game_entity>
-            <game_entity name="defender_ranged_l3" old_prefab_name="">
-              <visibility_masks>
-                <visibility_mask name="visible_only_when_editing" value="true" />
-              </visibility_masks>
-              <tags>
-                <tag name="map_defensive_engine_2" />
-              </tags>
-              <transform position="3.476, -0.819, 1.364" rotation_euler="0.004, 0.003, 1.354" scale="0.350, 0.350, 0.350" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="arrow_new_icon" />
-              </components>
-              <children>
-                <game_entity name="bo_siege_engine" old_prefab_name="">
-                  <transform rotation_euler="0.000, 0.000, -3.088" scale="1.050, 1.050, 1.050" />
-                  <physics shape="bo_sphere_collider" mass="1.000" />
-                </game_entity>
-              </children>
-              <levels>
-                <level name="level_3" />
-                <level name="civilian" />
-                <level name="siege" />
-              </levels>
-            </game_entity>
-            <game_entity name="defender_ranged_l3" old_prefab_name="">
-              <visibility_masks>
-                <visibility_mask name="visible_only_when_editing" value="true" />
-              </visibility_masks>
-              <tags>
-                <tag name="map_defensive_engine_1" />
-              </tags>
-              <transform position="4.051, 1.146, 1.345" rotation_euler="0.005, 0.002, 1.526" scale="0.350, 0.350, 0.350" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="arrow_new_icon" />
-              </components>
-              <children>
-                <game_entity name="bo_siege_engine" old_prefab_name="">
-                  <transform rotation_euler="0.000, 0.000, -3.102" scale="1.050, 1.050, 1.050" />
-                  <physics shape="bo_sphere_collider" mass="1.000" />
-                </game_entity>
-              </children>
-              <levels>
-                <level name="level_3" />
-                <level name="civilian" />
-                <level name="siege" />
-              </levels>
-            </game_entity>
-            <game_entity name="defender_ranged_l3" old_prefab_name="">
-              <visibility_masks>
-                <visibility_mask name="visible_only_when_editing" value="true" />
-              </visibility_masks>
-              <tags>
-                <tag name="map_defensive_engine_0" />
-              </tags>
-              <transform position="2.832, -3.516, 1.106" rotation_euler="0.004, 0.003, 1.302" scale="0.350, 0.350, 0.350" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="arrow_new_icon" />
-              </components>
-              <children>
-                <game_entity name="bo_siege_engine" old_prefab_name="">
-                  <transform rotation_euler="0.000, 0.000, -3.076" scale="1.050, 1.050, 1.050" />
-                  <physics shape="bo_sphere_collider" mass="1.000" />
-                </game_entity>
-              </children>
-              <levels>
-                <level name="level_3" />
-                <level name="civilian" />
-                <level name="siege" />
-              </levels>
-            </game_entity>
-            <game_entity name="defender_ranged_l1" old_prefab_name="">
-              <visibility_masks>
-                <visibility_mask name="visible_only_when_editing" value="true" />
-              </visibility_masks>
-              <tags>
-                <tag name="map_defensive_engine_0" />
-              </tags>
-              <transform position="2.864, -3.495, 0.550" rotation_euler="0.000, 0.000, 1.337" scale="0.350, 0.350, 0.350" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="arrow_new_icon" />
-              </components>
-              <children>
-                <game_entity name="bo_siege_engine" old_prefab_name="">
-                  <transform rotation_euler="0.000, 0.000, -3.076" scale="1.050, 1.050, 1.050" />
-                  <physics shape="bo_sphere_collider" mass="1.000" />
-                </game_entity>
-              </children>
-              <levels>
-                <level name="level_1" />
-                <level name="civilian" />
-                <level name="siege" />
-              </levels>
-            </game_entity>
-            <game_entity name="defender_ranged_l1" old_prefab_name="">
-              <visibility_masks>
-                <visibility_mask name="visible_only_when_editing" value="true" />
-              </visibility_masks>
-              <tags>
-                <tag name="map_defensive_engine_1" />
-              </tags>
-              <transform position="4.050, 1.139, 0.822" rotation_euler="0.000, 0.000, 1.716" scale="0.350, 0.350, 0.350" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="arrow_new_icon" />
-              </components>
-              <children>
-                <game_entity name="bo_siege_engine" old_prefab_name="">
-                  <transform rotation_euler="0.000, 0.000, -3.102" scale="1.050, 1.050, 1.050" />
-                  <physics shape="bo_sphere_collider" mass="1.000" />
-                </game_entity>
-              </children>
-              <levels>
-                <level name="level_1" />
-                <level name="civilian" />
-                <level name="siege" />
-              </levels>
-            </game_entity>
-            <game_entity name="defender_ranged_l1" old_prefab_name="">
-              <visibility_masks>
-                <visibility_mask name="visible_only_when_editing" value="true" />
-              </visibility_masks>
-              <tags>
-                <tag name="map_defensive_engine_2" />
-              </tags>
-              <transform position="3.454, -0.784, 0.468" rotation_euler="0.000, 0.000, 1.349" scale="0.350, 0.350, 0.350" />
-              <physics mass="1.000" />
-              <components>
-                <meta_mesh_component name="arrow_new_icon" />
-              </components>
-              <children>
-                <game_entity name="bo_siege_engine" old_prefab_name="">
-                  <transform rotation_euler="0.000, 0.000, -3.088" scale="1.050, 1.050, 1.050" />
-                  <physics shape="bo_sphere_collider" mass="1.000" />
-                </game_entity>
-              </children>
-              <levels>
-                <level name="level_1" />
-                <level name="civilian" />
-                <level name="siege" />
-              </levels>
-            </game_entity>
-          </children>
-          <levels>
-            <level name="level_1" />
-            <level name="level_2" />
-            <level name="level_3" />
-            <level name="siege" />
-          </levels>
-        </game_entity>
-      </children>
-    </game_entity>
+		<game_entity name="town_M1" old_prefab_name="__empty_object">
+			<transform position="407.606, 474.927, 5.774" rotation_euler="0.000, 0.000, -1.002" scale="0.558, 0.558, 0.558"/>
+			<physics mass="1.000"/>
+			<children>
+				<game_entity name="decal_path_a" old_prefab_name="">
+					<transform position="0.328, 0.989, 0.000" rotation_euler="0.000, 0.000, 0.111" scale="0.517, 0.517, 0.517"/>
+					<physics mass="1.000"/>
+					<components>
+						<decal_component material="decal_empire_path_a" argument="0.530, 0.530, 0.480, 0.010"/>
+					</components>
+				</game_entity>
+				<game_entity name="map_rock_groups_a" old_prefab_name="map_rock_groups_a">
+					<transform position="-4.022, -1.935, 0.083" rotation_euler="0.000, 0.000, 2.804"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="map_rock_groups_a">
+							<mesh name="map_rock_groups_a" factor="4288387995"/>
+						</meta_mesh_component>
+					</components>
+				</game_entity>
+				<game_entity name="map_rock_f_snow" old_prefab_name="map_rock_f_snow">
+					<transform position="-4.273, -3.979, 0.058" rotation_euler="0.000, 0.000, 0.991"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="map_rock_f_snow">
+							<mesh name="map_rock_f_snow" factor="4291085508"/>
+						</meta_mesh_component>
+					</components>
+				</game_entity>
+				<game_entity name="map_rock_groups_a" old_prefab_name="map_rock_groups_a">
+					<transform position="-3.325, -4.986, 0.065" rotation_euler="0.000, 0.000, -0.244"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="map_rock_groups_a">
+							<mesh name="map_rock_groups_a" factor="4287072135"/>
+						</meta_mesh_component>
+					</components>
+				</game_entity>
+				<game_entity name="map_rock_a" old_prefab_name="map_rock_a">
+					<transform position="0.155, -7.416, -0.080" rotation_euler="0.000, 0.000, 0.154"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="map_rock_a">
+							<mesh name="map_rock_a" factor="4287072135"/>
+						</meta_mesh_component>
+					</components>
+				</game_entity>
+				<game_entity name="map_icons_empire_wall_small_l3" old_prefab_name="map_icons_empire_wall_small_l3">
+					<transform position="6.330, 0.074, 0.049" rotation_euler="0.000, 0.000, 2.868"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_wall_3s"/>
+					</components>
+					<levels>
+						<level name="level_3"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_wall_small_l3" old_prefab_name="map_icons_empire_wall_small_l3">
+					<transform position="3.510, -1.837, -0.432" rotation_euler="0.000, 0.000, -2.897"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_wall_3s"/>
+					</components>
+					<levels>
+						<level name="level_3"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_sack_b" old_prefab_name="map_icons_sack_b">
+					<transform position="-0.445, -1.886, 0.036" rotation_euler="0.000, 0.000, -0.341"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_sack_b"/>
+					</components>
+				</game_entity>
+				<game_entity name="map_icons_sack_c" old_prefab_name="map_icons_sack_c">
+					<transform position="-0.574, -2.061, 0.045"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_sack_c"/>
+					</components>
+				</game_entity>
+				<game_entity name="map_icons_market_stall" old_prefab_name="map_icons_market_stall">
+					<transform position="0.240, -2.314, 0.027" rotation_euler="0.000, 0.000, -2.202" scale="2.036, 2.036, 2.036"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_market_stall"/>
+					</components>
+				</game_entity>
+				<game_entity name="map_icons_market_stall" old_prefab_name="map_icons_market_stall">
+					<transform position="0.068, -1.998, 0.027" rotation_euler="0.000, 0.000, -0.637" scale="2.036, 2.036, 2.036"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_market_stall"/>
+					</components>
+				</game_entity>
+				<game_entity name="map_icons_market_stall" old_prefab_name="map_icons_market_stall">
+					<transform position="-0.882, -2.273, 0.016" rotation_euler="0.000, 0.000, -1.352" scale="2.036, 2.036, 2.036"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_market_stall"/>
+					</components>
+				</game_entity>
+				<game_entity name="map_icons_market_stall" old_prefab_name="map_icons_market_stall">
+					<transform position="-0.273, -2.803, 0.028" rotation_euler="0.000, 0.000, 0.000" scale="2.036, 2.036, 2.036"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_market_stall"/>
+					</components>
+				</game_entity>
+				<game_entity name="map_icons_market_tent_b" old_prefab_name="map_icons_market_tent_b">
+					<transform position="-0.787, -1.607, 0.000" rotation_euler="0.031, -0.349, -0.645"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_market_tent_b">
+							<mesh name="mi_market_tent_b" factor="4281670699"/>
+						</meta_mesh_component>
+					</components>
+				</game_entity>
+				<game_entity name="map_icons_market_tent_a" old_prefab_name="map_icons_market_tent_a">
+					<transform position="-0.131, -3.040, 0.027" rotation_euler="-0.039, 0.117, -1.098" scale="0.936, 0.936, 0.936"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_market_tent_a">
+							<mesh name="mi_market_tent_a.0" factor="4286126861"/>
+							<mesh name="mi_market_tent_a.1" factor="4286126861"/>
+						</meta_mesh_component>
+					</components>
+				</game_entity>
+				<game_entity name="map_icons_market_tent_a" old_prefab_name="map_icons_market_tent_a">
+					<transform position="0.124, -2.182, -0.044" rotation_euler="-0.136, 0.477, 0.222" scale="0.940, 0.940, 1.060"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_market_tent_a">
+							<mesh name="mi_market_tent_a.0" factor="4283324710"/>
+							<mesh name="mi_market_tent_a.1" factor="4283324710"/>
+						</meta_mesh_component>
+					</components>
+				</game_entity>
+				<game_entity name="map_icons_empire_house_b" old_prefab_name="map_icons_empire_house_b">
+					<flags>
+						<flag name="align_to_terrain" value="true"/>
+					</flags>
+					<transform position="-1.304, 0.764, -0.168" rotation_euler="0.000, 0.000, 1.535" scale="0.853, 0.853, 0.853"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_house_b"/>
+					</components>
+				</game_entity>
+				<game_entity name="map_icons_empire_house_b" old_prefab_name="map_icons_empire_house_b">
+					<flags>
+						<flag name="align_to_terrain" value="true"/>
+					</flags>
+					<transform position="-0.631, 0.492, -0.086" rotation_euler="0.000, 0.000, 1.956" scale="0.853, 0.853, 0.853"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_house_b"/>
+					</components>
+				</game_entity>
+				<game_entity name="decal_path_a" old_prefab_name="">
+					<transform position="-2.148, -1.379, 0.000" rotation_euler="0.000, 0.000, -0.531" scale="0.544, 0.544, 0.544"/>
+					<physics mass="1.000"/>
+					<components>
+						<decal_component material="decal_empire_path_a" argument="0.530, 0.530, 0.480, 0.010"/>
+					</components>
+				</game_entity>
+				<game_entity name="decal_path_a" old_prefab_name="">
+					<transform position="2.254, -0.407, 0.000" rotation_euler="0.000, 0.000, -1.200" scale="0.502, 0.502, 0.502"/>
+					<physics mass="1.000"/>
+					<components>
+						<decal_component material="decal_empire_path_a" argument="0.530, 0.530, 0.480, 0.010"/>
+					</components>
+				</game_entity>
+				<game_entity name="decal_path_b" old_prefab_name="">
+					<transform position="-1.335, -0.885, 0.000" rotation_euler="0.000, 0.000, -1.614" scale="0.515, 0.515, 0.515"/>
+					<physics mass="1.000"/>
+					<components>
+						<decal_component material="decal_empire_path_b" argument="0.530, 0.530, 0.000, 0.010"/>
+					</components>
+				</game_entity>
+				<game_entity name="decal_path_b" old_prefab_name="">
+					<transform position="-0.269, 0.186, 0.000" rotation_euler="0.000, 0.000, -1.224" scale="0.592, 0.652, 0.592"/>
+					<physics mass="1.000"/>
+					<components>
+						<decal_component material="decal_empire_path_b" argument="0.530, 0.530, 0.000, 0.010"/>
+					</components>
+				</game_entity>
+				<game_entity name="town_gate" old_prefab_name="__empty_object">
+					<tags>
+						<tag name="main_map_city_gate"/>
+					</tags>
+					<transform position="-2.186, -4.782, 0.335" rotation_euler="0.053, -0.011, -1.106" scale="1.793, 1.793, 1.793"/>
+					<physics mass="1.000"/>
+				</game_entity>
+				<game_entity name="decal_path_a" old_prefab_name="">
+					<transform position="2.789, -0.318, 0.000" rotation_euler="0.000, 0.000, -1.200" scale="0.525, 0.525, 0.525"/>
+					<physics mass="1.000"/>
+					<components>
+						<decal_component material="decal_empire_path_a" argument="0.530, 0.530, 0.480, 0.010"/>
+					</components>
+				</game_entity>
+				<game_entity name="decal_path_b" old_prefab_name="">
+					<transform position="0.606, -0.779, 0.000" rotation_euler="0.000, 0.000, 3.139" scale="0.628, 0.628, 0.628"/>
+					<physics mass="1.000"/>
+					<components>
+						<decal_component material="decal_empire_path_b" argument="0.530, 0.530, 0.000, 0.010"/>
+					</components>
+				</game_entity>
+				<game_entity name="decal_path_b" old_prefab_name="">
+					<transform position="0.429, -1.289, 0.000" rotation_euler="0.000, 0.000, -0.876" scale="0.626, 0.626, 0.626"/>
+					<physics mass="1.000"/>
+					<components>
+						<decal_component material="decal_empire_path_b" argument="0.530, 0.530, 0.000, 0.010"/>
+					</components>
+				</game_entity>
+				<game_entity name="map_icons_empire_gatehouse_l3" old_prefab_name="map_icons_empire_gatehouse_l3">
+					<transform position="-1.445, -3.771, -0.026" rotation_euler="0.000, 0.000, 0.960" scale="0.929, 0.929, 0.929"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_3_gatehouse"/>
+					</components>
+					<levels>
+						<level name="level_3"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="decal_path_b" old_prefab_name="">
+					<transform position="-0.899, -0.403, 0.000" rotation_euler="0.000, 0.000, -0.361" scale="0.572, 0.572, 0.572"/>
+					<physics mass="1.000"/>
+					<components>
+						<decal_component material="decal_empire_path_b" argument="0.530, 0.530, 0.000, 0.010"/>
+					</components>
+				</game_entity>
+				<game_entity name="map_icons_empire_tower_l3" old_prefab_name="map_icons_empire_tower_l3">
+					<transform position="-3.463, 0.255, 0.042" rotation_euler="0.000, 0.000, -0.328" scale="0.852, 0.852, 0.852"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_tower_3"/>
+					</components>
+					<levels>
+						<level name="level_3"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_tower_l3" old_prefab_name="map_icons_empire_tower_l3">
+					<transform position="0.468, -5.566, -1.273" rotation_euler="0.000, 0.000, -0.005" scale="1.202, 1.202, 1.202"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_tower_3"/>
+					</components>
+					<levels>
+						<level name="level_3"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_tower_l3" old_prefab_name="map_icons_empire_tower_l3">
+					<transform position="0.468, -5.566, 0.596" rotation_euler="0.000, 0.000, -0.005" scale="0.755, 0.755, 0.755"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_tower_3"/>
+					</components>
+					<levels>
+						<level name="level_3"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_tower_l3" old_prefab_name="map_icons_empire_tower_l3">
+					<transform position="-4.376, -3.914, 0.189" rotation_euler="0.000, 0.000, -0.604" scale="0.767, 0.767, 0.767"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_tower_3"/>
+					</components>
+					<levels>
+						<level name="level_3"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_wall_small_l3" old_prefab_name="map_icons_empire_wall_small_l3">
+					<transform position="-0.130, -4.983, -0.133" rotation_euler="0.000, 0.000, 0.576"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_wall_3s"/>
+					</components>
+					<levels>
+						<level name="level_3"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="emp_bridge_g" old_prefab_name="emp_bridge_g">
+					<transform position="-3.668, -3.197, 0.907" rotation_euler="0.000, 0.000, -0.744" scale="0.045, 0.045, 0.045"/>
+					<physics shape="bo_emp_bridge_g" override_material="stone" mass="1.000"/>
+					<components>
+						<meta_mesh_component name="emp_bridge_g">
+							<mesh name="emp_bridge_g" factor="4287927444"/>
+							<mesh name="emp_bridge_g.1" factor="4287927444"/>
+						</meta_mesh_component>
+					</components>
+					<levels>
+						<level name="level_2"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+						<level name="looted"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icon_siege" old_prefab_name="map_icon_siege">
+					<transform position="3.250, -8.976, 0.376" rotation_euler="0.000, 0.000, 1.915" scale="1.792, 1.792, 1.792"/>
+					<physics mass="1.000"/>
+					<children>
+						<game_entity name="map_icon_siege_camp_1" old_prefab_name="map_icon_siege_camp_1">
+							<flags>
+								<flag name="align_to_terrain" value="true"/>
+								<flag name="align_rotation_to_terrain" value="true"/>
+							</flags>
+							<tags>
+								<tag name="siege_preparation"/>
+							</tags>
+							<transform position="1.006, 3.378, -0.187" rotation_euler="0.036, -0.771, -2.057" scale="1.188, 1.188, 1.188"/>
+							<physics mass="1.000"/>
+							<components>
+								<meta_mesh_component name="map_icon_siege_camp_1"/>
+							</components>
+						</game_entity>
+						<game_entity name="map_barrel_c" old_prefab_name="map_barrel_c">
+							<flags>
+								<flag name="align_to_terrain" value="true"/>
+								<flag name="align_rotation_to_terrain" value="true"/>
+							</flags>
+							<transform position="-1.432, 2.100, 0.263" rotation_euler="0.253, -0.126, 1.127" scale="1.618, 1.618, 1.618"/>
+							<physics mass="1.000"/>
+							<components>
+								<meta_mesh_component name="mi_barrels_c"/>
+							</components>
+						</game_entity>
+						<game_entity name="map_icon_siege_camp_5" old_prefab_name="map_icon_siege_camp_5">
+							<flags>
+								<flag name="align_to_terrain" value="true"/>
+								<flag name="align_rotation_to_terrain" value="true"/>
+							</flags>
+							<tags>
+								<tag name="siege_preparation"/>
+							</tags>
+							<transform position="0.860, -3.681, 0.392" rotation_euler="-0.465, -0.131, -0.612"/>
+							<physics mass="1.000"/>
+							<components>
+								<meta_mesh_component name="map_icon_siege_camp_5"/>
+							</components>
+						</game_entity>
+						<game_entity name="map_icon_siege_camp_1" old_prefab_name="map_icon_siege_camp_1">
+							<flags>
+								<flag name="align_to_terrain" value="true"/>
+								<flag name="align_rotation_to_terrain" value="true"/>
+							</flags>
+							<tags>
+								<tag name="siege_preparation"/>
+							</tags>
+							<transform position="1.041, -2.782, 0.185" rotation_euler="-0.294, 0.111, -2.580" scale="1.188, 1.188, 1.188"/>
+							<physics mass="1.000"/>
+							<components>
+								<meta_mesh_component name="map_icon_siege_camp_1"/>
+							</components>
+						</game_entity>
+						<game_entity name="volume_box_corner" old_prefab_name="volume_box_corner">
+							<flags>
+								<flag name="align_to_terrain" value="true"/>
+							</flags>
+							<visibility_masks>
+								<visibility_mask name="visible_only_when_editing" value="true"/>
+							</visibility_masks>
+							<tags>
+								<tag name="map_camp_area_2"/>
+							</tags>
+							<transform position="-3.143, -3.943, 0.860" rotation_euler="0.000, 0.000, 1.468" scale="4.369, 1.326, 1.631"/>
+							<physics mass="1.000"/>
+							<children>
+								<game_entity name="volume_box" old_prefab_name="volume_box">
+									<flags>
+										<flag name="record_to_scene_replay" value="true"/>
+									</flags>
+									<visibility_masks>
+										<visibility_mask name="visible_only_when_editing" value="true"/>
+									</visibility_masks>
+									<transform position="0.500, 0.500, -0.500"/>
+									<physics mass="1.000"/>
+									<components>
+										<meta_mesh_component name="volume_box"/>
+									</components>
+									<scripts>
+										<script name="VolumeBox">
+											<variables>
+												<variable name="NavMeshPrefabName" value=""/>
+											</variables>
+										</script>
+									</scripts>
+									<levels>
+										<level name="base"/>
+									</levels>
+								</game_entity>
+							</children>
+							<levels>
+								<level name="base"/>
+							</levels>
+						</game_entity>
+						<game_entity name="volume_box_corner" old_prefab_name="volume_box_corner">
+							<flags>
+								<flag name="align_to_terrain" value="true"/>
+							</flags>
+							<visibility_masks>
+								<visibility_mask name="visible_only_when_editing" value="true"/>
+							</visibility_masks>
+							<tags>
+								<tag name="map_camp_area_2"/>
+							</tags>
+							<transform position="-1.411, 4.403, 0.171" rotation_euler="0.000, 0.000, -2.913" scale="3.361, 2.174, 1.631"/>
+							<physics mass="1.000"/>
+							<children>
+								<game_entity name="volume_box" old_prefab_name="volume_box">
+									<flags>
+										<flag name="record_to_scene_replay" value="true"/>
+									</flags>
+									<visibility_masks>
+										<visibility_mask name="visible_only_when_editing" value="true"/>
+									</visibility_masks>
+									<transform position="0.500, 0.500, -0.500"/>
+									<physics mass="1.000"/>
+									<components>
+										<meta_mesh_component name="volume_box"/>
+									</components>
+									<scripts>
+										<script name="VolumeBox">
+											<variables>
+												<variable name="NavMeshPrefabName" value=""/>
+											</variables>
+										</script>
+									</scripts>
+									<levels>
+										<level name="base"/>
+									</levels>
+								</game_entity>
+							</children>
+							<levels>
+								<level name="base"/>
+							</levels>
+						</game_entity>
+						<game_entity name="map_icons_market_tent_a" old_prefab_name="map_icons_market_tent_a">
+							<flags>
+								<flag name="align_to_terrain" value="true"/>
+								<flag name="align_rotation_to_terrain" value="true"/>
+							</flags>
+							<transform position="-0.761, 1.812, 0.076" rotation_euler="-0.067, 0.191, -0.464" scale="0.779, 0.779, 0.779"/>
+							<physics mass="1.000"/>
+							<components>
+								<meta_mesh_component name="mi_market_tent_a"/>
+							</components>
+						</game_entity>
+						<game_entity name="map_icon_siege_camp_5" old_prefab_name="map_icon_siege_camp_5">
+							<flags>
+								<flag name="align_to_terrain" value="true"/>
+								<flag name="align_rotation_to_terrain" value="true"/>
+							</flags>
+							<tags>
+								<tag name="siege_preparation"/>
+							</tags>
+							<transform position="0.499, -1.841, 0.296" rotation_euler="0.129, -0.064, 1.124"/>
+							<physics mass="1.000"/>
+							<components>
+								<meta_mesh_component name="map_icon_siege_camp_5"/>
+							</components>
+						</game_entity>
+						<game_entity name="map_icon_siege_camp_1" old_prefab_name="map_icon_siege_camp_1">
+							<flags>
+								<flag name="align_to_terrain" value="true"/>
+								<flag name="align_rotation_to_terrain" value="true"/>
+							</flags>
+							<tags>
+								<tag name="siege_preparation"/>
+							</tags>
+							<transform position="0.789, -1.037, 0.178" rotation_euler="0.109, -0.294, -2.366" scale="1.188, 1.188, 1.188"/>
+							<physics mass="1.000"/>
+							<components>
+								<meta_mesh_component name="map_icon_siege_camp_1"/>
+							</components>
+						</game_entity>
+						<game_entity name="map_icon_siege_camp_4" old_prefab_name="map_icon_siege_camp_4">
+							<flags>
+								<flag name="align_to_terrain" value="true"/>
+								<flag name="align_rotation_to_terrain" value="true"/>
+							</flags>
+							<tags>
+								<tag name="siege_preparation"/>
+							</tags>
+							<transform position="0.838, -0.189, 0.020" rotation_euler="-0.186, 0.080, 0.284" scale="1.014, 1.014, 1.014"/>
+							<physics mass="1.000"/>
+							<components>
+								<meta_mesh_component name="map_icon_siege_camp_4"/>
+							</components>
+						</game_entity>
+						<game_entity name="map_icon_siege_camp_1" old_prefab_name="map_icon_siege_camp_1">
+							<flags>
+								<flag name="align_to_terrain" value="true"/>
+								<flag name="align_rotation_to_terrain" value="true"/>
+							</flags>
+							<tags>
+								<tag name="siege_preparation"/>
+							</tags>
+							<transform position="1.025, 0.292, -0.083" rotation_euler="0.017, -0.201, -1.780" scale="1.188, 1.188, 1.188"/>
+							<physics mass="1.000"/>
+							<components>
+								<meta_mesh_component name="map_icon_siege_camp_1"/>
+							</components>
+						</game_entity>
+						<game_entity name="map_icon_siege_camp_4" old_prefab_name="map_icon_siege_camp_4">
+							<flags>
+								<flag name="align_to_terrain" value="true"/>
+								<flag name="align_rotation_to_terrain" value="true"/>
+							</flags>
+							<tags>
+								<tag name="siege_preparation"/>
+							</tags>
+							<transform position="0.684, 1.256, -0.055" rotation_euler="0.102, 0.102, -0.127" scale="1.014, 1.014, 1.014"/>
+							<physics mass="1.000"/>
+							<components>
+								<meta_mesh_component name="map_icon_siege_camp_4"/>
+							</components>
+						</game_entity>
+						<game_entity name="map_icons_market_tent_a" old_prefab_name="map_icons_market_tent_a">
+							<flags>
+								<flag name="align_to_terrain" value="true"/>
+								<flag name="align_rotation_to_terrain" value="true"/>
+							</flags>
+							<transform position="-1.089, 1.197, 0.139" rotation_euler="0.189, 0.211, 1.378" scale="0.779, 0.779, 0.779"/>
+							<physics mass="1.000"/>
+							<components>
+								<meta_mesh_component name="mi_market_tent_a"/>
+							</components>
+						</game_entity>
+						<game_entity name="volume_box_corner" old_prefab_name="volume_box_corner">
+							<flags>
+								<flag name="align_to_terrain" value="true"/>
+							</flags>
+							<visibility_masks>
+								<visibility_mask name="visible_only_when_editing" value="true"/>
+							</visibility_masks>
+							<tags>
+								<tag name="map_camp_area_2"/>
+							</tags>
+							<transform position="-0.024, -2.246, 0.306" rotation_euler="0.000, 0.000, 3.008" scale="2.724, 2.174, 1.631"/>
+							<physics mass="1.000"/>
+							<children>
+								<game_entity name="volume_box" old_prefab_name="volume_box">
+									<flags>
+										<flag name="record_to_scene_replay" value="true"/>
+									</flags>
+									<visibility_masks>
+										<visibility_mask name="visible_only_when_editing" value="true"/>
+									</visibility_masks>
+									<transform position="0.500, 0.500, -0.500"/>
+									<physics mass="1.000"/>
+									<components>
+										<meta_mesh_component name="volume_box"/>
+									</components>
+									<scripts>
+										<script name="VolumeBox">
+											<variables>
+												<variable name="NavMeshPrefabName" value=""/>
+											</variables>
+										</script>
+									</scripts>
+									<levels>
+										<level name="base"/>
+									</levels>
+								</game_entity>
+							</children>
+							<levels>
+								<level name="base"/>
+							</levels>
+						</game_entity>
+						<game_entity name="volume_box_corner" old_prefab_name="volume_box_corner">
+							<flags>
+								<flag name="align_to_terrain" value="true"/>
+							</flags>
+							<visibility_masks>
+								<visibility_mask name="visible_only_when_editing" value="true"/>
+							</visibility_masks>
+							<tags>
+								<tag name="map_camp_area_1"/>
+							</tags>
+							<transform position="-0.431, 1.068, 0.074" rotation_euler="0.000, 0.000, 3.008" scale="1.601, 2.050, 1.631"/>
+							<physics mass="1.000"/>
+							<children>
+								<game_entity name="volume_box" old_prefab_name="volume_box">
+									<flags>
+										<flag name="record_to_scene_replay" value="true"/>
+									</flags>
+									<visibility_masks>
+										<visibility_mask name="visible_only_when_editing" value="true"/>
+									</visibility_masks>
+									<transform position="0.500, 0.500, -0.500"/>
+									<physics mass="1.000"/>
+									<components>
+										<meta_mesh_component name="volume_box"/>
+									</components>
+									<scripts>
+										<script name="VolumeBox">
+											<variables>
+												<variable name="NavMeshPrefabName" value=""/>
+											</variables>
+										</script>
+									</scripts>
+									<levels>
+										<level name="base"/>
+									</levels>
+								</game_entity>
+							</children>
+							<levels>
+								<level name="base"/>
+							</levels>
+						</game_entity>
+						<game_entity name="map_icon_siege_camp_4" old_prefab_name="map_icon_siege_camp_4">
+							<flags>
+								<flag name="align_to_terrain" value="true"/>
+								<flag name="align_rotation_to_terrain" value="true"/>
+							</flags>
+							<tags>
+								<tag name="siege_preparation"/>
+							</tags>
+							<transform position="0.823, 2.409, -0.055" rotation_euler="0.073, 0.124, -0.388" scale="0.973, 0.973, 0.973"/>
+							<physics mass="1.000"/>
+							<components>
+								<meta_mesh_component name="map_icon_siege_camp_4"/>
+							</components>
+						</game_entity>
+						<game_entity name="map_icons_market_tent_a" old_prefab_name="map_icons_market_tent_a">
+							<flags>
+								<flag name="align_to_terrain" value="true"/>
+								<flag name="align_rotation_to_terrain" value="true"/>
+							</flags>
+							<transform position="-0.958, -1.785, 0.436" rotation_euler="0.000, 0.000, 0.791" scale="0.779, 0.779, 0.779"/>
+							<physics mass="1.000"/>
+							<components>
+								<meta_mesh_component name="mi_market_tent_a"/>
+							</components>
+						</game_entity>
+						<game_entity name="attacker_ranged_engine" old_prefab_name="attacker_ranged_engine">
+							<flags>
+								<flag name="align_to_terrain" value="true"/>
+							</flags>
+							<visibility_masks>
+								<visibility_mask name="visible_only_when_editing" value="true"/>
+							</visibility_masks>
+							<tags>
+								<tag name="map_siege_engine_3"/>
+							</tags>
+							<transform position="-0.050, 2.100, -0.012" rotation_euler="0.000, 0.000, -1.799" scale="0.350, 0.350, 0.350"/>
+							<physics mass="1.000"/>
+							<components>
+								<meta_mesh_component name="arrow_new_icon"/>
+							</components>
+							<children>
+								<game_entity name="bo_siege_engine" old_prefab_name="bo_siege_engine">
+									<transform position="0.048, 0.021, -0.013" rotation_euler="0.000, 0.000, 2.438" scale="1.050, 1.050, 1.050"/>
+									<physics shape="bo_sphere_collider" mass="1.000"/>
+								</game_entity>
+							</children>
+						</game_entity>
+						<game_entity name="attacker_ranged_engine" old_prefab_name="attacker_ranged_engine">
+							<flags>
+								<flag name="align_to_terrain" value="true"/>
+							</flags>
+							<visibility_masks>
+								<visibility_mask name="visible_only_when_editing" value="true"/>
+							</visibility_masks>
+							<tags>
+								<tag name="map_siege_engine_2"/>
+							</tags>
+							<transform position="-0.138, 1.308, 0.049" rotation_euler="0.000, 0.000, -1.598" scale="0.350, 0.350, 0.350"/>
+							<physics mass="1.000"/>
+							<components>
+								<meta_mesh_component name="arrow_new_icon"/>
+							</components>
+							<children>
+								<game_entity name="bo_siege_engine" old_prefab_name="bo_siege_engine">
+									<transform position="0.006, -0.038, -0.017" rotation_euler="0.000, 0.000, -0.236" scale="1.050, 1.050, 1.050"/>
+									<physics shape="bo_sphere_collider" mass="1.000"/>
+								</game_entity>
+							</children>
+						</game_entity>
+						<game_entity name="attacker_ranged_engine" old_prefab_name="attacker_ranged_engine">
+							<flags>
+								<flag name="align_to_terrain" value="true"/>
+							</flags>
+							<visibility_masks>
+								<visibility_mask name="visible_only_when_editing" value="true"/>
+							</visibility_masks>
+							<tags>
+								<tag name="map_siege_engine_1"/>
+							</tags>
+							<transform position="0.067, -0.330, 0.080" rotation_euler="0.000, 0.000, -1.515" scale="0.350, 0.350, 0.350"/>
+							<physics mass="1.000"/>
+							<components>
+								<meta_mesh_component name="arrow_new_icon"/>
+							</components>
+							<children>
+								<game_entity name="bo_siege_engine" old_prefab_name="bo_siege_engine">
+									<transform position="0.051, -0.014, 0.009" rotation_euler="0.000, 0.000, 2.889" scale="1.050, 1.050, 1.050"/>
+									<physics shape="bo_sphere_collider" mass="1.000"/>
+								</game_entity>
+							</children>
+						</game_entity>
+						<game_entity name="attacker_ranged_engine" old_prefab_name="attacker_ranged_engine">
+							<flags>
+								<flag name="align_to_terrain" value="true"/>
+							</flags>
+							<visibility_masks>
+								<visibility_mask name="visible_only_when_editing" value="true"/>
+							</visibility_masks>
+							<tags>
+								<tag name="map_siege_engine_0"/>
+							</tags>
+							<transform position="-0.038, -1.957, 0.341" rotation_euler="0.000, 0.000, -1.371" scale="0.350, 0.350, 0.350"/>
+							<physics mass="1.000"/>
+							<components>
+								<meta_mesh_component name="arrow_new_icon"/>
+							</components>
+							<children>
+								<game_entity name="bo_siege_engine" old_prefab_name="bo_siege_engine">
+									<transform position="0.024, -0.093, -0.028" rotation_euler="0.000, 0.000, 2.879" scale="1.050, 1.050, 1.050"/>
+									<physics shape="bo_sphere_collider" mass="1.000"/>
+								</game_entity>
+							</children>
+						</game_entity>
+						<game_entity name="attacker_siege_ram" old_prefab_name="attacker_siege_ram">
+							<flags>
+								<flag name="align_to_terrain" value="true"/>
+							</flags>
+							<visibility_masks>
+								<visibility_mask name="visible_only_when_editing" value="true"/>
+							</visibility_masks>
+							<tags>
+								<tag name="map_siege_ram"/>
+							</tags>
+							<transform position="-2.395, 1.267, 0.449" rotation_euler="0.000, 0.000, -1.532" scale="0.350, 0.350, 0.350"/>
+							<physics mass="1.000"/>
+							<components>
+								<meta_mesh_component name="arrow_new_icon"/>
+							</components>
+							<children>
+								<game_entity name="bo_siege_engine" old_prefab_name="bo_siege_engine">
+									<transform position="0.079, 0.058, -0.020" rotation_euler="0.000, 0.000, 1.922" scale="1.050, 1.050, 1.050"/>
+									<physics shape="bo_sphere_collider" mass="1.000"/>
+								</game_entity>
+							</children>
+						</game_entity>
+						<game_entity name="attacker_siege_tower" old_prefab_name="attacker_siege_tower">
+							<flags>
+								<flag name="align_to_terrain" value="true"/>
+							</flags>
+							<visibility_masks>
+								<visibility_mask name="visible_only_when_editing" value="true"/>
+							</visibility_masks>
+							<tags>
+								<tag name="map_siege_tower"/>
+							</tags>
+							<transform position="-3.196, 1.009, 0.725" rotation_euler="0.000, 0.000, -1.660" scale="0.350, 0.350, 0.350"/>
+							<physics mass="1.000"/>
+							<components>
+								<meta_mesh_component name="arrow_new_icon"/>
+							</components>
+							<children>
+								<game_entity name="bo_siege_engine" old_prefab_name="bo_siege_engine">
+									<transform position="-0.023, 0.025, -0.024" rotation_euler="0.000, 0.000, -0.555" scale="1.050, 1.050, 1.050"/>
+									<physics shape="bo_sphere_collider" mass="1.000"/>
+								</game_entity>
+							</children>
+						</game_entity>
+						<game_entity name="attacker_siege_tower" old_prefab_name="attacker_siege_tower">
+							<flags>
+								<flag name="align_to_terrain" value="true"/>
+							</flags>
+							<visibility_masks>
+								<visibility_mask name="visible_only_when_editing" value="true"/>
+							</visibility_masks>
+							<tags>
+								<tag name="map_siege_tower"/>
+							</tags>
+							<transform position="-1.938, -1.750, 0.526" rotation_euler="0.000, 0.000, -1.540" scale="0.350, 0.350, 0.350"/>
+							<physics mass="1.000"/>
+							<components>
+								<meta_mesh_component name="arrow_new_icon"/>
+							</components>
+							<children>
+								<game_entity name="bo_siege_engine" old_prefab_name="bo_siege_engine">
+									<transform position="0.024, 0.028, -0.022" rotation_euler="0.000, 0.000, -2.195" scale="1.050, 1.050, 1.050"/>
+									<physics shape="bo_sphere_collider" mass="1.000"/>
+								</game_entity>
+							</children>
+						</game_entity>
+						<game_entity name="defender_ranged_l1" old_prefab_name="defender_ranged_l1">
+							<visibility_masks>
+								<visibility_mask name="visible_only_when_editing" value="true"/>
+							</visibility_masks>
+							<tags>
+								<tag name="map_defensive_engine_2"/>
+							</tags>
+							<transform position="3.390, 0.071, 0.316" rotation_euler="0.000, 0.000, 1.561" scale="0.350, 0.350, 0.350"/>
+							<physics mass="1.000"/>
+							<components>
+								<meta_mesh_component name="arrow_new_icon"/>
+							</components>
+							<children>
+								<game_entity name="bo_siege_engine" old_prefab_name="bo_siege_engine">
+									<transform rotation_euler="0.000, 0.000, -3.076" scale="1.050, 1.050, 1.050"/>
+									<physics shape="bo_sphere_collider" mass="1.000"/>
+								</game_entity>
+							</children>
+							<levels>
+								<level name="level_1"/>
+								<level name="civilian"/>
+								<level name="siege"/>
+							</levels>
+						</game_entity>
+						<game_entity name="defender_ranged_l1" old_prefab_name="defender_ranged_l1">
+							<visibility_masks>
+								<visibility_mask name="visible_only_when_editing" value="true"/>
+							</visibility_masks>
+							<tags>
+								<tag name="map_defensive_engine_1"/>
+							</tags>
+							<transform position="3.384, 0.811, 0.312" rotation_euler="0.000, 0.000, 1.580" scale="0.350, 0.350, 0.350"/>
+							<physics mass="1.000"/>
+							<components>
+								<meta_mesh_component name="arrow_new_icon"/>
+							</components>
+							<children>
+								<game_entity name="bo_siege_engine" old_prefab_name="bo_siege_engine">
+									<transform rotation_euler="0.000, 0.000, -3.088" scale="1.050, 1.050, 1.050"/>
+									<physics shape="bo_sphere_collider" mass="1.000"/>
+								</game_entity>
+							</children>
+							<levels>
+								<level name="level_1"/>
+								<level name="civilian"/>
+								<level name="siege"/>
+							</levels>
+						</game_entity>
+						<game_entity name="defender_ranged_l1" old_prefab_name="defender_ranged_l1">
+							<visibility_masks>
+								<visibility_mask name="visible_only_when_editing" value="true"/>
+							</visibility_masks>
+							<tags>
+								<tag name="map_defensive_engine_3"/>
+							</tags>
+							<transform position="3.787, -0.932, 0.536" rotation_euler="0.000, 0.000, 1.575" scale="0.350, 0.350, 0.350"/>
+							<physics mass="1.000"/>
+							<components>
+								<meta_mesh_component name="arrow_new_icon"/>
+							</components>
+							<children>
+								<game_entity name="bo_siege_engine" old_prefab_name="bo_siege_engine">
+									<transform rotation_euler="0.000, 0.000, -2.776" scale="1.050, 1.050, 1.050"/>
+									<physics shape="bo_sphere_collider" mass="1.000"/>
+								</game_entity>
+							</children>
+							<levels>
+								<level name="level_1"/>
+								<level name="civilian"/>
+								<level name="siege"/>
+							</levels>
+						</game_entity>
+						<game_entity name="defender_ranged_l1" old_prefab_name="defender_ranged_l1">
+							<visibility_masks>
+								<visibility_mask name="visible_only_when_editing" value="true"/>
+							</visibility_masks>
+							<tags>
+								<tag name="map_defensive_engine_0"/>
+							</tags>
+							<transform position="3.750, 1.523, 0.463" rotation_euler="0.000, 0.000, 1.569" scale="0.350, 0.350, 0.350"/>
+							<physics mass="1.000"/>
+							<components>
+								<meta_mesh_component name="arrow_new_icon"/>
+							</components>
+							<children>
+								<game_entity name="bo_siege_engine" old_prefab_name="bo_siege_engine">
+									<transform rotation_euler="0.000, 0.000, -3.102" scale="1.050, 1.050, 1.050"/>
+									<physics shape="bo_sphere_collider" mass="1.000"/>
+								</game_entity>
+							</children>
+							<levels>
+								<level name="level_1"/>
+								<level name="civilian"/>
+								<level name="siege"/>
+							</levels>
+						</game_entity>
+						<game_entity name="defender_ranged_l2" old_prefab_name="defender_ranged_l2">
+							<visibility_masks>
+								<visibility_mask name="visible_only_when_editing" value="true"/>
+							</visibility_masks>
+							<tags>
+								<tag name="map_defensive_engine_2"/>
+							</tags>
+							<transform position="3.307, 0.076, 0.658" rotation_euler="0.000, 0.000, 1.582" scale="0.350, 0.350, 0.350"/>
+							<physics mass="1.000"/>
+							<components>
+								<meta_mesh_component name="arrow_new_icon"/>
+							</components>
+							<children>
+								<game_entity name="bo_siege_engine" old_prefab_name="bo_siege_engine">
+									<transform rotation_euler="0.000, 0.000, -3.088" scale="1.050, 1.050, 1.050"/>
+									<physics shape="bo_sphere_collider" mass="1.000"/>
+								</game_entity>
+							</children>
+							<levels>
+								<level name="level_2"/>
+								<level name="civilian"/>
+								<level name="siege"/>
+							</levels>
+						</game_entity>
+						<game_entity name="defender_ranged_l2" old_prefab_name="defender_ranged_l2">
+							<visibility_masks>
+								<visibility_mask name="visible_only_when_editing" value="true"/>
+							</visibility_masks>
+							<tags>
+								<tag name="map_defensive_engine_1"/>
+							</tags>
+							<transform position="3.275, 0.800, 0.656" rotation_euler="0.000, 0.000, 1.579" scale="0.350, 0.350, 0.350"/>
+							<physics mass="1.000"/>
+							<components>
+								<meta_mesh_component name="arrow_new_icon"/>
+							</components>
+							<children>
+								<game_entity name="bo_siege_engine" old_prefab_name="bo_siege_engine">
+									<transform rotation_euler="0.000, 0.000, -3.102" scale="1.050, 1.050, 1.050"/>
+									<physics shape="bo_sphere_collider" mass="1.000"/>
+								</game_entity>
+							</children>
+							<levels>
+								<level name="level_2"/>
+								<level name="civilian"/>
+								<level name="siege"/>
+							</levels>
+						</game_entity>
+						<game_entity name="defender_ranged_l2" old_prefab_name="defender_ranged_l2">
+							<visibility_masks>
+								<visibility_mask name="visible_only_when_editing" value="true"/>
+							</visibility_masks>
+							<tags>
+								<tag name="map_defensive_engine_0"/>
+							</tags>
+							<transform position="3.715, 1.602, 0.672" rotation_euler="0.000, 0.000, 1.578" scale="0.350, 0.350, 0.350"/>
+							<physics mass="1.000"/>
+							<components>
+								<meta_mesh_component name="arrow_new_icon"/>
+							</components>
+							<children>
+								<game_entity name="bo_siege_engine" old_prefab_name="bo_siege_engine">
+									<transform rotation_euler="0.000, 0.000, -2.776" scale="1.050, 1.050, 1.050"/>
+									<physics shape="bo_sphere_collider" mass="1.000"/>
+								</game_entity>
+							</children>
+							<levels>
+								<level name="level_2"/>
+								<level name="civilian"/>
+								<level name="siege"/>
+							</levels>
+						</game_entity>
+						<game_entity name="defender_ranged_l2" old_prefab_name="defender_ranged_l2">
+							<visibility_masks>
+								<visibility_mask name="visible_only_when_editing" value="true"/>
+							</visibility_masks>
+							<tags>
+								<tag name="map_defensive_engine_3"/>
+							</tags>
+							<transform position="3.713, -0.983, 0.725" rotation_euler="0.000, 0.000, 1.588" scale="0.350, 0.350, 0.350"/>
+							<physics mass="1.000"/>
+							<components>
+								<meta_mesh_component name="arrow_new_icon"/>
+							</components>
+							<children>
+								<game_entity name="bo_siege_engine" old_prefab_name="bo_siege_engine">
+									<transform rotation_euler="0.000, 0.000, -3.076" scale="1.050, 1.050, 1.050"/>
+									<physics shape="bo_sphere_collider" mass="1.000"/>
+								</game_entity>
+							</children>
+							<levels>
+								<level name="level_2"/>
+								<level name="civilian"/>
+								<level name="siege"/>
+							</levels>
+						</game_entity>
+						<game_entity name="defender_ranged_l3" old_prefab_name="defender_ranged_l3">
+							<visibility_masks>
+								<visibility_mask name="visible_only_when_editing" value="true"/>
+							</visibility_masks>
+							<tags>
+								<tag name="map_defensive_engine_1"/>
+							</tags>
+							<transform position="3.309, 0.577, 0.535" rotation_euler="0.000, 0.000, 1.730" scale="0.350, 0.350, 0.350"/>
+							<physics mass="1.000"/>
+							<components>
+								<meta_mesh_component name="arrow_new_icon"/>
+							</components>
+							<children>
+								<game_entity name="bo_siege_engine" old_prefab_name="bo_siege_engine">
+									<transform rotation_euler="0.000, 0.000, -3.102" scale="1.050, 1.050, 1.050"/>
+									<physics shape="bo_sphere_collider" mass="1.000"/>
+								</game_entity>
+							</children>
+							<levels>
+								<level name="level_3"/>
+								<level name="civilian"/>
+								<level name="siege"/>
+							</levels>
+						</game_entity>
+						<game_entity name="defender_ranged_l3" old_prefab_name="defender_ranged_l3">
+							<visibility_masks>
+								<visibility_mask name="visible_only_when_editing" value="true"/>
+							</visibility_masks>
+							<tags>
+								<tag name="map_defensive_engine_2"/>
+							</tags>
+							<transform position="3.393, 0.036, 0.539" rotation_euler="0.000, 0.000, 1.740" scale="0.350, 0.350, 0.350"/>
+							<physics mass="1.000"/>
+							<components>
+								<meta_mesh_component name="arrow_new_icon"/>
+							</components>
+							<children>
+								<game_entity name="bo_siege_engine" old_prefab_name="bo_siege_engine">
+									<transform rotation_euler="0.000, 0.000, -3.088" scale="1.050, 1.050, 1.050"/>
+									<physics shape="bo_sphere_collider" mass="1.000"/>
+								</game_entity>
+							</children>
+							<levels>
+								<level name="level_3"/>
+								<level name="civilian"/>
+								<level name="siege"/>
+							</levels>
+						</game_entity>
+						<game_entity name="defender_ranged_l3" old_prefab_name="defender_ranged_l3">
+							<visibility_masks>
+								<visibility_mask name="visible_only_when_editing" value="true"/>
+							</visibility_masks>
+							<tags>
+								<tag name="map_defensive_engine_3"/>
+							</tags>
+							<transform position="3.409, -1.155, 0.970" rotation_euler="0.000, 0.000, 1.575" scale="0.350, 0.350, 0.350"/>
+							<physics mass="1.000"/>
+							<components>
+								<meta_mesh_component name="arrow_new_icon"/>
+							</components>
+							<children>
+								<game_entity name="bo_siege_engine" old_prefab_name="bo_siege_engine">
+									<transform rotation_euler="0.000, 0.000, -3.076" scale="1.050, 1.050, 1.050"/>
+									<physics shape="bo_sphere_collider" mass="1.000"/>
+								</game_entity>
+							</children>
+							<levels>
+								<level name="level_3"/>
+								<level name="civilian"/>
+								<level name="siege"/>
+							</levels>
+						</game_entity>
+						<game_entity name="defender_ranged_l3" old_prefab_name="defender_ranged_l3">
+							<visibility_masks>
+								<visibility_mask name="visible_only_when_editing" value="true"/>
+							</visibility_masks>
+							<tags>
+								<tag name="map_defensive_engine_0"/>
+							</tags>
+							<transform position="2.133, 1.420, 0.747" rotation_euler="0.000, 0.000, 1.630" scale="0.350, 0.350, 0.350"/>
+							<physics mass="1.000"/>
+							<components>
+								<meta_mesh_component name="arrow_new_icon"/>
+							</components>
+							<children>
+								<game_entity name="bo_siege_engine" old_prefab_name="bo_siege_engine">
+									<transform rotation_euler="0.000, 0.000, -3.076" scale="1.050, 1.050, 1.050"/>
+									<physics shape="bo_sphere_collider" mass="1.000"/>
+								</game_entity>
+							</children>
+							<levels>
+								<level name="level_3"/>
+								<level name="civilian"/>
+								<level name="siege"/>
+							</levels>
+						</game_entity>
+					</children>
+					<levels>
+						<level name="level_1"/>
+						<level name="level_2"/>
+						<level name="level_3"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_wall_small_l3" old_prefab_name="map_icons_empire_wall_small_l3">
+					<transform position="6.131, -0.646, 0.049" rotation_euler="0.000, 0.000, 2.867"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_wall_3s"/>
+					</components>
+					<levels>
+						<level name="level_3"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_wall_small_l3" old_prefab_name="map_icons_empire_wall_small_l3">
+					<transform position="-3.446, -1.865, -0.007" rotation_euler="0.000, 0.000, 0.504" scale="1.000, 1.038, 1.000"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_wall_3s"/>
+					</components>
+					<levels>
+						<level name="level_3"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_wall_small_l3" old_prefab_name="map_icons_empire_wall_small_l3">
+					<transform position="-3.801, -1.176, -0.007" rotation_euler="0.000, 0.000, 0.438" scale="1.000, 1.048, 1.000"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_wall_3s"/>
+					</components>
+					<levels>
+						<level name="level_3"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_wall_small_l3" old_prefab_name="map_icons_empire_wall_small_l3">
+					<transform position="-3.545, 0.076, -0.007" rotation_euler="0.000, 0.000, -0.055"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_wall_3s"/>
+					</components>
+					<levels>
+						<level name="level_3"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_wall_small_l3" old_prefab_name="map_icons_empire_wall_small_l3">
+					<transform position="-4.812, -0.695, -0.354" rotation_euler="0.000, 0.000, 0.996"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_wall_3s"/>
+					</components>
+					<levels>
+						<level name="level_3"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="town_circle_decal" old_prefab_name="">
+					<tags>
+						<tag name="map_settlement_circle"/>
+					</tags>
+					<transform position="0.580, -0.631, 2.638" rotation_euler="0.000, 0.000, 2.549" scale="10.118, 10.118, 10.118"/>
+					<physics mass="1.000"/>
+					<components>
+						<decal_component material="decal_city_circle_a" argument="1.000, 1.000, 0.000, 0.000" argument2="11.000, 0.000, 0.000, 0.000"/>
+					</components>
+				</game_entity>
+				<game_entity name="map_icons_empire_house_c" old_prefab_name="map_icons_empire_house_c">
+					<flags>
+						<flag name="align_to_terrain" value="true"/>
+					</flags>
+					<transform position="1.072, -0.271, -0.164" rotation_euler="0.000, 0.000, 2.023"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_house_c"/>
+					</components>
+				</game_entity>
+				<game_entity name="map_icons_empire_wall_l3" old_prefab_name="map_icons_empire_wall_l3">
+					<transform position="1.392, -4.428, -0.425" rotation_euler="0.000, 0.000, 2.506"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_wall_3"/>
+					</components>
+					<levels>
+						<level name="level_3"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_tower_l3" old_prefab_name="map_icons_empire_tower_l3">
+					<transform position="1.997, -3.583, -0.317" rotation_euler="0.000, 0.000, 0.572" scale="0.872, 0.872, 0.872"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_tower_3"/>
+					</components>
+					<levels>
+						<level name="level_3"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_small_gatehouse_l1" old_prefab_name="map_icons_empire_small_gatehouse_l1">
+					<transform position="1.619, -0.743, 0.000" rotation_euler="0.000, 0.000, 0.379"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_1_mini_gatehouse"/>
+					</components>
+					<levels>
+						<level name="level_1"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+						<level name="looted"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_arena" old_prefab_name="map_icons_empire_arena">
+					<transform position="0.104, 2.682, 0.015" rotation_euler="0.000, 0.000, 0.126"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_arena"/>
+					</components>
+				</game_entity>
+				<game_entity name="map_icons_empire_wall_l3" old_prefab_name="map_icons_empire_wall_l3">
+					<transform position="-3.047, 2.800, -0.358" rotation_euler="0.000, 0.000, -1.068"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_wall_3"/>
+					</components>
+					<levels>
+						<level name="level_3"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_wall_l3" old_prefab_name="map_icons_empire_wall_l3">
+					<transform position="-1.376, 3.727, -0.358" rotation_euler="0.000, 0.000, -1.068"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_wall_3"/>
+					</components>
+					<levels>
+						<level name="level_3"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_wall_small_l3" old_prefab_name="map_icons_empire_wall_small_l3">
+					<transform position="-5.746, -0.195, -0.272" rotation_euler="0.000, 0.000, 0.985"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_wall_3s"/>
+					</components>
+					<levels>
+						<level name="level_3"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_wall_small_l3" old_prefab_name="map_icons_empire_wall_small_l3">
+					<transform position="-5.001, 1.448, -0.272" rotation_euler="0.000, 0.000, -0.806"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_wall_3s"/>
+					</components>
+					<levels>
+						<level name="level_3"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_wall_small_l3" old_prefab_name="map_icons_empire_wall_small_l3">
+					<transform position="-4.453, 1.978, -0.272" rotation_euler="0.000, 0.000, -0.806"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_wall_3s"/>
+					</components>
+					<levels>
+						<level name="level_3"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_wall_small_l3" old_prefab_name="map_icons_empire_wall_small_l3">
+					<transform position="-5.476, 0.871, -0.272" rotation_euler="0.000, 0.000, -0.584"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_wall_3s"/>
+					</components>
+					<levels>
+						<level name="level_3"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_house_c" old_prefab_name="map_icons_empire_house_c">
+					<flags>
+						<flag name="align_to_terrain" value="true"/>
+					</flags>
+					<transform position="2.032, 0.246, -0.186" rotation_euler="0.000, 0.000, 0.414"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_house_c"/>
+					</components>
+				</game_entity>
+				<game_entity name="map_icons_empire_wall_small_l3" old_prefab_name="map_icons_empire_wall_small_l3">
+					<transform position="-4.167, -0.887, -0.354" rotation_euler="0.000, 0.000, 1.560"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_wall_3s"/>
+					</components>
+					<levels>
+						<level name="level_3"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_wall_small_l3" old_prefab_name="map_icons_empire_wall_small_l3">
+					<transform position="-3.735, -0.570, -0.007" rotation_euler="0.000, 0.000, -0.555"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_wall_3s"/>
+					</components>
+					<levels>
+						<level name="level_3"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_wall_l3" old_prefab_name="map_icons_empire_wall_l3">
+					<transform position="-4.090, 0.766, -0.273" rotation_euler="0.000, 0.000, 0.763"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_wall_3"/>
+					</components>
+					<levels>
+						<level name="level_3"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_monument_1" old_prefab_name="map_icons_empire_monument_1">
+					<transform position="-3.076, -0.841, 0.113" rotation_euler="0.000, 0.000, 0.166" scale="2.224, 2.224, 2.224"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_3_monument_1"/>
+					</components>
+					<levels>
+						<level name="base"/>
+						<level name="level_3"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+						<level name="looted"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_small_gatehouse_l3" old_prefab_name="map_icons_empire_small_gatehouse_l3">
+					<transform position="1.537, -0.724, 0.101" rotation_euler="0.000, 0.000, 0.441"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_3_mini_gatehouse"/>
+					</components>
+					<levels>
+						<level name="level_3"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_wall_l3" old_prefab_name="map_icons_empire_wall_l3">
+					<transform position="5.213, -0.993, -0.272" rotation_euler="0.000, 0.000, 1.781"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_wall_3"/>
+					</components>
+					<levels>
+						<level name="level_3"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_wall_l3" old_prefab_name="map_icons_empire_wall_l3">
+					<transform position="2.836, -1.512, -0.272" rotation_euler="0.000, 0.000, 1.781"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_wall_3"/>
+					</components>
+					<levels>
+						<level name="level_3"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_house_a" old_prefab_name="map_icons_empire_house_a">
+					<flags>
+						<flag name="align_to_terrain" value="true"/>
+					</flags>
+					<transform position="2.228, 1.655, -0.240" rotation_euler="0.000, 0.000, 0.972"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_house_a"/>
+					</components>
+				</game_entity>
+				<game_entity name="map_icons_empire_wall_small_l3" old_prefab_name="map_icons_empire_wall_small_l3">
+					<transform position="1.869, -1.405, -0.276" rotation_euler="0.000, 0.000, 0.457"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_wall_3s"/>
+					</components>
+					<levels>
+						<level name="level_3"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_house_c" old_prefab_name="map_icons_empire_house_c">
+					<flags>
+						<flag name="align_to_terrain" value="true"/>
+					</flags>
+					<transform position="1.777, 1.259, -0.200" rotation_euler="0.000, 0.000, 2.502" scale="1.241, 1.241, 1.241"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_house_c"/>
+					</components>
+				</game_entity>
+				<game_entity name="map_icons_empire_house_d" old_prefab_name="map_icons_empire_house_d">
+					<flags>
+						<flag name="align_to_terrain" value="true"/>
+					</flags>
+					<transform position="1.203, 1.511, -0.162" rotation_euler="0.000, 0.000, -2.077" scale="0.793, 0.793, 0.793"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_house_d"/>
+					</components>
+				</game_entity>
+				<game_entity name="map_icons_empire_wall_l3" old_prefab_name="map_icons_empire_wall_l3">
+					<transform position="2.450, 2.873, -0.523" rotation_euler="0.000, 0.000, -0.582"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_wall_3"/>
+					</components>
+					<levels>
+						<level name="level_3"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_wall_l3" old_prefab_name="map_icons_empire_wall_l3">
+					<transform position="0.430, 4.248, -0.242" rotation_euler="0.000, 0.000, -1.530"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_wall_3"/>
+					</components>
+					<levels>
+						<level name="level_3"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_wall_l3" old_prefab_name="map_icons_empire_wall_l3">
+					<transform position="2.321, 4.319, -0.242" rotation_euler="0.000, 0.000, -1.530"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_wall_3"/>
+					</components>
+					<levels>
+						<level name="level_3"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_wall_l3" old_prefab_name="map_icons_empire_wall_l3">
+					<transform position="3.838, 3.439, 0.014" rotation_euler="0.000, 0.000, -2.599"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_wall_3"/>
+					</components>
+					<levels>
+						<level name="level_3"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_wall_l3" old_prefab_name="map_icons_empire_wall_l3">
+					<transform position="5.140, 2.439, 0.023" rotation_euler="0.000, 0.000, -1.854"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_wall_3"/>
+					</components>
+					<levels>
+						<level name="level_3"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_wall_l3" old_prefab_name="map_icons_empire_wall_l3">
+					<transform position="6.198, 1.302, 0.056" rotation_euler="0.000, 0.000, -2.920"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_wall_3"/>
+					</components>
+					<levels>
+						<level name="level_3"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_sack_a" old_prefab_name="map_icons_sack_a">
+					<transform position="-0.754, -2.015, 0.021" rotation_euler="0.000, 0.000, -0.306"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_sack_a"/>
+					</components>
+				</game_entity>
+				<game_entity name="map_icons_empire_wall_l3" old_prefab_name="map_icons_empire_wall_l3">
+					<transform position="2.967, -2.747, -0.442" rotation_euler="0.000, 0.000, 2.328"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_wall_3"/>
+					</components>
+					<levels>
+						<level name="level_3"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_wall_l3" old_prefab_name="map_icons_empire_wall_l3">
+					<transform position="4.233, -1.207, -0.272" rotation_euler="0.000, 0.000, 1.781"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_wall_3"/>
+					</components>
+					<levels>
+						<level name="level_3"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_wall_small_l3" old_prefab_name="map_icons_empire_wall_small_l3">
+					<transform position="3.155, 3.969, -0.526" rotation_euler="0.000, 0.000, -0.563"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_wall_3s"/>
+					</components>
+					<levels>
+						<level name="level_3"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_wall_small_l1" old_prefab_name="map_icons_empire_wall_small_l1">
+					<transform position="6.142, -0.607, 0.344" rotation_euler="0.000, 0.000, 2.873"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_wall_1s"/>
+					</components>
+					<levels>
+						<level name="level_1"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_square_tower_l1" old_prefab_name="map_icons_empire_square_tower_l1">
+					<transform position="6.075, -0.933, 0.152" rotation_euler="0.000, 0.000, 1.681"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_square_tower_1"/>
+					</components>
+					<levels>
+						<level name="level_1"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_square_tower_l1" old_prefab_name="map_icons_empire_square_tower_l1">
+					<transform position="-3.157, -2.188, 0.036" rotation_euler="0.000, 0.000, 0.993"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_square_tower_1"/>
+					</components>
+					<levels>
+						<level name="level_1"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_house_c" old_prefab_name="map_icons_empire_house_c">
+					<flags>
+						<flag name="align_to_terrain" value="true"/>
+					</flags>
+					<transform position="1.459, 1.770, -0.211" rotation_euler="0.000, 0.000, -0.594"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_house_c"/>
+					</components>
+				</game_entity>
+				<game_entity name="map_icons_empire_well" old_prefab_name="map_icons_empire_well">
+					<transform position="-0.369, -2.217, 0.005" rotation_euler="0.000, 0.000, -0.620" scale="0.566, 0.566, 0.566"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_well"/>
+					</components>
+				</game_entity>
+				<game_entity name="map_icons_empire_wall_small_l3" old_prefab_name="map_icons_empire_wall_small_l3">
+					<transform position="-5.895, 0.233, -0.272" rotation_euler="0.000, 0.000, -0.584"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_wall_3s"/>
+					</components>
+					<levels>
+						<level name="level_3"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_pier_a" old_prefab_name="map_icons_pier_a">
+					<transform position="-5.549, -1.067, 0.205" rotation_euler="0.000, 0.000, -0.605"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_pier_a"/>
+					</components>
+				</game_entity>
+				<game_entity name="map_mountain_rock_c" old_prefab_name="map_mountain_rock_c">
+					<transform position="-4.791, -3.888, -0.075" rotation_euler="-0.183, 0.000, -1.726" scale="0.680, 0.680, 0.680"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="map_mountain_rock_c"/>
+					</components>
+				</game_entity>
+				<game_entity name="map_mountain_rock_c_snw" old_prefab_name="map_mountain_rock_c_snw">
+					<transform position="-4.305, -4.219, -0.255" rotation_euler="0.000, 0.000, -0.293" scale="0.828, 0.828, 0.828"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="map_mountain_rock_c_snw"/>
+					</components>
+				</game_entity>
+				<game_entity name="map_mountain_rock_c_snw" old_prefab_name="map_mountain_rock_c_snw">
+					<transform position="-3.759, -3.801, -0.429" rotation_euler="-0.343, 0.000, 1.866" scale="0.828, 0.828, 0.828"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="map_mountain_rock_c_snw"/>
+					</components>
+				</game_entity>
+				<game_entity name="map_mountain_rock_c_snw" old_prefab_name="map_mountain_rock_c_snw">
+					<transform position="-4.393, -3.352, -0.211" rotation_euler="-0.560, -0.230, 3.120" scale="0.689, 0.689, 0.689"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="map_mountain_rock_c_snw"/>
+					</components>
+				</game_entity>
+				<game_entity name="map_mountain_rock_c_snw" old_prefab_name="map_mountain_rock_c_snw">
+					<transform position="-4.235, -1.216, -0.125" rotation_euler="-0.445, 0.000, -0.009" scale="0.624, 0.624, 0.624"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="map_mountain_rock_c_snw"/>
+					</components>
+				</game_entity>
+				<game_entity name="map_mountain_rock_c_snw" old_prefab_name="map_mountain_rock_c_snw">
+					<transform position="-4.076, -1.579, -0.194" rotation_euler="-0.602, 0.124, -0.884" scale="0.624, 0.624, 0.624"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="map_mountain_rock_c_snw"/>
+					</components>
+				</game_entity>
+				<game_entity name="map_mountain_rock_c_snw" old_prefab_name="map_mountain_rock_c_snw">
+					<transform position="-3.260, -2.816, -0.670" rotation_euler="-0.140, 0.000, -1.138"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="map_mountain_rock_c_snw"/>
+					</components>
+				</game_entity>
+				<game_entity name="map_mountain_rock_b_snw" old_prefab_name="map_mountain_rock_b_snw">
+					<transform position="-2.714, -3.071, 0.039" rotation_euler="-0.501, 0.000, 0.019" scale="0.618, 0.618, 0.618"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="map_mountain_rock_b_snw"/>
+					</components>
+				</game_entity>
+				<game_entity name="empire_road_plaza_a" old_prefab_name="empire_road_plaza_a">
+					<transform position="-0.349, -2.241, 0.016" rotation_euler="0.000, 0.000, -0.611" scale="0.065, 0.065, 0.065"/>
+					<physics shape="bo_empire_road_plaza_a" override_material="stone" mass="1.000"/>
+					<components>
+						<meta_mesh_component name="empire_road_plaza_a"/>
+					</components>
+				</game_entity>
+				<game_entity name="map_icons_empire_house_b" old_prefab_name="map_icons_empire_house_b">
+					<flags>
+						<flag name="align_to_terrain" value="true"/>
+					</flags>
+					<transform position="2.532, -2.298, 0.073" rotation_euler="0.000, 0.000, 1.033"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_house_b"/>
+					</components>
+				</game_entity>
+				<game_entity name="map_icons_empire_house_b" old_prefab_name="map_icons_empire_house_b">
+					<flags>
+						<flag name="align_to_terrain" value="true"/>
+					</flags>
+					<transform position="2.136, -2.855, 0.076" rotation_euler="0.000, 0.000, 2.500"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_house_b"/>
+					</components>
+				</game_entity>
+				<game_entity name="map_icons_empire_house_b" old_prefab_name="map_icons_empire_house_b">
+					<flags>
+						<flag name="align_to_terrain" value="true"/>
+					</flags>
+					<transform position="1.726, -2.302, -0.050" rotation_euler="0.000, 0.000, 1.745" scale="0.842, 0.842, 0.842"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_house_b"/>
+					</components>
+				</game_entity>
+				<game_entity name="map_icons_empire_house_b" old_prefab_name="map_icons_empire_house_b">
+					<flags>
+						<flag name="align_to_terrain" value="true"/>
+					</flags>
+					<transform position="1.542, -1.801, -0.126" rotation_euler="0.000, 0.000, -2.607" scale="0.842, 0.842, 0.842"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_house_b"/>
+					</components>
+				</game_entity>
+				<game_entity name="map_icons_empire_house_a" old_prefab_name="map_icons_empire_house_a">
+					<flags>
+						<flag name="align_to_terrain" value="true"/>
+					</flags>
+					<transform position="1.233, -3.980, -0.079" rotation_euler="0.000, 0.000, -0.630" scale="0.961, 0.961, 0.961"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_house_a"/>
+					</components>
+				</game_entity>
+				<game_entity name="map_icons_empire_house_a" old_prefab_name="map_icons_empire_house_a">
+					<flags>
+						<flag name="align_to_terrain" value="true"/>
+					</flags>
+					<transform position="0.839, -4.342, -0.079" rotation_euler="0.000, 0.000, -2.159" scale="0.960, 0.960, 0.960"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_house_a"/>
+					</components>
+				</game_entity>
+				<game_entity name="map_icons_empire_house_d" old_prefab_name="map_icons_empire_house_d">
+					<flags>
+						<flag name="align_to_terrain" value="true"/>
+					</flags>
+					<transform position="0.210, -4.619, -0.122" rotation_euler="0.000, 0.000, 0.602" scale="0.932, 0.932, 0.932"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_house_d"/>
+					</components>
+				</game_entity>
+				<game_entity name="map_icons_empire_house_d" old_prefab_name="map_icons_empire_house_d">
+					<flags>
+						<flag name="align_to_terrain" value="true"/>
+					</flags>
+					<transform position="-0.141, -4.233, -0.133" rotation_euler="0.000, 0.000, 0.892" scale="0.932, 0.932, 0.932"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_house_d"/>
+					</components>
+				</game_entity>
+				<game_entity name="map_icons_empire_house_d" old_prefab_name="map_icons_empire_house_d">
+					<flags>
+						<flag name="align_to_terrain" value="true"/>
+					</flags>
+					<transform position="0.774, -3.572, -0.091" rotation_euler="0.000, 0.000, -0.641" scale="0.813, 0.813, 0.813"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_house_d"/>
+					</components>
+				</game_entity>
+				<game_entity name="map_icons_empire_house_c" old_prefab_name="map_icons_empire_house_c">
+					<flags>
+						<flag name="align_to_terrain" value="true"/>
+					</flags>
+					<transform position="0.404, -4.018, -0.133" rotation_euler="0.000, 0.000, 0.862" scale="0.687, 0.687, 0.687"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_house_c"/>
+					</components>
+				</game_entity>
+				<game_entity name="map_icons_empire_house_c" old_prefab_name="map_icons_empire_house_c">
+					<flags>
+						<flag name="align_to_terrain" value="true"/>
+					</flags>
+					<transform position="0.145, -3.797, -0.133" rotation_euler="0.000, 0.000, 2.458" scale="0.687, 0.687, 0.687"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_house_c"/>
+					</components>
+				</game_entity>
+				<game_entity name="map_icons_empire_house_c" old_prefab_name="map_icons_empire_house_c">
+					<flags>
+						<flag name="align_to_terrain" value="true"/>
+					</flags>
+					<transform position="0.304, -3.346, -0.133" rotation_euler="0.000, 0.000, 2.458" scale="0.687, 0.687, 0.687"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_house_c"/>
+					</components>
+				</game_entity>
+				<game_entity name="map_icons_empire_house_c" old_prefab_name="map_icons_empire_house_c">
+					<flags>
+						<flag name="align_to_terrain" value="true"/>
+					</flags>
+					<transform position="0.504, -3.047, -0.133" rotation_euler="0.000, 0.000, 0.889" scale="0.687, 0.687, 0.687"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_house_c"/>
+					</components>
+				</game_entity>
+				<game_entity name="map_icons_empire_house_b" old_prefab_name="map_icons_empire_house_b">
+					<flags>
+						<flag name="align_to_terrain" value="true"/>
+					</flags>
+					<transform position="1.135, -3.125, -0.079" rotation_euler="0.000, 0.000, 0.965" scale="0.809, 0.809, 0.809"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_house_b"/>
+					</components>
+				</game_entity>
+				<game_entity name="map_icons_empire_house_b" old_prefab_name="map_icons_empire_house_b">
+					<flags>
+						<flag name="align_to_terrain" value="true"/>
+					</flags>
+					<transform position="1.433, -2.776, -0.079" rotation_euler="0.000, 0.000, -2.213" scale="0.809, 0.809, 0.809"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_house_b"/>
+					</components>
+				</game_entity>
+				<game_entity name="map_icons_empire_house_a" old_prefab_name="map_icons_empire_house_a">
+					<flags>
+						<flag name="align_to_terrain" value="true"/>
+					</flags>
+					<transform position="1.076, -2.095, -0.133" rotation_euler="0.000, 0.000, -0.603" scale="0.938, 0.938, 0.938"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_house_a"/>
+					</components>
+				</game_entity>
+				<game_entity name="map_icons_empire_house_d" old_prefab_name="map_icons_empire_house_d">
+					<flags>
+						<flag name="align_to_terrain" value="true"/>
+					</flags>
+					<transform position="0.756, -2.532, -0.133" rotation_euler="0.000, 0.000, -2.255" scale="0.840, 0.840, 0.840"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_house_d"/>
+					</components>
+				</game_entity>
+				<game_entity name="map_icons_empire_house_a" old_prefab_name="map_icons_empire_house_a">
+					<flags>
+						<flag name="align_to_terrain" value="true"/>
+					</flags>
+					<transform position="-0.273, 1.125, -0.079" rotation_euler="0.000, 0.000, 1.687"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_house_a"/>
+					</components>
+				</game_entity>
+				<game_entity name="map_icons_empire_house_a" old_prefab_name="map_icons_empire_house_a">
+					<flags>
+						<flag name="align_to_terrain" value="true"/>
+					</flags>
+					<transform position="-0.939, 1.419, -0.160" rotation_euler="0.000, 0.000, -0.212" scale="1.130, 1.130, 1.130"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_house_a"/>
+					</components>
+				</game_entity>
+				<game_entity name="map_icons_empire_house_d" old_prefab_name="map_icons_empire_house_d">
+					<flags>
+						<flag name="align_to_terrain" value="true"/>
+					</flags>
+					<transform position="-1.431, 1.861, -0.287" rotation_euler="0.000, 0.000, 0.692" scale="1.098, 1.098, 1.098"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_house_d"/>
+					</components>
+				</game_entity>
+				<game_entity name="map_icons_empire_house_c" old_prefab_name="map_icons_empire_house_c">
+					<flags>
+						<flag name="align_to_terrain" value="true"/>
+					</flags>
+					<transform position="-2.149, 1.655, -0.333" rotation_euler="0.000, 0.000, 0.670"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_house_c"/>
+					</components>
+				</game_entity>
+				<game_entity name="map_icons_empire_house_c" old_prefab_name="map_icons_empire_house_c">
+					<flags>
+						<flag name="align_to_terrain" value="true"/>
+					</flags>
+					<transform position="-1.782, 1.239, -0.231" rotation_euler="0.000, 0.000, 0.670"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_house_c"/>
+					</components>
+				</game_entity>
+				<game_entity name="map_icons_empire_house_d" old_prefab_name="map_icons_empire_house_d">
+					<flags>
+						<flag name="align_to_terrain" value="true"/>
+					</flags>
+					<transform position="-2.999, 0.775, -0.236" rotation_euler="0.000, 0.000, 2.629"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_house_d"/>
+					</components>
+				</game_entity>
+				<game_entity name="map_icons_empire_house_b" old_prefab_name="map_icons_empire_house_b">
+					<flags>
+						<flag name="align_to_terrain" value="true"/>
+					</flags>
+					<transform position="-2.332, 0.603, -0.195" rotation_euler="0.000, 0.000, -2.104" scale="0.897, 0.897, 0.897"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_house_b"/>
+					</components>
+				</game_entity>
+				<game_entity name="map_icons_empire_house_a" old_prefab_name="map_icons_empire_house_a">
+					<flags>
+						<flag name="align_to_terrain" value="true"/>
+					</flags>
+					<transform position="-3.582, 0.842, -0.233" rotation_euler="0.000, 0.000, 1.798"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_house_a"/>
+					</components>
+				</game_entity>
+				<game_entity name="map_icons_empire_house_a" old_prefab_name="map_icons_empire_house_a">
+					<flags>
+						<flag name="align_to_terrain" value="true"/>
+					</flags>
+					<transform position="-4.040, 1.339, -0.359" rotation_euler="0.000, 0.000, -2.370"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_house_a"/>
+					</components>
+				</game_entity>
+				<game_entity name="map_icons_empire_house_c" old_prefab_name="map_icons_empire_house_c">
+					<flags>
+						<flag name="align_to_terrain" value="true"/>
+					</flags>
+					<transform position="-3.618, 1.634, -0.385" rotation_euler="0.000, 0.000, 0.642" scale="0.878, 0.878, 0.878"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_house_c"/>
+					</components>
+				</game_entity>
+				<game_entity name="map_icons_empire_house_c" old_prefab_name="map_icons_empire_house_c">
+					<flags>
+						<flag name="align_to_terrain" value="true"/>
+					</flags>
+					<transform position="-3.281, 1.850, -0.435" rotation_euler="0.000, 0.000, 0.261" scale="0.820, 0.820, 0.820"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_house_c"/>
+					</components>
+				</game_entity>
+				<game_entity name="map_icons_empire_house_c" old_prefab_name="map_icons_empire_house_c">
+					<flags>
+						<flag name="align_to_terrain" value="true"/>
+					</flags>
+					<transform position="-3.254, 2.245, -0.578" rotation_euler="0.000, 0.000, 1.852" scale="0.759, 0.759, 0.759"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_house_c"/>
+					</components>
+				</game_entity>
+				<game_entity name="map_icons_empire_house_c" old_prefab_name="map_icons_empire_house_c">
+					<flags>
+						<flag name="align_to_terrain" value="true"/>
+					</flags>
+					<transform position="-2.888, 2.041, -0.456" rotation_euler="0.000, 0.000, 2.437" scale="0.760, 0.760, 0.760"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_house_c"/>
+					</components>
+				</game_entity>
+				<game_entity name="map_icons_empire_house_c" old_prefab_name="map_icons_empire_house_c">
+					<flags>
+						<flag name="align_to_terrain" value="true"/>
+					</flags>
+					<transform position="-2.022, 2.186, -0.474" rotation_euler="0.000, 0.000, 1.846" scale="0.760, 0.760, 0.760"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_house_c"/>
+					</components>
+				</game_entity>
+				<game_entity name="map_icons_empire_house_d" old_prefab_name="map_icons_empire_house_d">
+					<flags>
+						<flag name="align_to_terrain" value="true"/>
+					</flags>
+					<transform position="-1.917, 2.826, -0.634" rotation_euler="0.000, 0.000, 0.490"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_house_d"/>
+					</components>
+				</game_entity>
+				<game_entity name="map_icons_empire_house_c" old_prefab_name="map_icons_empire_house_c">
+					<flags>
+						<flag name="align_to_terrain" value="true"/>
+					</flags>
+					<transform position="-1.531, 3.219, -0.585" rotation_euler="0.000, 0.000, -1.123" scale="1.521, 1.521, 1.521"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_house_c"/>
+					</components>
+				</game_entity>
+				<game_entity name="map_icons_empire_house_d" old_prefab_name="map_icons_empire_house_d">
+					<flags>
+						<flag name="align_to_terrain" value="true"/>
+					</flags>
+					<transform position="-2.704, 2.561, -0.668" rotation_euler="0.000, 0.000, -1.062" scale="1.213, 1.213, 1.213"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_house_d"/>
+					</components>
+				</game_entity>
+				<game_entity name="map_icons_empire_house_b" old_prefab_name="map_icons_empire_house_b">
+					<flags>
+						<flag name="align_to_terrain" value="true"/>
+					</flags>
+					<transform position="0.684, -1.711, -0.133" rotation_euler="0.000, 0.000, -0.658" scale="0.828, 0.828, 0.828"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_house_b"/>
+					</components>
+				</game_entity>
+				<game_entity name="map_icons_empire_house_b" old_prefab_name="map_icons_empire_house_b">
+					<flags>
+						<flag name="align_to_terrain" value="true"/>
+					</flags>
+					<transform position="-0.222, -1.177, -0.133" rotation_euler="0.000, 0.000, 0.959" scale="0.828, 0.828, 0.828"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_house_b"/>
+					</components>
+				</game_entity>
+				<game_entity name="map_icons_empire_house_b" old_prefab_name="map_icons_empire_house_b">
+					<flags>
+						<flag name="align_to_terrain" value="true"/>
+					</flags>
+					<transform position="0.036, -0.803, -0.133" rotation_euler="0.000, 0.000, 0.959" scale="0.736, 0.736, 0.736"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_house_b"/>
+					</components>
+				</game_entity>
+				<game_entity name="map_icons_empire_house_c" old_prefab_name="map_icons_empire_house_c">
+					<flags>
+						<flag name="align_to_terrain" value="true"/>
+					</flags>
+					<transform position="-0.485, -0.682, -0.049" rotation_euler="0.000, 0.000, 0.946" scale="0.660, 0.660, 0.660"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_house_c"/>
+					</components>
+				</game_entity>
+				<game_entity name="map_icons_empire_house_c" old_prefab_name="map_icons_empire_house_c">
+					<flags>
+						<flag name="align_to_terrain" value="true"/>
+					</flags>
+					<transform position="-0.634, -0.958, -0.062" rotation_euler="0.000, 0.000, 2.465" scale="0.659, 0.659, 0.659"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_house_c"/>
+					</components>
+				</game_entity>
+				<game_entity name="empire_garden_wall_c2" old_prefab_name="empire_garden_wall_c2">
+					<transform position="-1.791, -1.207, -0.122" rotation_euler="0.000, 0.000, 1.014" scale="0.252, 0.252, 0.252"/>
+					<physics shape="bo_empire_garden_wall_c2" override_material="stone" mass="1.000"/>
+					<components>
+						<meta_mesh_component name="empire_garden_wall_c2"/>
+					</components>
+				</game_entity>
+				<game_entity name="map_icons_empire_house_c" old_prefab_name="map_icons_empire_house_c">
+					<flags>
+						<flag name="align_to_terrain" value="true"/>
+					</flags>
+					<transform position="0.870, 0.309, -0.150" rotation_euler="0.000, 0.000, -2.688" scale="0.958, 0.958, 0.958"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_house_c"/>
+					</components>
+				</game_entity>
+				<game_entity name="empire_garden_wall_c2" old_prefab_name="empire_garden_wall_c2">
+					<transform position="-2.573, -1.647, -0.122" rotation_euler="0.000, 0.000, -0.558" scale="0.253, 0.253, 0.253"/>
+					<physics shape="bo_empire_garden_wall_c2" override_material="stone" mass="1.000"/>
+					<components>
+						<meta_mesh_component name="empire_garden_wall_c2"/>
+					</components>
+				</game_entity>
+				<game_entity name="empire_garden_wall_c2" old_prefab_name="empire_garden_wall_c2">
+					<transform position="-2.005, -1.551, -0.122" rotation_euler="0.000, 0.000, 1.014" scale="0.253, 0.253, 0.253"/>
+					<physics shape="bo_empire_garden_wall_c2" override_material="stone" mass="1.000"/>
+					<components>
+						<meta_mesh_component name="empire_garden_wall_c2"/>
+					</components>
+				</game_entity>
+				<game_entity name="map_icons_empire_house_b" old_prefab_name="map_icons_empire_house_b">
+					<flags>
+						<flag name="align_to_terrain" value="true"/>
+					</flags>
+					<transform position="-1.359, 0.092, -0.090" rotation_euler="0.000, 0.000, -0.575"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_house_b"/>
+					</components>
+				</game_entity>
+				<game_entity name="map_icons_empire_house_c" old_prefab_name="map_icons_empire_house_c">
+					<flags>
+						<flag name="align_to_terrain" value="true"/>
+					</flags>
+					<transform position="-1.794, 0.320, -0.133" rotation_euler="0.000, 0.000, -0.633"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_house_c"/>
+					</components>
+				</game_entity>
+				<game_entity name="map_icons_empire_alley" old_prefab_name="map_icons_empire_alley">
+					<transform position="-2.768, 1.467, -0.042" rotation_euler="0.000, 0.000, 1.725" scale="0.637, 0.637, 0.637"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_alley"/>
+					</components>
+				</game_entity>
+				<game_entity name="map_icons_empire_house_a" old_prefab_name="map_icons_empire_house_a">
+					<flags>
+						<flag name="align_to_terrain" value="true"/>
+					</flags>
+					<transform position="-2.922, -1.755, -0.083" rotation_euler="0.000, 0.000, 2.559" scale="1.305, 1.305, 1.305"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_house_a"/>
+					</components>
+				</game_entity>
+				<game_entity name="map_icons_empire_house_a" old_prefab_name="map_icons_empire_house_a">
+					<flags>
+						<flag name="align_to_terrain" value="true"/>
+					</flags>
+					<transform position="-2.433, -2.137, -0.079" rotation_euler="0.000, 0.000, 1.003"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_house_a"/>
+					</components>
+				</game_entity>
+				<game_entity name="map_icons_empire_house_b" old_prefab_name="map_icons_empire_house_b">
+					<flags>
+						<flag name="align_to_terrain" value="true"/>
+					</flags>
+					<transform position="-1.993, -2.508, -0.086" rotation_euler="0.000, 0.000, -0.620"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_house_b"/>
+					</components>
+				</game_entity>
+				<game_entity name="map_icons_empire_house_a" old_prefab_name="map_icons_empire_house_a">
+					<flags>
+						<flag name="align_to_terrain" value="true"/>
+					</flags>
+					<transform position="-1.399, -2.691, -0.155" rotation_euler="0.000, 0.000, -2.159"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_house_a"/>
+					</components>
+				</game_entity>
+				<game_entity name="map_icons_empire_house_a" old_prefab_name="map_icons_empire_house_a">
+					<flags>
+						<flag name="align_to_terrain" value="true"/>
+					</flags>
+					<transform position="-0.210, -3.544, -0.133" rotation_euler="0.000, 0.000, -0.631" scale="0.808, 0.808, 0.808"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_house_a"/>
+					</components>
+				</game_entity>
+				<game_entity name="map_icons_empire_house_d" old_prefab_name="map_icons_empire_house_d">
+					<flags>
+						<flag name="align_to_terrain" value="true"/>
+					</flags>
+					<transform position="-1.560, -1.894, -0.079" rotation_euler="0.000, 0.000, 1.025"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_house_d"/>
+					</components>
+				</game_entity>
+				<game_entity name="map_icons_empire_house_c" old_prefab_name="">
+					<flags>
+						<flag name="align_to_terrain" value="true"/>
+					</flags>
+					<transform position="1.319, 0.621, -0.186" rotation_euler="0.000, 0.000, -2.717" scale="1.312, 1.312, 1.312"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_house_c"/>
+					</components>
+				</game_entity>
+				<game_entity name="map_icons_empire_house_c" old_prefab_name="">
+					<flags>
+						<flag name="align_to_terrain" value="true"/>
+					</flags>
+					<transform position="1.517, 0.707, -0.186" rotation_euler="0.000, 0.000, 2.502" scale="1.312, 1.312, 1.312"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_house_c"/>
+					</components>
+				</game_entity>
+				<game_entity name="map_icons_empire_keep_l3" old_prefab_name="">
+					<transform position="4.298, 0.829, -0.093" rotation_euler="0.000, 0.000, -0.234"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_keep_3"/>
+					</components>
+					<levels>
+						<level name="level_3"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_house_d" old_prefab_name="">
+					<flags>
+						<flag name="align_to_terrain" value="true"/>
+					</flags>
+					<transform position="-0.170, -0.354, -0.040" rotation_euler="0.000, 0.000, 2.507" scale="0.793, 0.793, 0.793"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_house_d"/>
+					</components>
+				</game_entity>
+				<game_entity name="map_icons_empire_house_c" old_prefab_name="">
+					<flags>
+						<flag name="align_to_terrain" value="true"/>
+					</flags>
+					<transform position="-3.205, -1.289, -0.162" rotation_euler="0.000, 0.000, -2.745" scale="1.715, 1.715, 1.715"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_house_c"/>
+					</components>
+				</game_entity>
+				<game_entity name="empire_garden_wall_c2" old_prefab_name="">
+					<transform position="-1.648, -0.229, -0.122" rotation_euler="0.000, 0.000, -0.579" scale="0.253, 0.253, 0.253"/>
+					<physics shape="bo_empire_garden_wall_c2" override_material="stone" mass="1.000"/>
+					<components>
+						<meta_mesh_component name="empire_garden_wall_c2"/>
+					</components>
+				</game_entity>
+				<game_entity name="map_icons_empire_tavern" old_prefab_name="">
+					<transform position="-2.885, -0.587, 0.000" rotation_euler="0.000, 0.000, -0.544" scale="1.386, 1.386, 1.386"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_tavern"/>
+					</components>
+				</game_entity>
+				<game_entity name="map_icons_empire_wall_l3" old_prefab_name="">
+					<transform position="1.410, 1.281, -0.523" rotation_euler="0.000, 0.000, -0.582"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_wall_3"/>
+					</components>
+					<levels>
+						<level name="level_3"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_wall_small_l3" old_prefab_name="">
+					<transform position="1.056, 0.232, -0.527" rotation_euler="0.000, 0.000, 0.457"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_wall_3s"/>
+					</components>
+					<levels>
+						<level name="level_3"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_wall_small_l3" old_prefab_name="">
+					<transform position="1.175, -0.004, -0.530" rotation_euler="0.000, 0.000, 0.457"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_wall_3s"/>
+					</components>
+					<levels>
+						<level name="level_3"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_house_c" old_prefab_name="">
+					<flags>
+						<flag name="align_to_terrain" value="true"/>
+					</flags>
+					<transform position="1.557, 0.095, -0.186" rotation_euler="0.000, 0.000, -2.717" scale="1.312, 1.312, 1.312"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_house_c"/>
+					</components>
+				</game_entity>
+				<game_entity name="map_icons_empire_house_a" old_prefab_name="map_icons_empire_house_a">
+					<flags>
+						<flag name="align_to_terrain" value="true"/>
+					</flags>
+					<transform position="2.491, 2.192, -0.240" rotation_euler="0.000, 0.000, 2.555" scale="1.075, 1.075, 1.075"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_house_a"/>
+					</components>
+				</game_entity>
+				<game_entity name="map_icons_empire_house_a" old_prefab_name="map_icons_empire_house_a">
+					<flags>
+						<flag name="align_to_terrain" value="true"/>
+					</flags>
+					<transform position="3.529, 1.102, -0.056" rotation_euler="0.000, 0.000, 0.977"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_house_a"/>
+					</components>
+				</game_entity>
+				<game_entity name="map_icons_empire_monument_1" old_prefab_name="map_icons_empire_monument_1">
+					<transform position="3.366, 3.279, 0.089" rotation_euler="0.000, 0.000, -0.045" scale="1.698, 1.698, 1.698"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_3_monument_1"/>
+					</components>
+				</game_entity>
+				<game_entity name="map_icons_empire_house_a" old_prefab_name="map_icons_empire_house_a">
+					<flags>
+						<flag name="align_to_terrain" value="true"/>
+					</flags>
+					<transform position="3.330, 0.609, -0.042" rotation_euler="0.000, 0.000, 1.272" scale="1.529, 1.529, 1.529"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_house_a"/>
+					</components>
+					<levels>
+						<level name="level_2"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_house_b" old_prefab_name="map_icons_empire_house_b">
+					<flags>
+						<flag name="align_to_terrain" value="true"/>
+					</flags>
+					<transform position="2.803, 2.695, -0.269" rotation_euler="0.000, 0.000, -0.579" scale="0.866, 0.866, 0.866"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_house_b"/>
+					</components>
+				</game_entity>
+				<game_entity name="map_icons_empire_house_c" old_prefab_name="map_icons_empire_house_c">
+					<flags>
+						<flag name="align_to_terrain" value="true"/>
+					</flags>
+					<transform position="2.520, 0.268, -0.186" rotation_euler="0.000, 0.000, 0.414" scale="0.823, 0.823, 0.823"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_house_c"/>
+					</components>
+				</game_entity>
+				<game_entity name="map_icons_empire_house_c" old_prefab_name="map_icons_empire_house_c">
+					<flags>
+						<flag name="align_to_terrain" value="true"/>
+					</flags>
+					<transform position="2.241, -1.159, -0.144" rotation_euler="0.000, 0.000, 0.174"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_house_c"/>
+					</components>
+				</game_entity>
+				<game_entity name="map_icons_empire_house_c" old_prefab_name="map_icons_empire_house_c">
+					<flags>
+						<flag name="align_to_terrain" value="true"/>
+					</flags>
+					<transform position="2.639, -1.068, -0.133" rotation_euler="0.000, 0.000, 0.174"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_house_c"/>
+					</components>
+				</game_entity>
+				<game_entity name="map_icons_empire_house_d" old_prefab_name="map_icons_empire_house_d">
+					<flags>
+						<flag name="align_to_terrain" value="true"/>
+					</flags>
+					<transform position="3.337, -1.003, 0.085" rotation_euler="0.000, 0.000, 1.804"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_house_d"/>
+					</components>
+				</game_entity>
+				<game_entity name="map_icons_empire_house_d" old_prefab_name="map_icons_empire_house_d">
+					<flags>
+						<flag name="align_to_terrain" value="true"/>
+					</flags>
+					<transform position="5.655, -0.148, 0.190" rotation_euler="0.000, 0.000, -0.311" scale="1.601, 1.601, 1.601"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_house_d"/>
+					</components>
+				</game_entity>
+				<game_entity name="map_icons_empire_house_c" old_prefab_name="map_icons_empire_house_c">
+					<flags>
+						<flag name="align_to_terrain" value="true"/>
+					</flags>
+					<transform position="5.927, 0.655, 0.113" rotation_euler="0.000, 0.000, 0.216" scale="1.874, 1.874, 1.874"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_house_c"/>
+					</components>
+					<levels>
+						<level name="level_1"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+						<level name="looted"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_house_c" old_prefab_name="map_icons_empire_house_c">
+					<flags>
+						<flag name="align_to_terrain" value="true"/>
+					</flags>
+					<transform position="5.720, 1.540, 0.103" rotation_euler="0.000, 0.000, 0.186" scale="1.874, 1.874, 1.874"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_house_c"/>
+					</components>
+					<levels>
+						<level name="level_1"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+						<level name="looted"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_house_c" old_prefab_name="map_icons_empire_house_c">
+					<flags>
+						<flag name="align_to_terrain" value="true"/>
+					</flags>
+					<transform position="-4.925, 0.940, -0.488" rotation_euler="0.000, 0.000, -0.830" scale="1.621, 1.621, 1.621"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_house_c"/>
+					</components>
+				</game_entity>
+				<game_entity name="map_icons_empire_house_c" old_prefab_name="map_icons_empire_house_c">
+					<flags>
+						<flag name="align_to_terrain" value="true"/>
+					</flags>
+					<transform position="-4.342, 0.621, -0.280" rotation_euler="0.000, 0.000, 0.741" scale="1.621, 1.621, 1.621"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_house_c"/>
+					</components>
+				</game_entity>
+				<game_entity name="map_icons_empire_house_d" old_prefab_name="map_icons_empire_house_d">
+					<flags>
+						<flag name="align_to_terrain" value="true"/>
+					</flags>
+					<transform position="-5.416, 0.173, -0.577" rotation_euler="0.000, 0.000, -0.594" scale="1.144, 1.144, 1.144"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_house_d"/>
+					</components>
+				</game_entity>
+				<game_entity name="map_icons_empire_house_b" old_prefab_name="map_icons_empire_house_b">
+					<flags>
+						<flag name="align_to_terrain" value="true"/>
+					</flags>
+					<transform position="-4.442, -0.532, -0.293" rotation_euler="0.000, 0.000, -0.242"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_house_b"/>
+					</components>
+				</game_entity>
+				<game_entity name="map_icons_empire_house_b" old_prefab_name="map_icons_empire_house_b">
+					<flags>
+						<flag name="align_to_terrain" value="true"/>
+					</flags>
+					<transform position="-4.021, -0.428, -0.213" rotation_euler="0.000, 0.000, 2.533"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_house_b"/>
+					</components>
+				</game_entity>
+				<game_entity name="map_icons_empire_house_c" old_prefab_name="map_icons_empire_house_c">
+					<flags>
+						<flag name="align_to_terrain" value="true"/>
+					</flags>
+					<transform position="-4.797, -0.031, -0.351" rotation_euler="0.000, 0.000, 2.507" scale="1.132, 1.132, 1.132"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_house_c"/>
+					</components>
+				</game_entity>
+				<game_entity name="decal_ground" old_prefab_name="_decal">
+					<transform position="1.992, -1.988, -0.111" rotation_euler="0.000, 0.000, -0.825" scale="1.203, 1.203, 1.203"/>
+					<physics mass="1.000"/>
+					<components>
+						<decal_component material="decal_city_ground" argument="1.000, 1.000, 0.000, 0.000"/>
+					</components>
+				</game_entity>
+				<game_entity name="decal_ground" old_prefab_name="_decal">
+					<transform position="0.588, -0.827, -0.111" rotation_euler="0.000, 0.000, -0.453" scale="1.178, 1.178, 1.178"/>
+					<physics mass="1.000"/>
+					<components>
+						<decal_component material="decal_city_ground" argument="1.000, 1.000, 0.000, 0.000"/>
+					</components>
+				</game_entity>
+				<game_entity name="decal_ground" old_prefab_name="_decal">
+					<transform position="4.610, 0.045, -0.111" rotation_euler="0.000, 0.000, -1.359" scale="1.178, 1.178, 1.178"/>
+					<physics mass="1.000"/>
+					<components>
+						<decal_component material="decal_city_ground" argument="1.000, 1.000, 0.000, 0.000"/>
+					</components>
+				</game_entity>
+				<game_entity name="decal_ground" old_prefab_name="_decal">
+					<transform position="-1.369, -2.194, -0.111" rotation_euler="0.000, 0.000, -0.654" scale="1.178, 1.178, 1.178"/>
+					<physics mass="1.000"/>
+					<components>
+						<decal_component material="decal_city_ground" argument="1.000, 1.000, 0.000, 0.000"/>
+					</components>
+				</game_entity>
+				<game_entity name="decal_ground" old_prefab_name="_decal">
+					<transform position="-2.882, -0.833, -0.111" rotation_euler="0.000, 0.000, -1.029" scale="1.178, 1.178, 1.178"/>
+					<physics mass="1.000"/>
+					<components>
+						<decal_component material="decal_city_ground" argument="1.000, 1.000, 0.000, 0.000"/>
+					</components>
+				</game_entity>
+				<game_entity name="decal_ground" old_prefab_name="_decal">
+					<transform position="-4.380, 0.276, -0.111" rotation_euler="0.000, 0.000, -0.567" scale="1.178, 1.178, 1.178"/>
+					<physics mass="1.000"/>
+					<components>
+						<decal_component material="decal_city_ground" argument="1.000, 1.000, 0.000, 0.000"/>
+					</components>
+				</game_entity>
+				<game_entity name="decal_ground" old_prefab_name="_decal">
+					<transform position="-3.006, 1.520, -0.111" rotation_euler="0.000, 0.000, -1.026" scale="1.178, 1.178, 1.178"/>
+					<physics mass="1.000"/>
+					<components>
+						<decal_component material="decal_city_ground" argument="1.000, 1.000, 0.000, 0.000"/>
+					</components>
+				</game_entity>
+				<game_entity name="decal_ground" old_prefab_name="_decal">
+					<transform position="-0.911, 2.468, -0.111" rotation_euler="0.000, 0.000, -1.026" scale="1.178, 1.178, 1.178"/>
+					<physics mass="1.000"/>
+					<components>
+						<decal_component material="decal_city_ground" argument="1.000, 1.000, 0.000, 0.000"/>
+					</components>
+				</game_entity>
+				<game_entity name="decal_ground" old_prefab_name="_decal">
+					<transform position="0.840, 2.976, -0.111" rotation_euler="0.000, 0.000, -1.524" scale="1.178, 1.178, 1.178"/>
+					<physics mass="1.000"/>
+					<components>
+						<decal_component material="decal_city_ground" argument="1.000, 1.000, 0.000, 0.000"/>
+					</components>
+				</game_entity>
+				<game_entity name="map_icons_empire_square_tower_l3" old_prefab_name="map_icons_empire_square_tower_l3">
+					<transform position="-3.979, 2.307, -1.580" rotation_euler="0.000, 0.000, 0.532" scale="1.366, 1.366, 1.366"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_square_tower_3"/>
+					</components>
+					<levels>
+						<level name="level_3"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="decal_ground" old_prefab_name="_decal">
+					<transform position="2.390, 1.162, -0.111" rotation_euler="0.000, 0.000, -1.524" scale="1.178, 1.178, 1.178"/>
+					<physics mass="1.000"/>
+					<components>
+						<decal_component material="decal_city_ground" argument="1.000, 1.000, 0.000, 0.000"/>
+					</components>
+				</game_entity>
+				<game_entity name="decal_ground" old_prefab_name="_decal">
+					<transform position="2.962, -0.340, -0.111" rotation_euler="0.000, 0.000, -1.359" scale="1.178, 1.178, 1.178"/>
+					<physics mass="1.000"/>
+					<components>
+						<decal_component material="decal_city_ground" argument="1.000, 1.000, 0.000, 0.000"/>
+					</components>
+				</game_entity>
+				<game_entity name="decal_ground" old_prefab_name="_decal">
+					<transform position="-0.967, 0.123, -0.111" rotation_euler="0.000, 0.000, -1.119" scale="1.178, 1.178, 1.178"/>
+					<physics mass="1.000"/>
+					<components>
+						<decal_component material="decal_city_ground" argument="1.000, 1.000, 0.000, 0.000"/>
+					</components>
+				</game_entity>
+				<game_entity name="decal_ground" old_prefab_name="_decal">
+					<transform position="1.017, 1.063, -0.111" rotation_euler="0.000, 0.000, -1.119" scale="1.178, 1.178, 1.178"/>
+					<physics mass="1.000"/>
+					<components>
+						<decal_component material="decal_city_ground" argument="1.000, 1.000, 0.000, 0.000"/>
+					</components>
+				</game_entity>
+				<game_entity name="editor_cube" old_prefab_name="editor_cube">
+					<transform position="0.211, 2.693, -2.672" rotation_euler="0.000, 0.000, 0.127" scale="2.687, 1.750, 2.687"/>
+					<physics shape="bo_editor_cube" mass="1.000"/>
+					<components>
+						<meta_mesh_component name="editor_cube">
+							<mesh name="editor_cube" material="desert_border_mat_c" factor="4287401100" argument="2.000, 0.000, 0.000, 0.000"/>
+						</meta_mesh_component>
+					</components>
+				</game_entity>
+				<game_entity name="decal_path_a" old_prefab_name="">
+					<transform position="1.333, -0.807, 0.000" rotation_euler="0.000, 0.000, -1.080" scale="0.517, 0.591, 0.517"/>
+					<physics mass="1.000"/>
+					<components>
+						<decal_component material="decal_empire_path_a" argument="0.530, 0.530, 0.480, 0.010"/>
+					</components>
+				</game_entity>
+				<game_entity name="decal_path_b" old_prefab_name="">
+					<transform position="-0.925, -1.354, 0.000" rotation_euler="0.000, 0.000, 0.356" scale="0.572, 0.572, 0.572"/>
+					<physics mass="1.000"/>
+					<components>
+						<decal_component material="decal_empire_path_b" argument="0.530, 0.530, 0.000, 0.010"/>
+					</components>
+				</game_entity>
+				<game_entity name="decal_path_a" old_prefab_name="">
+					<transform position="-1.524, -3.861, 0.000" rotation_euler="0.000, 0.000, 2.544" scale="0.517, 0.517, 0.517"/>
+					<physics mass="1.000"/>
+					<components>
+						<decal_component material="decal_empire_path_a" argument="0.530, 0.530, 0.480, 0.010"/>
+					</components>
+				</game_entity>
+				<game_entity name="decal_path_a" old_prefab_name="">
+					<transform position="0.458, 0.118, 0.000" rotation_euler="0.000, 0.000, 0.225" scale="0.509, 0.509, 0.509"/>
+					<physics mass="1.000"/>
+					<components>
+						<decal_component material="decal_empire_path_a" argument="0.530, 0.530, 0.480, 0.010"/>
+					</components>
+				</game_entity>
+				<game_entity name="decal_path_a" old_prefab_name="">
+					<transform position="-0.932, -3.090, 0.000" rotation_euler="0.000, 0.000, -0.585" scale="0.517, 0.517, 0.517"/>
+					<physics mass="1.000"/>
+					<components>
+						<decal_component material="decal_empire_path_a" argument="0.530, 0.530, 0.480, 0.010"/>
+					</components>
+				</game_entity>
+				<game_entity name="decal_path_a" old_prefab_name="">
+					<transform position="-2.045, -0.629, 0.000" rotation_euler="0.000, 0.000, -0.531" scale="0.517, 0.517, 0.517"/>
+					<physics mass="1.000"/>
+					<components>
+						<decal_component material="decal_empire_path_a" argument="0.530, 0.530, 0.480, 0.010"/>
+					</components>
+				</game_entity>
+				<game_entity name="map_icons_empire_tower_l1" old_prefab_name="map_icons_empire_tower_l1">
+					<transform position="4.160, -0.274, 0.000"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_tower_1"/>
+					</components>
+					<levels>
+						<level name="level_1"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+						<level name="looted"/>
+					</levels>
+				</game_entity>
+				<game_entity name="sign_tavern" old_prefab_name="sign_tavern">
+					<transform position="-2.680, -1.078, 1.305" rotation_euler="0.000, 0.000, 2.627" scale="0.254, 0.254, 0.254"/>
+					<physics shape="bo_sign_tavern" override_material="wood" mass="1.000"/>
+					<components>
+						<meta_mesh_component name="sign_tavern"/>
+					</components>
+				</game_entity>
+				<game_entity name="bd_table_b" old_prefab_name="bd_table_b">
+					<transform position="-1.905, -0.783, 0.000" rotation_euler="0.000, 0.000, -2.349" scale="0.193, 0.193, 0.193"/>
+					<physics shape="bo_bd_table_b" override_material="wood" mass="1.000"/>
+					<components>
+						<meta_mesh_component name="bd_table_b"/>
+					</components>
+				</game_entity>
+				<game_entity name="decal_path_a" old_prefab_name="">
+					<transform position="-1.765, -0.794, 0.000" rotation_euler="0.000, 0.000, -0.531" scale="0.517, 0.517, 0.517"/>
+					<physics mass="1.000"/>
+					<components>
+						<decal_component material="decal_empire_path_a" argument="0.530, 0.530, 0.480, 0.010"/>
+					</components>
+				</game_entity>
+				<game_entity name="map_icons_empire_wall_small_l1" old_prefab_name="map_icons_empire_wall_small_l1">
+					<transform position="5.438, -0.956, 0.204" rotation_euler="0.000, 0.000, 1.766"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_wall_1s"/>
+					</components>
+					<levels>
+						<level name="level_1"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_wall_small_l1" old_prefab_name="map_icons_empire_wall_small_l1">
+					<transform position="3.496, -1.859, 0.043" rotation_euler="0.000, 0.000, -2.880"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_wall_1s"/>
+					</components>
+					<levels>
+						<level name="level_1"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_gatehouse_l1" old_prefab_name="map_icons_empire_gatehouse_l1">
+					<transform position="-1.267, -3.555, 0.005" rotation_euler="0.000, 0.000, 0.965" scale="1.153, 1.153, 1.211"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_1_gatehouse"/>
+					</components>
+					<levels>
+						<level name="level_1"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_tower_l1" old_prefab_name="map_icons_empire_tower_l1">
+					<transform position="-3.561, 0.278, 0.355" rotation_euler="0.000, 0.000, -0.323" scale="0.889, 0.889, 0.889"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_tower_1"/>
+					</components>
+					<levels>
+						<level name="level_1"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_tower_l1" old_prefab_name="map_icons_empire_tower_l1">
+					<transform position="0.468, -5.566, -0.339" rotation_euler="0.000, 0.000, 0.000" scale="1.202, 1.202, 1.202"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_tower_1"/>
+					</components>
+					<levels>
+						<level name="level_1"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_tower_l1" old_prefab_name="map_icons_empire_tower_l1">
+					<transform position="0.468, -5.566, 0.407" rotation_euler="0.000, 0.000, 0.000" scale="0.755, 0.755, 0.755"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_tower_1"/>
+					</components>
+					<levels>
+						<level name="level_1"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_tower_l1" old_prefab_name="map_icons_empire_tower_l1">
+					<transform position="-4.376, -3.914, 0.502" rotation_euler="0.000, 0.000, -0.599" scale="0.767, 0.767, 0.767"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_tower_1"/>
+					</components>
+					<levels>
+						<level name="level_1"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_wall_small_breach_l3" old_prefab_name="map_icons_empire_wall_small_breach_l3">
+					<tags>
+						<tag name="map_breachable_wall"/>
+					</tags>
+					<transform position="-2.206, -3.106, -0.177" rotation_euler="0.000, 0.000, 0.966" scale="1.075, 1.075, 1.075"/>
+					<physics mass="1.000"/>
+					<children>
+						<game_entity name="map_icons_empire_wall_small_breach_l3" old_prefab_name="map_icons_empire_wall_small_breach_l3">
+							<tags>
+								<tag name="map_broken_wall"/>
+							</tags>
+							<transform position="0.057, 0.010, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="1.000, 0.960, 1.000"/>
+							<physics mass="1.000"/>
+							<components>
+								<meta_mesh_component name="mi_emp_wall_3s_collapsed"/>
+							</components>
+						</game_entity>
+						<game_entity name="map_icons_empire_wall_small_l3" old_prefab_name="map_icons_empire_wall_small_l3">
+							<tags>
+								<tag name="map_solid_wall"/>
+							</tags>
+							<transform position="0.035, 0.010, -0.017"/>
+							<physics mass="1.000"/>
+							<components>
+								<meta_mesh_component name="mi_emp_wall_3s"/>
+							</components>
+						</game_entity>
+						<game_entity name="bo_siege_wall" old_prefab_name="bo_siege_wall">
+							<transform rotation_euler="0.000, 0.000, 1.590" scale="0.368, 0.368, 0.367"/>
+							<physics shape="bo_sphere_collider" mass="1.000"/>
+						</game_entity>
+					</children>
+					<levels>
+						<level name="level_3"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+						<level name="looted"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_wall_l1" old_prefab_name="map_icons_empire_wall_l1">
+					<transform position="-2.643, -2.588, 0.033" rotation_euler="0.000, 0.000, 0.955" scale="1.002, 0.854, 1.002"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_wall_1"/>
+					</components>
+					<levels>
+						<level name="level_1"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_wall_small_l1" old_prefab_name="map_icons_empire_wall_small_l1">
+					<transform position="-3.477, -1.809, 0.259" rotation_euler="0.000, 0.000, 0.509"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_wall_1s"/>
+					</components>
+					<levels>
+						<level name="level_1"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_wall_small_l1" old_prefab_name="map_icons_empire_wall_small_l1">
+					<transform position="-3.821, -1.134, 0.270" rotation_euler="0.000, 0.000, 0.443"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_wall_1s"/>
+					</components>
+					<levels>
+						<level name="level_1"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_wall_small_l1" old_prefab_name="map_icons_empire_wall_small_l1">
+					<transform position="-3.593, 0.113, 0.273" rotation_euler="0.000, 0.000, -0.050"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_wall_1s"/>
+					</components>
+					<levels>
+						<level name="level_1"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_wall_small_l1" old_prefab_name="map_icons_empire_wall_small_l1">
+					<transform position="-4.812, -0.695, 0.182" rotation_euler="0.000, 0.000, 1.001"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_wall_1s"/>
+					</components>
+					<levels>
+						<level name="level_1"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_wall_small_breach_l3" old_prefab_name="map_icons_empire_wall_small_breach_l3">
+					<tags>
+						<tag name="map_breachable_wall"/>
+					</tags>
+					<transform position="-0.666, -4.508, -0.177" rotation_euler="0.000, 0.000, 0.966" scale="1.075, 1.075, 1.075"/>
+					<physics mass="1.000"/>
+					<children>
+						<game_entity name="map_icons_empire_wall_small_breach_l3" old_prefab_name="map_icons_empire_wall_small_breach_l3">
+							<tags>
+								<tag name="map_broken_wall"/>
+							</tags>
+							<transform position="0.057, 0.010, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="1.000, 0.960, 1.000"/>
+							<physics mass="1.000"/>
+							<components>
+								<meta_mesh_component name="mi_emp_wall_3s_collapsed"/>
+							</components>
+						</game_entity>
+						<game_entity name="map_icons_empire_wall_small_l3" old_prefab_name="map_icons_empire_wall_small_l3">
+							<tags>
+								<tag name="map_solid_wall"/>
+							</tags>
+							<transform position="0.035, 0.010, -0.017"/>
+							<physics mass="1.000"/>
+							<components>
+								<meta_mesh_component name="mi_emp_wall_3s"/>
+							</components>
+						</game_entity>
+						<game_entity name="bo_siege_wall" old_prefab_name="bo_siege_wall">
+							<transform rotation_euler="0.000, 0.000, 1.590" scale="0.368, 0.368, 0.367"/>
+							<physics shape="bo_sphere_collider" mass="1.000"/>
+						</game_entity>
+					</children>
+					<levels>
+						<level name="level_3"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+						<level name="looted"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_wall_l1" old_prefab_name="map_icons_empire_wall_l1">
+					<transform position="1.353, -4.482, 0.118" rotation_euler="0.000, 0.000, 2.511"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_wall_1"/>
+					</components>
+					<levels>
+						<level name="level_1"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_tower_l1" old_prefab_name="map_icons_empire_tower_l1">
+					<transform position="2.040, -3.682, -0.004" rotation_euler="0.000, 0.000, 0.892" scale="0.888, 0.888, 0.888"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_tower_1"/>
+					</components>
+					<levels>
+						<level name="level_1"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_wall_l1" old_prefab_name="map_icons_empire_wall_l1">
+					<transform position="-3.047, 2.800, 0.110" rotation_euler="0.000, 0.000, -1.063"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_wall_1"/>
+					</components>
+					<levels>
+						<level name="level_1"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_wall_l1" old_prefab_name="map_icons_empire_wall_l1">
+					<transform position="-1.391, 3.719, 0.132" rotation_euler="0.000, 0.000, -1.063"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_wall_1"/>
+					</components>
+					<levels>
+						<level name="level_1"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_wall_small_l1" old_prefab_name="map_icons_empire_wall_small_l1">
+					<transform position="-5.746, -0.195, 0.138" rotation_euler="0.000, 0.000, 0.990"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_wall_1s"/>
+					</components>
+					<levels>
+						<level name="level_1"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_wall_small_l1" old_prefab_name="map_icons_empire_wall_small_l1">
+					<transform position="-5.001, 1.448, 0.135" rotation_euler="0.000, 0.000, -0.801"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_wall_1s"/>
+					</components>
+					<levels>
+						<level name="level_1"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_wall_small_l1" old_prefab_name="map_icons_empire_wall_small_l1">
+					<transform position="-4.453, 1.978, 0.124" rotation_euler="0.000, 0.000, -0.801"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_wall_1s"/>
+					</components>
+					<levels>
+						<level name="level_1"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_wall_small_l1" old_prefab_name="map_icons_empire_wall_small_l1">
+					<transform position="-5.476, 0.871, 0.135" rotation_euler="0.000, 0.000, -0.579"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_wall_1s"/>
+					</components>
+					<levels>
+						<level name="level_1"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_wall_small_l1" old_prefab_name="map_icons_empire_wall_small_l1">
+					<transform position="-4.167, -0.887, 0.182" rotation_euler="0.000, 0.000, 1.565"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_wall_1s"/>
+					</components>
+					<levels>
+						<level name="level_1"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_wall_small_l1" old_prefab_name="map_icons_empire_wall_small_l1">
+					<transform position="-3.783, -0.533, 0.273" rotation_euler="0.000, 0.000, -0.550"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_wall_1s"/>
+					</components>
+					<levels>
+						<level name="level_1"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_wall_l1" old_prefab_name="map_icons_empire_wall_l1">
+					<transform position="-4.166, 0.845, 0.119" rotation_euler="0.000, 0.000, 0.768"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_wall_1"/>
+					</components>
+					<levels>
+						<level name="level_1"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_wall_l1" old_prefab_name="map_icons_empire_wall_l1">
+					<transform position="2.836, -1.512, 0.243" rotation_euler="0.000, 0.000, 1.786"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_wall_1"/>
+					</components>
+					<levels>
+						<level name="level_1"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_wall_l1" old_prefab_name="map_icons_empire_wall_l1">
+					<transform position="2.450, 2.873, 0.104" rotation_euler="0.000, 0.000, -0.577"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_wall_1"/>
+					</components>
+					<levels>
+						<level name="level_1"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_wall_l1" old_prefab_name="map_icons_empire_wall_l1">
+					<transform position="0.430, 4.248, 0.071" rotation_euler="0.000, 0.000, -1.525"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_wall_1"/>
+					</components>
+					<levels>
+						<level name="level_1"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_wall_l1" old_prefab_name="map_icons_empire_wall_l1">
+					<transform position="2.321, 4.319, 0.071" rotation_euler="0.000, 0.000, -1.525"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_wall_1"/>
+					</components>
+					<levels>
+						<level name="level_1"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_wall_l1" old_prefab_name="map_icons_empire_wall_l1">
+					<transform position="3.838, 3.439, 0.309" rotation_euler="0.000, 0.000, -2.594"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_wall_1"/>
+					</components>
+					<levels>
+						<level name="level_1"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_wall_l1" old_prefab_name="map_icons_empire_wall_l1">
+					<transform position="5.140, 2.439, 0.318" rotation_euler="0.000, 0.000, -1.849"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_wall_1"/>
+					</components>
+					<levels>
+						<level name="level_1"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_wall_l1" old_prefab_name="map_icons_empire_wall_l1">
+					<transform position="6.198, 1.302, 0.351" rotation_euler="0.000, 0.000, -2.915"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_wall_1"/>
+					</components>
+					<levels>
+						<level name="level_1"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_wall_l1" old_prefab_name="map_icons_empire_wall_l1">
+					<transform position="2.964, -2.775, 0.033" rotation_euler="0.000, 0.000, 2.345"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_wall_1"/>
+					</components>
+					<levels>
+						<level name="level_1"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_wall_l1" old_prefab_name="map_icons_empire_wall_l1">
+					<transform position="4.233, -1.207, 0.192" rotation_euler="0.000, 0.000, 1.786"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_wall_1"/>
+					</components>
+					<levels>
+						<level name="level_1"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_wall_small_l1" old_prefab_name="map_icons_empire_wall_small_l1">
+					<transform position="3.155, 3.969, 0.101" rotation_euler="0.000, 0.000, -0.558"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_wall_1s"/>
+					</components>
+					<levels>
+						<level name="level_1"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_wall_small_l1" old_prefab_name="map_icons_empire_wall_small_l1">
+					<transform position="-5.895, 0.233, 0.138" rotation_euler="0.000, 0.000, -0.579"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_wall_1s"/>
+					</components>
+					<levels>
+						<level name="level_1"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_wall_l1" old_prefab_name="map_icons_empire_wall_l1">
+					<transform position="1.410, 1.281, 0.104" rotation_euler="0.000, 0.000, -0.577"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_wall_1"/>
+					</components>
+					<levels>
+						<level name="level_1"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_square_tower_l1" old_prefab_name="map_icons_empire_square_tower_l1">
+					<transform position="3.336, -1.424, 0.179" rotation_euler="0.000, 0.000, 0.240"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_square_tower_1"/>
+					</components>
+					<levels>
+						<level name="level_1"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_wall_small_l1" old_prefab_name="map_icons_empire_wall_small_l1">
+					<transform position="1.273, -0.201, 0.095" rotation_euler="0.000, 0.000, 0.462" scale="1.000, 0.894, 1.000"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_wall_1s"/>
+					</components>
+					<levels>
+						<level name="level_1"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_square_tower_l1" old_prefab_name="map_icons_empire_square_tower_l1">
+					<transform position="-0.468, 4.226, 0.135" rotation_euler="0.000, 0.000, 0.222"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_square_tower_1"/>
+					</components>
+					<levels>
+						<level name="level_1"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_wall_small_l1" old_prefab_name="map_icons_empire_wall_small_l1">
+					<transform position="6.330, 0.074, 0.344" rotation_euler="0.000, 0.000, 2.873"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_wall_1s"/>
+					</components>
+					<levels>
+						<level name="level_1"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_square_tower_l1" old_prefab_name="map_icons_empire_square_tower_l1">
+					<transform position="3.257, 4.199, 0.227" rotation_euler="0.000, 0.000, 0.934"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_square_tower_1"/>
+					</components>
+					<levels>
+						<level name="level_1"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_square_tower_l1" old_prefab_name="map_icons_empire_square_tower_l1">
+					<transform position="-4.091, 2.329, 0.239" rotation_euler="0.000, 0.000, 0.704"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_square_tower_1"/>
+					</components>
+					<levels>
+						<level name="level_1"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_square_tower_l1" old_prefab_name="map_icons_empire_square_tower_l1">
+					<transform position="-5.169, -0.462, 0.042" rotation_euler="0.000, 0.000, 1.015"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_square_tower_1"/>
+					</components>
+					<levels>
+						<level name="level_1"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_square_tower_l3" old_prefab_name="map_icons_empire_square_tower_l3">
+					<transform position="6.033, -0.844, -0.163" rotation_euler="0.000, 0.000, 0.190"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_square_tower_3"/>
+					</components>
+					<levels>
+						<level name="level_3"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="emp_bridge_g" old_prefab_name="emp_bridge_g">
+					<transform position="-3.643, -3.142, 1.028" rotation_euler="0.000, 0.000, -0.743" scale="0.045, 0.045, 0.045"/>
+					<physics shape="bo_emp_bridge_g" override_material="stone" mass="1.000"/>
+					<components>
+						<meta_mesh_component name="emp_bridge_g">
+							<mesh name="emp_bridge_g" factor="4287927444"/>
+							<mesh name="emp_bridge_g.1" factor="4287927444"/>
+						</meta_mesh_component>
+					</components>
+					<levels>
+						<level name="level_3"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_square_tower_l3" old_prefab_name="map_icons_empire_square_tower_l3">
+					<transform position="3.184, 4.246, 0.239" rotation_euler="0.000, 0.000, -0.304"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_square_tower_3"/>
+					</components>
+					<levels>
+						<level name="level_3"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_square_tower_l3" old_prefab_name="map_icons_empire_square_tower_l3">
+					<transform position="-0.533, 4.167, 0.127" rotation_euler="0.000, 0.000, 0.133"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_square_tower_3"/>
+					</components>
+					<levels>
+						<level name="level_3"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_monument_1" old_prefab_name="map_icons_empire_monument_1">
+					<transform position="-3.076, -0.841, 0.113" rotation_euler="0.000, 0.000, 0.166" scale="2.717, 2.717, 2.717"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_3_monument_1"/>
+					</components>
+					<levels>
+						<level name="level_3"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+						<level name="looted"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_square_tower_l3" old_prefab_name="map_icons_empire_square_tower_l3">
+					<transform position="-3.979, 2.307, 0.207" rotation_euler="0.000, 0.000, 0.532"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_square_tower_3"/>
+					</components>
+					<levels>
+						<level name="level_3"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_wall_small_l1" old_prefab_name="map_icons_empire_wall_small_l1">
+					<transform position="1.022, 0.301, 0.100" rotation_euler="0.000, 0.000, 0.462" scale="1.000, 0.873, 1.000"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_wall_1s"/>
+					</components>
+					<levels>
+						<level name="level_1"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_keep_l2" old_prefab_name="map_icons_empire_keep_l2">
+					<transform position="4.096, 0.404, 0.266" rotation_euler="0.000, 0.000, 0.437"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_keep_2"/>
+					</components>
+					<levels>
+						<level name="level_2"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_house_a" old_prefab_name="map_icons_empire_house_a">
+					<flags>
+						<flag name="align_to_terrain" value="true"/>
+					</flags>
+					<transform position="3.663, 2.696, -0.110" rotation_euler="0.000, 0.000, 0.549" scale="1.529, 1.529, 1.529"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_house_a"/>
+					</components>
+				</game_entity>
+				<game_entity name="map_icons_empire_keep_l1" old_prefab_name="map_icons_empire_keep_l1">
+					<transform position="4.237, 0.421, 0.000" rotation_euler="0.000, 0.000, 0.437"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_keep_1"/>
+					</components>
+					<levels>
+						<level name="level_1"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+						<level name="looted"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_gatehouse_l1" old_prefab_name="map_icons_empire_gatehouse_l1">
+					<transform position="4.060, 0.556, 0.000" rotation_euler="0.000, 0.000, 0.979"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_1_gatehouse"/>
+					</components>
+					<levels>
+						<level name="level_1"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+						<level name="looted"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_tower_l1" old_prefab_name="map_icons_empire_tower_l1">
+					<transform position="4.411, 1.062, 0.000"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_tower_1"/>
+					</components>
+					<levels>
+						<level name="level_1"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+						<level name="looted"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_house_d" old_prefab_name="map_icons_empire_house_d">
+					<flags>
+						<flag name="align_to_terrain" value="true"/>
+					</flags>
+					<transform position="5.263, 1.974, 0.083" rotation_euler="0.000, 0.000, 1.263" scale="1.581, 1.581, 1.581"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_house_d"/>
+					</components>
+				</game_entity>
+				<game_entity name="map_icons_empire_wall_small_l1" old_prefab_name="map_icons_empire_wall_small_l1">
+					<transform position="1.869, -1.405, 0.239" rotation_euler="0.000, 0.000, 0.462"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_wall_1s"/>
+					</components>
+					<levels>
+						<level name="level_1"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="decal_ground" old_prefab_name="_decal">
+					<transform position="2.300, 3.077, -0.111" rotation_euler="0.000, 0.000, -1.524" scale="1.178, 1.178, 1.178"/>
+					<physics mass="1.000"/>
+					<components>
+						<decal_component material="decal_city_ground" argument="1.000, 1.000, 0.000, 0.000"/>
+					</components>
+				</game_entity>
+				<game_entity name="decal_ground" old_prefab_name="_decal">
+					<transform position="0.478, -3.610, -0.111" rotation_euler="0.000, 0.000, -0.654" scale="1.178, 1.178, 1.178"/>
+					<physics mass="1.000"/>
+					<components>
+						<decal_component material="decal_city_ground" argument="1.000, 1.000, 0.000, 0.000"/>
+					</components>
+				</game_entity>
+				<game_entity name="map_icons_empire_house_a" old_prefab_name="map_icons_empire_house_a">
+					<flags>
+						<flag name="align_to_terrain" value="true"/>
+					</flags>
+					<transform position="2.692, 0.904, -0.155" rotation_euler="0.000, 0.000, -0.298"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_house_a"/>
+					</components>
+				</game_entity>
+				<game_entity name="map_icons_empire_house_c" old_prefab_name="map_icons_empire_house_c">
+					<flags>
+						<flag name="align_to_terrain" value="true"/>
+					</flags>
+					<transform position="5.763, 1.576, 0.095" rotation_euler="0.000, 0.000, 0.186" scale="1.874, 1.874, 1.874"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_house_c"/>
+					</components>
+					<levels>
+						<level name="level_2"/>
+						<level name="level_3"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+						<level name="looted"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_house_c" old_prefab_name="map_icons_empire_house_c">
+					<flags>
+						<flag name="align_to_terrain" value="true"/>
+					</flags>
+					<transform position="5.827, 0.764, 0.129" rotation_euler="0.000, 0.000, -0.051" scale="1.874, 1.874, 1.874"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_house_c"/>
+					</components>
+					<levels>
+						<level name="level_2"/>
+						<level name="level_3"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+						<level name="looted"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_house_c" old_prefab_name="map_icons_empire_house_c">
+					<flags>
+						<flag name="align_to_terrain" value="true"/>
+					</flags>
+					<transform position="4.198, 2.118, 0.000" rotation_euler="0.000, 0.000, 1.272"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_house_c"/>
+					</components>
+				</game_entity>
+				<game_entity name="map_icons_empire_house_c" old_prefab_name="map_icons_empire_house_c">
+					<flags>
+						<flag name="align_to_terrain" value="true"/>
+					</flags>
+					<transform position="3.820, 1.634, -0.041" rotation_euler="0.000, 0.000, 2.359"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_house_c"/>
+					</components>
+				</game_entity>
+				<game_entity name="map_icons_empire_house_c" old_prefab_name="map_icons_empire_house_c">
+					<flags>
+						<flag name="align_to_terrain" value="true"/>
+					</flags>
+					<transform position="3.219, 2.015, -0.194" rotation_euler="0.000, 0.000, 0.940" scale="1.195, 1.195, 1.195"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_house_c"/>
+					</components>
+				</game_entity>
+				<game_entity name="map_icons_empire_house_c" old_prefab_name="map_icons_empire_house_c">
+					<flags>
+						<flag name="align_to_terrain" value="true"/>
+					</flags>
+					<transform position="2.951, 1.527, -0.187" rotation_euler="0.000, 0.000, 0.940" scale="0.973, 0.973, 0.973"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_house_c"/>
+					</components>
+				</game_entity>
+				<game_entity name="map_icons_empire_square_tower_l3" old_prefab_name="map_icons_empire_square_tower_l3">
+					<transform position="3.321, -1.362, 0.082" rotation_euler="0.000, 0.000, 0.191"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_square_tower_3"/>
+					</components>
+					<levels>
+						<level name="level_3"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_square_tower_l3" old_prefab_name="map_icons_empire_square_tower_l3">
+					<transform position="-2.933, -2.354, 0.044" rotation_euler="0.000, 0.000, 0.863"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_square_tower_3"/>
+					</components>
+					<levels>
+						<level name="level_3"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_square_tower_l3" old_prefab_name="map_icons_empire_square_tower_l3">
+					<transform position="-5.184, -0.522, 0.061" rotation_euler="0.000, 0.000, 0.976"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_square_tower_3"/>
+					</components>
+					<levels>
+						<level name="level_3"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="emp_bridge_g" old_prefab_name="emp_bridge_g">
+					<transform position="-3.879, -3.202, 0.654" rotation_euler="0.000, 0.000, -0.603" scale="0.045, 0.045, 0.045"/>
+					<physics shape="bo_emp_bridge_g" override_material="stone" mass="1.000"/>
+					<components>
+						<meta_mesh_component name="emp_bridge_g">
+							<mesh name="emp_bridge_g" factor="4287927444"/>
+							<mesh name="emp_bridge_g.1" factor="4287927444"/>
+						</meta_mesh_component>
+					</components>
+					<levels>
+						<level name="level_1"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+						<level name="looted"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_square_tower_l2" old_prefab_name="map_icons_empire_square_tower_l2">
+					<transform position="-2.933, -2.354, 0.044" rotation_euler="0.000, 0.000, 0.862"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_square_tower_2"/>
+					</components>
+					<levels>
+						<level name="level_2"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_tower_l2" old_prefab_name="map_icons_empire_tower_l2">
+					<transform position="-4.377, -3.913, 0.189" rotation_euler="0.000, 0.000, -0.605" scale="0.767, 0.767, 0.767"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_tower_2"/>
+					</components>
+					<levels>
+						<level name="level_2"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_wall_l2" old_prefab_name="map_icons_empire_wall_l2">
+					<transform position="-2.302, -2.969, -0.102" rotation_euler="0.000, 0.000, 0.886"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_wall_2"/>
+					</components>
+					<levels>
+						<level name="level_2"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_gatehouse_l2" old_prefab_name="map_icons_empire_gatehouse_l2">
+					<transform position="-1.445, -3.771, -0.026" rotation_euler="0.000, 0.000, 0.959" scale="0.929, 0.929, 0.929"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_2_gatehouse"/>
+					</components>
+					<levels>
+						<level name="level_2"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_wall_small_breach_l1" old_prefab_name="map_icons_empire_wall_small_breach_l1">
+					<tags>
+						<tag name="map_breachable_wall"/>
+					</tags>
+					<transform position="0.009, -5.227, -0.197" rotation_euler="0.000, 0.000, 0.261" scale="1.235, 1.235, 1.235"/>
+					<physics mass="1.000"/>
+					<children>
+						<game_entity name="bo_siege_wall" old_prefab_name="bo_siege_wall">
+							<transform rotation_euler="0.000, 0.000, 1.590" scale="0.368, 0.368, 0.367"/>
+							<physics shape="bo_sphere_collider" mass="1.000"/>
+						</game_entity>
+						<game_entity name="map_icons_empire_wall_small_breach_l1" old_prefab_name="map_icons_empire_wall_small_breach_l1">
+							<tags>
+								<tag name="map_broken_wall"/>
+							</tags>
+							<transform position="0.010, 0.012, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="1.000, 0.988, 1.000"/>
+							<physics mass="1.000"/>
+							<components>
+								<meta_mesh_component name="mi_emp_wall_1s_collapsed"/>
+							</components>
+						</game_entity>
+						<game_entity name="map_icons_empire_wall_small_l1" old_prefab_name="map_icons_empire_wall_small_l1">
+							<tags>
+								<tag name="map_solid_wall"/>
+							</tags>
+							<transform position="0.028, 0.018, 0.028"/>
+							<physics mass="1.000"/>
+							<components>
+								<meta_mesh_component name="mi_emp_wall_1s"/>
+							</components>
+						</game_entity>
+					</children>
+					<levels>
+						<level name="level_1"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+						<level name="looted"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_wall_small_breach_l1" old_prefab_name="map_icons_empire_wall_small_breach_l1">
+					<tags>
+						<tag name="map_breachable_wall"/>
+					</tags>
+					<transform position="-0.343, -4.562, -0.108" rotation_euler="0.000, 0.000, 0.801" scale="1.235, 1.235, 1.235"/>
+					<physics mass="1.000"/>
+					<children>
+						<game_entity name="bo_siege_wall" old_prefab_name="bo_siege_wall">
+							<transform rotation_euler="0.000, 0.000, 1.590" scale="0.368, 0.368, 0.367"/>
+							<physics shape="bo_sphere_collider" mass="1.000"/>
+						</game_entity>
+						<game_entity name="map_icons_empire_wall_small_breach_l1" old_prefab_name="map_icons_empire_wall_small_breach_l1">
+							<tags>
+								<tag name="map_broken_wall"/>
+							</tags>
+							<transform position="0.010, 0.012, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="1.000, 0.988, 1.000"/>
+							<physics mass="1.000"/>
+							<components>
+								<meta_mesh_component name="mi_emp_wall_1s_collapsed"/>
+							</components>
+						</game_entity>
+						<game_entity name="map_icons_empire_wall_small_l1" old_prefab_name="map_icons_empire_wall_small_l1">
+							<tags>
+								<tag name="map_solid_wall"/>
+							</tags>
+							<transform position="0.028, 0.018, 0.028"/>
+							<physics mass="1.000"/>
+							<components>
+								<meta_mesh_component name="mi_emp_wall_1s"/>
+							</components>
+						</game_entity>
+					</children>
+					<levels>
+						<level name="level_1"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+						<level name="looted"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_tower_l2" old_prefab_name="map_icons_empire_tower_l2">
+					<transform position="0.467, -5.566, -0.841" rotation_euler="0.000, 0.000, -0.006" scale="1.202, 1.202, 1.202"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_tower_2"/>
+					</components>
+					<levels>
+						<level name="level_2"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_tower_l2" old_prefab_name="map_icons_empire_tower_l2">
+					<transform position="0.467, -5.566, 0.539" rotation_euler="0.000, 0.000, -0.006" scale="0.755, 0.755, 0.755"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_tower_2"/>
+					</components>
+					<levels>
+						<level name="level_2"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_wall_l2" old_prefab_name="map_icons_empire_wall_l2">
+					<transform position="1.391, -4.428, -0.340" rotation_euler="0.000, 0.000, 2.505"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_wall_2"/>
+					</components>
+					<levels>
+						<level name="level_2"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_tower_l2" old_prefab_name="map_icons_empire_tower_l2">
+					<transform position="1.997, -3.583, -0.503" rotation_euler="0.000, 0.000, 0.571" scale="0.872, 0.872, 0.872"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_tower_2"/>
+					</components>
+					<levels>
+						<level name="level_2"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_wall_l2" old_prefab_name="map_icons_empire_wall_l2">
+					<transform position="2.967, -2.747, -0.357" rotation_euler="0.000, 0.000, 2.327"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_wall_2"/>
+					</components>
+					<levels>
+						<level name="level_2"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_wall_small_l2" old_prefab_name="map_icons_empire_wall_small_l2">
+					<transform position="3.592, -1.830, -0.169" rotation_euler="0.000, 0.000, -2.988"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_wall_2s"/>
+					</components>
+					<levels>
+						<level name="level_2"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_square_tower_l2" old_prefab_name="map_icons_empire_square_tower_l2">
+					<transform position="3.321, -1.363, -0.169" rotation_euler="0.000, 0.000, 0.190"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_square_tower_2"/>
+					</components>
+					<levels>
+						<level name="level_2"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_wall_l2" old_prefab_name="map_icons_empire_wall_l2">
+					<transform position="5.213, -0.994, -0.021" rotation_euler="0.000, 0.000, 1.780"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_wall_2"/>
+					</components>
+					<levels>
+						<level name="level_2"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_square_tower_l2" old_prefab_name="map_icons_empire_square_tower_l2">
+					<transform position="6.033, -0.845, -0.414" rotation_euler="0.000, 0.000, 0.189"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_square_tower_2"/>
+					</components>
+					<levels>
+						<level name="level_2"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_wall_l2" old_prefab_name="map_icons_empire_wall_l2">
+					<transform position="4.233, -1.208, -0.021" rotation_euler="0.000, 0.000, 1.780"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_wall_2"/>
+					</components>
+					<levels>
+						<level name="level_2"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_wall_l2" old_prefab_name="map_icons_empire_wall_l2">
+					<transform position="2.836, -1.512, -0.021" rotation_euler="0.000, 0.000, 1.780"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_wall_2"/>
+					</components>
+					<levels>
+						<level name="level_2"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_wall_small_l2" old_prefab_name="map_icons_empire_wall_small_l2">
+					<transform position="1.869, -1.405, -0.025" rotation_euler="0.000, 0.000, 0.456"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_wall_2s"/>
+					</components>
+					<levels>
+						<level name="level_2"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_small_gatehouse_l2" old_prefab_name="map_icons_empire_small_gatehouse_l2">
+					<transform position="1.537, -0.724, 0.101" rotation_euler="0.000, 0.000, 0.440"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_2_mini_gatehouse"/>
+					</components>
+					<levels>
+						<level name="level_2"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_wall_small_l2" old_prefab_name="map_icons_empire_wall_small_l2">
+					<transform position="1.056, 0.232, -0.527" rotation_euler="0.000, 0.000, 0.456"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_wall_2s"/>
+					</components>
+					<levels>
+						<level name="level_2"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_wall_small_l2" old_prefab_name="map_icons_empire_wall_small_l2">
+					<transform position="1.175, -0.004, -0.530" rotation_euler="0.000, 0.000, 0.456"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_wall_2s"/>
+					</components>
+					<levels>
+						<level name="level_2"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_wall_l2" old_prefab_name="map_icons_empire_wall_l2">
+					<transform position="1.410, 1.281, -0.523" rotation_euler="0.000, 0.000, -0.583"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_wall_2"/>
+					</components>
+					<levels>
+						<level name="level_2"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_wall_l2" old_prefab_name="map_icons_empire_wall_l2">
+					<transform position="2.450, 2.873, -0.523" rotation_euler="0.000, 0.000, -0.583"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_wall_2"/>
+					</components>
+					<levels>
+						<level name="level_2"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_wall_small_l2" old_prefab_name="map_icons_empire_wall_small_l2">
+					<transform position="3.156, 3.969, -0.526" rotation_euler="0.000, 0.000, -0.564"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_wall_2s"/>
+					</components>
+					<levels>
+						<level name="level_2"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_square_tower_l2" old_prefab_name="map_icons_empire_square_tower_l2">
+					<transform position="3.185, 4.246, -0.012" rotation_euler="0.000, 0.000, -0.305"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_square_tower_2"/>
+					</components>
+					<levels>
+						<level name="level_2"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_wall_l2" old_prefab_name="map_icons_empire_wall_l2">
+					<transform position="3.839, 3.438, -0.039" rotation_euler="0.000, 0.000, -2.600"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_wall_2"/>
+					</components>
+					<levels>
+						<level name="level_2"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_square_tower_l2" old_prefab_name="map_icons_empire_square_tower_l2">
+					<transform position="4.377, 2.848, -0.390" rotation_euler="0.000, 0.000, -0.581"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_square_tower_2"/>
+					</components>
+					<levels>
+						<level name="level_2"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_wall_l2" old_prefab_name="map_icons_empire_wall_l2">
+					<transform position="5.140, 2.438, -0.215" rotation_euler="0.000, 0.000, -1.855"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_wall_2"/>
+					</components>
+					<levels>
+						<level name="level_2"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_wall_l2" old_prefab_name="map_icons_empire_wall_l2">
+					<transform position="6.198, 1.301, -0.241" rotation_euler="0.000, 0.000, -2.921"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_wall_2"/>
+					</components>
+					<levels>
+						<level name="level_2"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_wall_small_l2" old_prefab_name="map_icons_empire_wall_small_l2">
+					<transform position="6.330, 0.073, -0.051" rotation_euler="0.000, 0.000, 2.867"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_wall_2s"/>
+					</components>
+					<levels>
+						<level name="level_2"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_wall_small_l2" old_prefab_name="map_icons_empire_wall_small_l2">
+					<transform position="6.131, -0.647, -0.051" rotation_euler="0.000, 0.000, 2.866"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_wall_2s"/>
+					</components>
+					<levels>
+						<level name="level_2"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_wall_l2" old_prefab_name="map_icons_empire_wall_l2">
+					<transform position="2.322, 4.319, 0.190" rotation_euler="0.000, 0.000, -1.531"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_wall_2"/>
+					</components>
+					<levels>
+						<level name="level_2"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_wall_l2" old_prefab_name="map_icons_empire_wall_l2">
+					<transform position="0.431, 4.248, 0.190" rotation_euler="0.000, 0.000, -1.531"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_wall_2"/>
+					</components>
+					<levels>
+						<level name="level_2"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_square_tower_l2" old_prefab_name="map_icons_empire_square_tower_l2">
+					<transform position="-0.532, 4.167, 0.127" rotation_euler="0.000, 0.000, 0.132"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_square_tower_2"/>
+					</components>
+					<levels>
+						<level name="level_2"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_wall_l2" old_prefab_name="map_icons_empire_wall_l2">
+					<transform position="-1.375, 3.727, 0.168" rotation_euler="0.000, 0.000, -1.069"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_wall_2"/>
+					</components>
+					<levels>
+						<level name="level_2"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_wall_l2" old_prefab_name="map_icons_empire_wall_l2">
+					<transform position="-3.047, 2.800, 0.168" rotation_euler="0.000, 0.000, -1.069"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_wall_2"/>
+					</components>
+					<levels>
+						<level name="level_2"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_square_tower_l2" old_prefab_name="map_icons_empire_square_tower_l2">
+					<transform position="-3.979, 2.308, 0.207" rotation_euler="0.000, 0.000, 0.531"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_square_tower_2"/>
+					</components>
+					<levels>
+						<level name="level_2"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_wall_small_l2" old_prefab_name="map_icons_empire_wall_small_l2">
+					<transform position="-4.453, 1.979, 0.120" rotation_euler="0.000, 0.000, -0.807"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_wall_2s"/>
+					</components>
+					<levels>
+						<level name="level_2"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_wall_small_l2" old_prefab_name="map_icons_empire_wall_small_l2">
+					<transform position="-5.001, 1.449, 0.120" rotation_euler="0.000, 0.000, -0.807"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_wall_2s"/>
+					</components>
+					<levels>
+						<level name="level_2"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_wall_small_l2" old_prefab_name="map_icons_empire_wall_small_l2">
+					<transform position="-5.476, 0.872, 0.120" rotation_euler="0.000, 0.000, -0.585"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_wall_2s"/>
+					</components>
+					<levels>
+						<level name="level_2"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_wall_small_l2" old_prefab_name="map_icons_empire_wall_small_l2">
+					<transform position="-5.844, 0.262, 0.120" rotation_euler="0.000, 0.000, -0.489"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_wall_2s"/>
+					</components>
+					<levels>
+						<level name="level_2"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_wall_small_l2" old_prefab_name="map_icons_empire_wall_small_l2">
+					<transform position="-5.746, -0.194, 0.128" rotation_euler="0.000, 0.000, 0.984"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_wall_2s"/>
+					</components>
+					<levels>
+						<level name="level_2"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_square_tower_l2" old_prefab_name="map_icons_empire_square_tower_l2">
+					<transform position="-5.184, -0.521, 0.061" rotation_euler="0.000, 0.000, 0.975"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_square_tower_2"/>
+					</components>
+					<levels>
+						<level name="level_2"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_wall_small_l2" old_prefab_name="map_icons_empire_wall_small_l2">
+					<transform position="-4.812, -0.694, 0.089" rotation_euler="0.000, 0.000, 0.995"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_wall_2s"/>
+					</components>
+					<levels>
+						<level name="level_2"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_wall_small_l2" old_prefab_name="map_icons_empire_wall_small_l2">
+					<transform position="-4.148, -0.888, 0.089" rotation_euler="0.000, 0.000, 1.562"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_wall_2s"/>
+					</components>
+					<levels>
+						<level name="level_2"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_wall_small_l2" old_prefab_name="map_icons_empire_wall_small_l2">
+					<transform position="-3.735, -0.569, 0.119" rotation_euler="0.000, 0.000, -0.556"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_wall_2s"/>
+					</components>
+					<levels>
+						<level name="level_2"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_tower_l2" old_prefab_name="map_icons_empire_tower_l2">
+					<transform position="-3.463, 0.256, 0.042" rotation_euler="0.000, 0.000, -0.329" scale="0.852, 0.852, 0.852"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_tower_2"/>
+					</components>
+					<levels>
+						<level name="level_2"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_wall_l2" old_prefab_name="map_icons_empire_wall_l2">
+					<transform position="-4.090, 0.767, -0.273" rotation_euler="0.000, 0.000, 0.762"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_wall_2"/>
+					</components>
+					<levels>
+						<level name="level_2"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_wall_small_l2" old_prefab_name="map_icons_empire_wall_small_l2">
+					<transform position="-3.801, -1.175, 0.119" rotation_euler="0.000, 0.000, 0.437" scale="1.000, 1.048, 1.000"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_wall_2s"/>
+					</components>
+					<levels>
+						<level name="level_2"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_wall_small_l2" old_prefab_name="map_icons_empire_wall_small_l2">
+					<transform position="-3.446, -1.864, 0.119" rotation_euler="0.000, 0.000, 0.503" scale="1.000, 1.038, 1.000"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_wall_2s"/>
+					</components>
+					<levels>
+						<level name="level_2"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_keep_l2" old_prefab_name="map_icons_empire_keep_l2">
+					<transform position="4.298, 0.828, -0.093" rotation_euler="0.000, 0.000, -0.234"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_keep_2"/>
+					</components>
+					<levels>
+						<level name="level_2"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="bo_town" old_prefab_name="__empty_object">
+					<tags>
+						<tag name="bo_town"/>
+					</tags>
+					<transform position="0.952, 0.843, -4.516" rotation_euler="0.000, 0.000, 0.045" scale="7.168, 7.168, 7.168"/>
+					<physics shape="bo_sphere_collider" mass="1.000">
+						<body_flags>
+							<body_flag name="only_collide_with_raycast"/>
+						</body_flags>
+					</physics>
+				</game_entity>
+				<game_entity name="map_icons_empire_wall_small_l3" old_prefab_name="map_icons_empire_wall_small_l3">
+					<transform position="-2.710, -2.532, -0.090" rotation_euler="0.000, 0.000, 0.504" scale="1.000, 1.038, 1.000"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_wall_3s"/>
+					</components>
+					<levels>
+						<level name="level_3"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_wall_small_breach_l2" old_prefab_name="map_icons_empire_wall_small_breach_l2">
+					<tags>
+						<tag name="map_breachable_wall"/>
+					</tags>
+					<transform position="-0.223, -5.181, -0.072" rotation_euler="0.000, 0.000, 0.226" scale="1.139, 1.139, 1.139"/>
+					<physics mass="1.000"/>
+					<children>
+						<game_entity name="map_icons_empire_wall_small_l2" old_prefab_name="map_icons_empire_wall_small_l2">
+							<tags>
+								<tag name="map_solid_wall"/>
+							</tags>
+							<transform position="-0.041, 0.026, 0.000"/>
+							<physics mass="1.000"/>
+							<components>
+								<meta_mesh_component name="mi_emp_wall_2s"/>
+							</components>
+						</game_entity>
+						<game_entity name="bo_siege_wall" old_prefab_name="bo_siege_wall">
+							<transform position="-0.014, 0.036, 0.000" rotation_euler="0.000, 0.000, 1.590" scale="0.368, 0.368, 0.367"/>
+							<physics shape="bo_sphere_collider" mass="1.000"/>
+						</game_entity>
+						<game_entity name="map_icons_empire_wall_small_breach_l2" old_prefab_name="map_icons_empire_wall_small_breach_l2">
+							<tags>
+								<tag name="map_broken_wall"/>
+							</tags>
+							<transform position="-0.006, 0.029, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="0.925, 0.963, 1.000"/>
+							<physics mass="1.000"/>
+							<components>
+								<meta_mesh_component name="mi_emp_wall_2s_collapsed"/>
+							</components>
+						</game_entity>
+					</children>
+					<levels>
+						<level name="level_2"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_wall_small_breach_l2" old_prefab_name="map_icons_empire_wall_small_breach_l2">
+					<tags>
+						<tag name="map_breachable_wall"/>
+					</tags>
+					<transform position="-0.599, -4.593, -0.088" rotation_euler="0.000, 0.000, 0.964" scale="1.139, 1.139, 1.139"/>
+					<physics mass="1.000"/>
+					<children>
+						<game_entity name="map_icons_empire_wall_small_l2" old_prefab_name="map_icons_empire_wall_small_l2">
+							<tags>
+								<tag name="map_solid_wall"/>
+							</tags>
+							<transform position="-0.041, 0.026, 0.000"/>
+							<physics mass="1.000"/>
+							<components>
+								<meta_mesh_component name="mi_emp_wall_2s"/>
+							</components>
+						</game_entity>
+						<game_entity name="bo_siege_wall" old_prefab_name="bo_siege_wall">
+							<transform position="-0.014, 0.036, 0.000" rotation_euler="0.000, 0.000, 1.590" scale="0.368, 0.368, 0.367"/>
+							<physics shape="bo_sphere_collider" mass="1.000"/>
+						</game_entity>
+						<game_entity name="map_icons_empire_wall_small_breach_l2" old_prefab_name="map_icons_empire_wall_small_breach_l2">
+							<tags>
+								<tag name="map_broken_wall"/>
+							</tags>
+							<transform position="-0.006, 0.029, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="0.925, 0.963, 1.000"/>
+							<physics mass="1.000"/>
+							<components>
+								<meta_mesh_component name="mi_emp_wall_2s_collapsed"/>
+							</components>
+						</game_entity>
+					</children>
+					<levels>
+						<level name="level_2"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_square_tower_l1" old_prefab_name="map_icons_empire_square_tower_l1">
+					<transform position="-4.091, 2.329, -0.440" rotation_euler="0.000, 0.000, 0.704" scale="1.201, 1.201, 1.201"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_square_tower_1"/>
+					</components>
+					<levels>
+						<level name="level_1"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_square_tower_l2" old_prefab_name="map_icons_empire_square_tower_l2">
+					<transform position="-3.979, 2.308, -1.720" rotation_euler="0.000, 0.000, 0.531" scale="1.497, 1.497, 1.497"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_square_tower_2"/>
+					</components>
+					<levels>
+						<level name="level_2"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_empire_square_tower_l1" old_prefab_name="map_icons_empire_square_tower_l1">
+					<transform position="3.257, 4.199, -0.830" rotation_euler="0.000, 0.000, 0.934" scale="1.417, 1.417, 1.417"/>
+					<physics mass="1.000"/>
+					<components>
+						<meta_mesh_component name="mi_emp_square_tower_1"/>
+					</components>
+					<levels>
+						<level name="level_1"/>
+						<level name="civilian"/>
+						<level name="siege"/>
+					</levels>
+				</game_entity>
+			</children>
+		</game_entity>
 </prefabs>
 ```
