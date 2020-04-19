@@ -1,9 +1,13 @@
 # BannerlordSettlementPatcher
-A library to load custom settlements into the game without needing to manually modify the sandbox module. Loads the submodule.xml and checks for any entries with id prefabs or settlements, then proceeds to insert them into the sandbox module settlements.xml and main_map/scene.xscene files. Creates a backup and makes sure to restore the file to vanilla when the game ends. If it crashes, it will restore the file upon restart. If the game is updated by Taleworlds it will detect it and use the new settlements.xml and/or main_map/scene.xscene files making this method patch proof.
+## Brief description
+A library for the videogame Mount & Blade II Bannerlord.
 
+This library allows modders to load custom settlements into the game without needing to manually modify the sandbox module. Loads the submodule.xml and checks for any entries with id prefabs or settlements, then proceeds to insert them into the sandbox module settlements.xml and main_map/scene.xscene files. Creates a backup and makes sure to restore the file to vanilla when the game ends. If it crashes, it will restore the file upon restart. If the game is updated by Taleworlds it will detect it and use the new settlements.xml and/or main_map/scene.xscene files making this method patch proof.
 
-To use this library do the following with your submodule:
+## Usage guide
 
+Within your Submodules code it is necessary to include the following code:
+```
 using SettlementPatcher;
 
 namespace YourModName
@@ -24,9 +28,16 @@ namespace YourModName
     }
   }
 }
-That's all you gotta do. The rest you just defined in your XML
-So in your submodule.xml you do the same way the game does it. E.g.:
+```
 
+That's all you gotta do. The rest is completely defined within xml files in exactly the same way you'd expect to do it for the base game. 
+
+
+Therefore you need to include your desired Settlements or Prefabs in the submodule.xml. For example if there were two files:
+* ModuleData/foo.xml - containing settlements definition
+* Prefabs/bar.xml - containing prefabs/game_entity definitions for the settlements.
+
+```
         <XmlNode>                
             <XmlName id="Settlements" path="frugal"/>
             <IncludedGameTypes>
@@ -40,9 +51,10 @@ So in your submodule.xml you do the same way the game does it. E.g.:
                 <GameType value = "Campaign"/>
                 <GameType value = "CampaignStoryMode"/>
             </IncludedGameTypes>
-        </XmlNode>    
-In ModuleData/frugal.xml for example
-
+        </XmlNode>   
+```        
+In ModuleData/foo.xml could look like
+```
 <?xml version="1.0" encoding="utf-8"?>
 <Settlements>
  <!-- Name of a local clan hero-->
@@ -67,9 +79,13 @@ In ModuleData/frugal.xml for example
     </CommonAreas>
   </Settlement>
 </Settlements>
-In Prefabs/customprefab.xml for example
+```
+
+Prefabs/bar.xml could look like:
+```
 <prefabs>
   <game_entity name="town_M1" old_prefab_name="">
   (...) your stuff here
   </game_entity>
 </prefabs>
+```
