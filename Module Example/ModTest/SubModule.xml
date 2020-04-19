@@ -1,0 +1,35 @@
+ <Module>
+     <Name value="Mod Test"/>
+     <Id value="ModTest"/>
+     <Version value="e1.0.1"/>
+     <SingleplayerModule value="true"/>
+     <MultiplayerModule value="false"/>
+     <DependedModules/>
+     <SubModules>
+         <SubModule>
+             <Name value="ModTest"/>
+             <DLLName value="ModTest.dll"/>
+             <SubModuleClassType value="ModTest.Main"/>
+             <Tags>
+                 <Tag key="DedicatedServerType" value="none" />
+                 <Tag key="IsNoRenderModeElement" value="false" />
+             </Tags>
+         </SubModule>
+     </SubModules>
+     <Xmls>
+		<XmlNode>
+			<XmlName id="Settlements" path="mysettlements"/>
+			<IncludedGameTypes>
+				<GameType value = "Campaign"/>
+				<GameType value = "CampaignStoryMode"/>
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>
+			<XmlName id="prefabs" path="myprefabs"/>
+			<IncludedGameTypes>
+				<GameType value = "Campaign"/>
+				<GameType value = "CampaignStoryMode"/>
+			</IncludedGameTypes>
+		</XmlNode>
+	</Xmls>
+ </Module>
