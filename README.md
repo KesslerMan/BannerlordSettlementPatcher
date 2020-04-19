@@ -58,7 +58,7 @@ In ModuleData/foo.xml could look like
 <?xml version="1.0" encoding="utf-8"?>
 <Settlements>
  <!-- Name of a local clan hero-->
-  <Settlement id="town_M1" name="{=!}Frugal" owner="Faction.clan_opificum_1" posX="392.018" posY="410.64" culture="Culture.empire" prosperity="7150" gate_posX="390.1465" gate_posY="411.1724">
+  <Settlement id="town_M1" name="{=!}Frugal" owner="Faction.clan_empire_north_6" posX="392.018" posY="410.64" culture="Culture.empire" prosperity="7150" gate_posX="390.1465" gate_posY="411.1724">
     <Components>
       <Town id="town_comp_M1" is_castle="false" level="1" background_crop_position="0.0" background_mesh="menu_empire_seaside_1" wait_mesh="wait_empire_town" gate_rotation="0.408" />
     </Components>
