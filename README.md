@@ -19,7 +19,11 @@ OutputDebugCode(String input): Writes whatever string you feed it into a Patcher
 Within your Submodules code it is necessary to include the following code:
 ```C#
 using SettlementPatcher;
-
+// MAKE SURE "ModTest" IS CHANGED TO WHATEVER YOUR MODULE IS ACTUALLY CALLED!
+/*
+ * See this link for more info on proper naming
+ * https://docs.bannerlordmodding.com/_xmldocs/submodule.html#element-descriptions
+ */
 namespace ModTest
 {
     public class Main : MBSubModuleBase
@@ -40,6 +44,7 @@ namespace ModTest
 
         protected override void OnSubModuleLoad()
         {
+            // You need to pass the name of your module folder for the patcher to work properly.
             patcher = new Patcher("ModTest");
 
             patcher.onSubModuleLoad();
