@@ -4,10 +4,20 @@ A library for the videogame Mount & Blade II Bannerlord.
 
 This library allows modders to load custom settlements into the game without needing to manually modify the sandbox module. Loads the submodule.xml and checks for any entries with id prefabs or settlements, then proceeds to insert them into the sandbox module settlements.xml and main_map/scene.xscene files. Creates a backup and makes sure to restore the file to vanilla when the game ends. If it crashes, it will restore the file upon restart. If the game is updated by Taleworlds it will detect it and use the new settlements.xml and/or main_map/scene.xscene files making this method patch proof.
 
+## Caveats
+Since ultimately the library does resort to modifying the settlements.xml and scene.xscene files from the Sandbox module it is not exactly a clean solution. The library does its best to clean up, but if a crash occurs before the library's reset code is executed and a subsequent game launch occurs with no modules using this library then this will result in the modified native file staying modified. This is the only case I can come up with where any problems can occur. 
+
+Therefore: Advise your mod users that if they desire to turn your module off they make sure that the game exited cleanly before doing so. The library will clean after itself if you call its function correctly untir OnGameEnd.
+
+## Exposed functions of the patcher
+
+OutputDebugCode(String input): Writes whatever string you feed it into a Patcherlog.txt file in your mods directory. Is useful for debugging purposes. The Patherlog.txt file will normally contain the patcher's progress, so you can debug faulty XML files easier. Calling this function just adds a line to the Patcherlog.txt file, it does not interfere with the Patcher's logging. 
+
+
 ## Usage guide
 
 Within your Submodules code it is necessary to include the following code:
-```
+```C#
 using SettlementPatcher;
 
 namespace YourModName
@@ -25,6 +35,11 @@ namespace YourModName
     protected override void OnGameStart(Game game, IGameStarter gameStarterObject)
     {
       patcher.patch();
+    }
+    
+    public override void OnGameEnd(Game game)
+    {
+      patcher.ResetFiles();
     }
   }
 }
